@@ -194,7 +194,75 @@ All process handles of the File, Key, Mutant, Process, Thread, Token and Section
 [ShadowMove Lateral Movement]
  ```
  
+ **4.	Tokens:**
+In threads where a token is detected, the following is displayed:
+- Thread ID.
+- State of the thread.
+- User and domain.
+- Locally Unique Identifier (LUID) of the login session.
+- Locally Unique Identifier (LUID) of the login session from which it came.
+- Token type.
+- Token integrity.
+
+•	Warnings:
+ ```
+[Thread with TOKEN]
+ ```
+![Tokens](https://github.com/ignacioj/WhacAMole/blob/main/res/tokens.jpg)
+
+ **5.	Threads:**
+- Thread ID.
+- Thread start address.
+- Full address of the module.
+
+•	Warnings:
+ ```
+[Thread Handle to another process]
+[Thread Memory not MEM_IMAGE]
+ ```
+ ![Threads](https://github.com/ignacioj/WhacAMole/blob/main/res/threads.jpg)
+ 
+ **6.	.NET assemblies**
+- Application domains.
+- Full address of the file.
+
+ •	Warnings:
+ ```
+[.NET Assembly w/o ILPath]
+ ```
+ ![NET](https://github.com/ignacioj/WhacAMole/blob/main/res/net.jpg)
  
  
+  **7.	Memory address space.**
+Shows from all memory regions of the process the values ​​of:
+- Memory address.
+- Protection.
+- Condition.
+- Type.
+- Name of the file read from the VAD.
+- Size of the region.
+- Base address to which your assignment belongs.
+- Initial memory allocation protection.
+
+ •	Warnings:
+ ```
+[Executable memory region not MEM_IMAGE]
+[Hidden PE]
+[Lagos Island Method]
+[Mapped Image]
+[Memory region hash]
+[Memory region Protection value modified]
+[Memory region WX]
+[Memory/File values mismatch]
+[Moat detected]
+[MZ/PE Not Present]
+[Shellcode]
+[SMB detected]
+[Unknown executable memory region]
+ ```
+ ![Memory](https://github.com/ignacioj/WhacAMole/blob/main/res/memory.jpg)
+  
+ ![Memory](https://github.com/ignacioj/WhacAMole/blob/main/res/memory2.jpg)
  
+ ![Memory](https://github.com/ignacioj/WhacAMole/blob/main/res/memory3.jpg)
  
