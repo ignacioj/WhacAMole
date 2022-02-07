@@ -1,4 +1,4 @@
-## WhacAMole
+# WhacAMole
 WhacAMole is a program that analyzes processes in memory in an integral way, detecting and alerting of anomalies related to malware and presenting and saving in files all the relevant information for verification, correlation or analysis, as well as dumping memory regions, processes and suspicious modules.
 To achieve this, it analyzes not only the anomalies of the memory regions of the processes and the modules they load, but it also analyzes in depth all the memory space in use by the process.
 At this moment, WhacAMole is capable of identifying 67 alerts related to malicious behavior or that can only be due to malware.
@@ -139,7 +139,7 @@ Analyze, compare and present information from:
 - Information on whether it is a .NET executable and CLR version.
 
 •	Warnings:
-```
+ ```
 [Delphi 4 – Delphi 2006]
 [DLL Hollowing]
 [Module checkSum is 0]
@@ -159,5 +159,42 @@ Analyze, compare and present information from:
  ```
 ![Modules](https://github.com/ignacioj/WhacAMole/blob/main/res/modules.jpg)
 
+**3.	Handles:**
+All process handles of the File, Key, Mutant, Process, Thread, Token and Section types are displayed. Depending on the type of handle, the following information is displayed:
+###### File: Full address of the file.
+![Handle File](https://github.com/ignacioj/WhacAMole/blob/main/res/handlefile.jpg)
 
+###### NamedPipe: Client process, server process, access granted, address of the object in the kernel.
+![Named pipe](https://github.com/ignacioj/WhacAMole/blob/main/res/namedpipe.jpg)
 
+###### Key: Full address of the key accessed.
+![Handle Key](https://github.com/ignacioj/WhacAMole/blob/main/res/handlekey.jpg)
+
+###### Mutant: Name of the mutant.
+![Mutant](https://github.com/ignacioj/WhacAMole/blob/main/res/mutant.jpg)
+
+###### Process: Process ID, process name, granted access, kernel object address.
+![Handle Process](https://github.com/ignacioj/WhacAMole/blob/main/res/handleprocess.jpg)
+
+###### Thread: Process name, process ID, thread ID, granted access, kernel object address.
+![Handle Thread](https://github.com/ignacioj/WhacAMole/blob/main/res/handlethread.jpg)
+
+###### Token: Security Identifier (SID) of the user, user and domain, Locally Unique Identifier (LUID) of the Login Session, type of token.
+![Handle Token](https://github.com/ignacioj/WhacAMole/blob/main/res/handletoken.jpg)
+
+###### Section: object name, handle ID, memory address, size, memory allocation properties, module entry point if applicable, access allowed, object address in the kernel.
+![Handle Section](https://github.com/ignacioj/WhacAMole/blob/main/res/handlesection.jpg)
+
+•	Warnings:
+ ```
+[Handle-Section Phantom DLL Hollowing TxF]
+[Handle-Section Suspicious: Injection]
+[Pipe Handle to another process]
+[Process Handle to another process]
+[ShadowMove Lateral Movement]
+ ```
+ 
+ 
+ 
+ 
+ 
