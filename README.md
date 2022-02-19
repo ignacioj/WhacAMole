@@ -71,6 +71,8 @@ Analyze, compare and present information from:
 - SHA1 hash of the file.
 - Information on whether it is a .NET executable and CLR version.
 - Information on whether NTFS or Transactional Recording (TxF/TxR) has been detected in the process.
+- Looks for suspicious environmental variables.
+- Check the status of the threads.
 
 •	Warnings:
 ```
