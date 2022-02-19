@@ -114,6 +114,24 @@ Analyze, compare and present information from:
 - File size.
 - Informs if the process appears in four PEB lists: InLoadOrderModuleList, InMemoryOrderModuleList, InInitializationOrderModuleList and LdrpHashTable.
 - Informs if the process is visible in the memory (VAD).
+```
+What you would expect to see in a normal module is LMIVH:
+L = InLoadOrderModuleList(PEB).
+M = InMemoryOrderModuleList (PEB).
+I = InInitializationOrderModuleList (PEB).
+V = Detected in the virtual memory of the process.
+H = Detected in the PEB hash list.
+
+If it has been unlinked from the three PEB linked lists you would see:
+    ---VH
+
+If the module is loaded manually by the malware it would not appear in any of the PEB lists but it could be detected by scanning the memory,
+so It would appear as:
+    −−−V−
+
+With the DLL Hollowing with Moat technique (see https://github.com/forrest-orr/artifacts-kit for a POC) the result would be:
+    -----
+```
 - Exported functions read in memory and read from file.
 - Protection of the memory assigned to the module.
 - Memory type.
