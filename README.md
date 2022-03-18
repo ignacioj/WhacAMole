@@ -62,7 +62,7 @@ Analyze, compare and present information from:
 - Type of target machine (Target Machine).
 - Date-time of creation of the process.
 - Time elapsed from system startup to process creation.
-- Signature of the EP.
+- Signature of the PE.
 - Address of the program's database file (.pdb) read in memory and in the file.
 - Date-time obtained from the IMAGE_FILE_HEADER read in memory and in the file.
 - Date-time obtained from the IMAGE_DEBUG_DIRECTORY read in memory and in the file.
@@ -71,6 +71,8 @@ Analyze, compare and present information from:
 - SHA1 hash of the file.
 - Information on whether it is a .NET executable and CLR version.
 - Information on whether NTFS or Transactional Recording (TxF/TxR) has been detected in the process.
+- Looks for suspicious environmental variables.
+- Check the status of the threads.
 
 •	Warnings:
 ```
