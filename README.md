@@ -73,6 +73,7 @@ Analyze, compare and present information from:
 - Information on whether NTFS or Transactional Recording (TxF/TxR) has been detected in the process.
 - Looks for suspicious environmental variables.
 - Check the status of the threads.
+- Running tasks.
 
 •	Warnings:
 ```
@@ -90,6 +91,7 @@ Analyze, compare and present information from:
 [Possible .NET in memory loaded as Assembly.Load(byte[])]
 [Process checkSum is 0]
 [Process checkSum mismatch]
+[Process Ghosting]
 [Process Hollowing]
 [Process Memory region hash mismatch]
 [Process Memory region Protection value modified]
@@ -161,6 +163,7 @@ With the DLL Hollowing with Moat technique (see https://github.com/forrest-orr/a
 •	Warnings:
  ```
 [Delphi 4 – Delphi 2006]
+[DLL Hiding]
 [DLL Hollowing]
 [Module checkSum is 0]
 [Module checkSum mismatch]
