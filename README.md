@@ -31,8 +31,10 @@ Analyze, compare and present information from:
 - TCP and UDP network connections.
 - Informs if the process appears in four PEB lists: InLoadOrderModuleList, InMemoryOrderModuleList, InInitializationOrderModuleList and LdrpHashTable.
 - Informs if the process is visible in the memory (VAD).
+- Rich Header information.
 - Exported functions read in memory and read from file.
 - Imported functions.
+- Delay import modules
 - Protection of the memory assigned to the process module.
 - Memory type.
 - Process entry point read into memory.
@@ -56,7 +58,7 @@ Analyze, compare and present information from:
 - Security identifier (SID) of the user.
 - Membership in the local administrators group.
 - Process command line.
-- Process file path.
+- Process file path. Shows the FullName of the VAD and the PEB if they differ.
 - Current working directory (CWD) of the process.
 - PE format: x86/x64.
 - Type of target machine (Target Machine).
@@ -73,7 +75,7 @@ Analyze, compare and present information from:
 - Information on whether NTFS or Transactional Recording (TxF/TxR) has been detected in the process.
 - Looks for suspicious environmental variables.
 - Check the status of the threads.
-- Running tasks.
+- Gets the running tasks in the system associated with each process.
 
 •	Warnings:
 ```
@@ -84,6 +86,7 @@ Analyze, compare and present information from:
 [Entry Point]
 [LogonType]
 [Managed code but no Assemblies detected - .NET ETW disabled]
+[Mismatching Path]
 [Name of the module hidden in memory]
 [NTLM Authentication]
 [PE anomalies]
@@ -116,6 +119,7 @@ Analyze, compare and present information from:
 **2.	Modules:**
 - Name of the module.
 - File size.
+- File path. Shows the FullName of the VAD and the PEB if they differ.
 - Informs if the process appears in four PEB lists: InLoadOrderModuleList, InMemoryOrderModuleList, InInitializationOrderModuleList and LdrpHashTable.
 - Informs if the process is visible in the memory (VAD).
 ```
@@ -136,6 +140,7 @@ so It would appear as:
 With the DLL Hollowing with Moat technique (see https://github.com/forrest-orr/artifacts-kit for a POC) the result would be:
     -----
 ```
+- Rich Header information.
 - Exported functions read in memory and read from file.
 - Protection of the memory assigned to the module.
 - Memory type.
@@ -162,9 +167,11 @@ With the DLL Hollowing with Moat technique (see https://github.com/forrest-orr/a
 
 •	Warnings:
  ```
+[Abnormal PE Header]
 [Delphi 4 – Delphi 2006]
 [DLL Hiding]
 [DLL Hollowing]
+[Mismatching Path]
 [Module checkSum is 0]
 [Module checkSum mismatch]
 [Module Name != OriginalFileName]
