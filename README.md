@@ -287,7 +287,6 @@ Shows from all memory regions of the process the values ​​of:
 [Moat detected]
 [MZ/PE Not Present]
 [Shellcode]
-[SMB detected]
 [Unknown executable memory region]
  ```
  ![Memory](https://github.com/ignacioj/WhacAMole/blob/main/img/memory.jpg)
