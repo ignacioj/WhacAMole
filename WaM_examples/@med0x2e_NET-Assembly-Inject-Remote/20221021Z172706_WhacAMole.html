@@ -1,0 +1,1532 @@
+<!DOCTYPE html><meta charset="ISO-8859-1"><html style='font-size:12px;font-family: verdana; background:black;color:grey;word-break: break-all; word-wrap: break-word; table-layout: fixed;text-size-adjust: none;'><head><style>a:link {color: lightblue;background-color: transparent;text-decoration: none;} a:visited{ color: white; background-color: transparent; text-decoration: none; } a:hover{ color: lightgreen; background-color: transparent; text-decoration: underline; } .dnegro {background-color:black;color:white;}.dmarron {background-color:maroon;color:white;}.drojo {background-color:red;color:white;}.dnaranja {background-color:orange;color:black;}.damarillo {background-color:yellow;color:black;}.dgris {background-color:#CDCDCD;color:black;}.dblanco {color:grey;} .dnada {color:grey} .detect {width: 300px;  position: absolute; top: 25px; right:20px;}.main {width:100%;float:left;background-color:black;border-top: 10px solid #880000; position: relative;}.index {white-space: nowrap;width: 19%;height: 100%;overflow-y: scroll; font-size:12px; left:10px; position: fixed; top: 0px; background: #262626;}.content {margin-left:20%;width: 80%;  float: left;}.process-table {border-collapse: collapse;width: 100%;color:#88A9DE;} .process-table td {border: none;}.process-table tr {border:none;}.styled-table {border: 1px solid #124567;border-collapse: collapse;width: 100%;}.styled-table thead tr {background-color: #124567;color: #88A9DE;text-align: left;}.styled-table th{border: 1px solid #000;padding: 12px 0px;font-size:12px;text-align: center;}.styled-table td {border: 1px solid #124567;font-size:12px;text-align: left;color:#88A9DE;}.plaintable {border:none;width: 100%;color:#88A9DE;}.plaintable tr {border:none;}.plaintable td {border:none;} td.mm {color:grey;width:305px;font-size:12px;} td.me {color:grey;width:105px;font-size:12px;} td.normal {color:grey;width:205px;font-size:12px;} td.nuevoazul {color:#88A9DE;width:205px;font-size:12px;} .memnorm {color:#FFFFE0;} .memo {color:#41A115;font-size:13px;font-family:'Lucida Console',monospace;} tr:nth-child(even) {background: #262626}tr:nth-child(odd) {background: #171717}pre {white-space: pre-wrap;} .hex {resize:none;background:#262626;color:#1CAD21;} .disass{ overflow-y: scroll; resize: none; background:#262626; color:#1CAD21; } .processName {font-weight: bold;font-size:18px;} .modulesName {font-weight: bold;font-size:12px;} .backgroundPE {background-color: #124587;} .backgroundNET {background-color: #41A115;} .categAlertasColor {color:#0098FF} .categAlertas {border-top: 2px solid Darknormal;}</style></head><body><div class="content"><pre><textarea rows="9" cols="96" style="resize:none;border:none;background-color:black;color:#41FF15"> ____      ____  __                          _       ____    ____        __          
+|_  _|    |_  _|[  |                        / \     |_   \  /   _|      [  |       
+  \ \  /\  / /   | |--.   ,--.   .---.     / _ \      |   \/   |   .--.  | | .---. 
+   \ \/  \/ /    | .-. | `'_\ : / /'`\]   / ___ \     | |\  /| | / .'`\ \| |/ /__\\
+    \  /\  /     | | | | // | |,| \__.  _/ /   \ \_  _| |_\/_| |_| \__. || || \__.,
+     \/  \/     [___]|__]\'-;__/'.___.'|____| |____||_____||_____|'.__.'[___]'.__.'
+It's completely intuitive; it just takes a few days to learn, but then it's completely intuitive
+-Terry Pratchett-</textarea></pre>
+<div class="main" id='18652'><div class="processName"><font color="#0098FF">PROCESS NAME: KatzNetAssembly.exe [935936 (0xe4800) bytes] [PID: 18652] </font>[<a href="#17960">PPID: 17960</a>]</div><br>
+<table class="process-table">
+<tr><td class = "normal">Network:</td> <td>
+	TCP:<br>
+	TCP6:<br>
+	UDP:<br>
+	UDP6:<br></td></tr>
+<tr><td class = "mm">LMIVH:</td> <td> LM-VH</td></tr>
+<tr><td class = "normal">Rich Header:</td> <td></td></tr>
+<tr><td class = "mm">Exports:</td> <td> 0</td></tr>
+<tr><td class = "mm">Imports:</td> <td> 
+<tr><td class = "mm">Delay Imports:</td> <td> </td></tr>
+<tr><td class = "mm">Memory Allocation Protection:</td> <td> WCX</td></tr>
+<tr><td class = "mm">Memory Type:</td> <td> MEM_IMAGE</td></tr>
+<tr><td class = "normal">Entry Point (process):</td> <td> 0x00000000</td></tr>
+<tr><td class = "normal">Entry Point (file):</td> <td> 0x00000000</td></tr>
+<tr><td class = "normal">ImageBaseAddress:</td> <td> 0x0000018afc300000</td></tr>
+<tr><td class = "mm">PE Sections:</td> <td> (.text)(.rsrc)</td></tr>
+<tr><td class = "normal">SizeOfInitializedData:</td> <td> 1536</td></tr>
+<tr><td class = "normal">DLLCharacteristics:</td> <td> 0x8560</td></tr>
+<tr><td class = "normal">MajorImageVersion:</td> <td> 0x0</td></tr>
+<tr><td class = "normal">CheckSum original/computed:</td> <td> <font color="#ff6965";>0x0/0xeb251 [Process CheckSum is 0]</font></td></tr>
+<tr style ='border-top: 1px solid #c0c0c0'><td class = "normal">InternalName:</td> <td> KatzNetAssembly.exe</td></tr>
+<tr><td class = "normal">OriginalFileName:</td> <td> KatzNetAssembly.exe</td></tr>
+<tr><td class = "mm">ProductName:</td> <td> KatzNetAssembly</td></tr>
+<tr><td class = "mm">CompanyName:</td> <td> Microsoft</td></tr>
+<tr><td class = "mm">FileDescription:</td> <td> KatzNetAssembly</td></tr>
+<tr><td class = "mm">FileVersion:</td> <td> 1.0.0.0</td></tr>
+<tr><td class = "mm">LegalCopyright:</td> <td> Copyright © Microsoft 2018</td></tr>
+<tr><td class = "mm">ProductVersion:</td> <td> 1.0.0.0</td></tr>
+<tr style ='border-top: 1px solid #c0c0c0'><td class = "normal">Session ID (LSA):</td> <td> 18</td></tr>
+<tr><td class = "normal">Session ID (Process):</td> <td> 18</td></tr>
+<tr><td class = "normal">Logon Session:</td> <td> 0x0:0x191c611d</td></tr>
+<tr><td class = "normal">Originating Logon Session:</td> <td> 0x0:0x3e7</td></tr>
+<tr><td class = "normal">Token Integrity:</td> <td> MEDIUM_MANDATORY_LEVEL</td></tr>
+<tr><td class = "normal">Token Type:</td> <td> Primary Token</td></tr>
+<tr><td class = "normal">Logon Type:</td> <td> Interactive</td></tr>
+<tr><td class = "normal">AuthenticationPackage:</td> <td> CloudAP</td></tr>
+<tr><td class = "normal">Domain\User:</td> <td> TRANTOR\ignac</td></tr>
+<tr><td class = "normal">SID:</td> <td> S-1-5-21-1396170034-3121602215-1990420959-1001</td></tr>
+<tr><td class = "normal">Member of:</td> <td> <font color="#ff6965";>BUILTIN\Administrators group. The group SID is a deny-only SID. [Admin Privs]</font></td></tr>
+<tr style ='border-top: 1px solid #c0c0c0'><td class = "normal">CmdLine:</td> <td> KatzNetAssembly.exe</td></tr>
+<tr><td class = "normal">Path:</td> <td> d:\trab\proyectos\attack_the_block\@med0x2e_net-assembly-inject-remote\netassembly-injection\bin\x64\release\katznetassembly.exe</td></tr><tr><td class = "normal">CWD:</td> <td> <font color="#ff6965";>D:\trab\Proyectos\ATTACK_THE_BLOCK\@med0x2e_NET-Assembly-Inject-Remote\NetAssembly-Injection\bin\x64\Release\ [Unusual CWD]</font></td></tr>
+<tr style ='border-top: 1px solid #c0c0c0'><td class = "normal">PE format:</td> <td> PE32+</td></tr>
+<tr><td class = "mm">Target Machine:</td> <td> IMAGE_FILE_MACHINE_AMD64</td></tr>
+<tr><td class = "normal">Creation time:</td> <td> 2022/10/21Z17:25:53.346</td></tr>
+<tr><td class = "normal">Creation delay:</td> <td> 00 22:47:15.410</td></tr>
+<tr><td class = "normal">Signature:</td> <td> <font color="#ff6965";>NOT SIGNED [Process NOT Signed]</font></td></tr>
+<tr><td class = "mm">IMAGE_FILE_HEADER TimeDateStamp:</td> <td> 0x5b8405e7 (2018/08/27 14:08:39)</td></tr>
+<tr><td class = "mm">IMAGE_DEBUG_DIRECTORY TimeDateStamp:</td> <td> 0x5b8405e7 (2018/08/27 14:08:39)</td></tr>
+<tr><td class = "mm">IMAGE_EXPORT_DIRECTORY TimeDateStamp:</td> <td> </td></tr>
+<tr><td class = "mm">IMAGE_RESOURCE_DIRECTORY TimeDateStamp:</td> <td> </td></tr>
+<tr><td class = "normal">SHA1:</td> <td> 1e4936a622330ac5a43f2818aab88f1f46c88d54</td></tr>
+<tr><td colspan="11"><pre><textarea rows="16" cols="88" class="hex";>
+0x0000018afc300000 4d 5a 90 00 03 00 00 00 04 00 00 00 ff ff 00 00  MZ..............
+0x0000018afc300010 b8 00 00 00 00 00 00 00 40 00 00 00 00 00 00 00  ........@.......
+0x0000018afc300020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x0000018afc300030 00 00 00 00 00 00 00 00 00 00 00 00 80 00 00 00  ................
+0x0000018afc300040 0e 1f ba 0e 00 b4 09 cd 21 b8 01 4c cd 21 54 68  ........!..L.!Th
+0x0000018afc300050 69 73 20 70 72 6f 67 72 61 6d 20 63 61 6e 6e 6f  is program canno
+0x0000018afc300060 74 20 62 65 20 72 75 6e 20 69 6e 20 44 4f 53 20  t be run in DOS 
+0x0000018afc300070 6d 6f 64 65 2e 0d 0d 0a 24 00 00 00 00 00 00 00  mode....$.......
+0x0000018afc300080 50 45 00 00 64 86 02 00 e7 05 84 5b 00 00 00 00  PE..d......[....
+0x0000018afc300090 00 00 00 00 f0 00 22 00 0b 02 30 00 00 40 0e 00  ......"...0..@..
+0x0000018afc3000a0 00 06 00 00 00 00 00 00 00 00 00 00 00 20 00 00  ............. ..
+0x0000018afc3000b0 00 00 00 40 01 00 00 00 00 20 00 00 00 02 00 00  ...@..... ......
+0x0000018afc3000c0 04 00 00 00 00 00 00 00 06 00 00 00 00 00 00 00  ................
+0x0000018afc3000d0 00 80 0e 00 00 02 00 00 00 00 00 00 03 00 60 85  ..............`.
+0x0000018afc3000e0 00 00 40 00 00 00 00 00 00 40 00 00 00 00 00 00  ..@......@......
+0x0000018afc3000f0 00 00 10 00 00 00 00 00 00 20 00 00 00 00 00 00 ......... ......</textarea></pre></td></tr>
+<tr><td colspan="11"><pre><textarea rows="8" cols="88" class="disass";>
+0x0000018AFC300000  pop r10
+0x0000018AFC300002  nop
+0x0000018AFC300003  add [rbx], al
+0x0000018AFC300005  add [rax], al
+0x0000018AFC300007  add [rax+rax*1], al
+0x0000018AFC30000A  add [rax], al
+0x0000018AFC30000D  inc dword ptr [rax]
+0x0000018AFC30000F  add [rax], bh
+0x0000018AFC300015  add [rax], al
+0x0000018AFC300017  add [rax], al
+0x0000018AFC30001A  add [rax], al
+0x0000018AFC30001C  add [rax], al
+0x0000018AFC30001E  add [rax], al</textarea></pre></td></tr>
+
+<tr><td class = "normal">CLR:</td> <td> CLRv4.0.30319 (Runtime v4)</font></td></tr>
+<tr><td class = "normal">TmTx:</td> <td> No detectado.</td></tr>
+</table>
+<br><hr class="categAlertas"><p class="categAlertasColor">*** HANDLES ***</p>
+<table class="process-table">
+
+<tr><td class = "normal">HANDLE File:</td><td>\Device\ConDrv </td></tr>
+<tr><td class = "normal">HANDLE File:</td><td>D:\trab\Proyectos\ATTACK_THE_BLOCK\@med0x2e_NET-Assembly-Inject-Remote\NetAssembly-Injection\bin\x64\Release </td></tr>
+<tr><td class = "normal">HANDLE File:</td><td>\Device\ConDrv </td></tr>
+<tr><td class = "normal">HANDLE File:</td><td>Deadlock. Unable to read the name. </td></tr>
+<tr><td class = "normal">HANDLE File:</td><td>\Device\ConDrv </td></tr>
+<tr><td class = "normal">HANDLE File:</td><td>\Device\ConDrv </td></tr>
+<tr><td class = "normal">HANDLE File:</td><td>\Device\CNG </td></tr>
+<tr><td class = "normal">HANDLE File:</td><td>\Device\ConDrv </td></tr>
+<tr><td class = "normal">HANDLE File:</td><td>C:\Windows\assembly\pubpol52.dat </td></tr>
+<tr><td class = "normal">HANDLE File:</td><td>\Device\KsecDD </td></tr>
+<tr><td class = "normal">HANDLE File:</td><td>\Device\KsecDD </td></tr>
+<tr><td class = "normal">HANDLE File:</td><td>\Device\ConDrv </td></tr>
+<tr><td class = "normal">HANDLE Key:</td><td>\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Nls\Sorting\Versions </td></tr>
+<tr><td class = "normal">HANDLE Key:</td><td>\REGISTRY\USER\S-1-5-21-1396170034-3121602215-1990420959-1001 </td></tr>
+<tr><td class = "normal">HANDLE Key:</td><td>\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Session Manager </td></tr>
+<tr><td class = "normal">HANDLE Key:</td><td>\REGISTRY\MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options </td></tr>
+<tr><td class = "normal">HANDLE Key:</td><td>\REGISTRY\MACHINE\SOFTWARE\Microsoft\.NETFramework </td></tr>
+<tr><td class = "normal">HANDLE Key:</td><td>\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Nls\Sorting\Ids </td></tr>
+<tr><td class = "normal">HANDLE Key:</td><td>\REGISTRY\MACHINE </td></tr>
+<tr><td class = "normal">HANDLE Key:</td><td>\REGISTRY\MACHINE\SOFTWARE\Microsoft\Ole </td></tr>
+<tr><td class = "normal">HANDLE Key:</td><td>\REGISTRY\USER\S-1-5-21-1396170034-3121602215-1990420959-1001_Classes\Local Settings\Software\Microsoft </td></tr>
+<tr><td class = "normal">HANDLE Key:</td><td>\REGISTRY\USER\S-1-5-21-1396170034-3121602215-1990420959-1001_Classes\Local Settings </td></tr>
+<tr><td class = "normal">HANDLE Key:</td><td>\REGISTRY\MACHINE\SOFTWARE\Microsoft\Fusion\PublisherPolicy\Default </td></tr>
+<tr><td class = "normal">HANDLE Key:</td><td>\REGISTRY\USER\S-1-5-21-1396170034-3121602215-1990420959-1001\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer </td></tr>
+<tr><td class = "normal">HANDLE Key:</td><td>\REGISTRY\USER </td></tr>
+<tr><td class = "normal">HANDLE Key:</td><td>\REGISTRY\MACHINE </td></tr>
+<tr><td class = "normal">HANDLE Key:</td><td>\REGISTRY\MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{1AC14E77-02E7-4E5D-B744-2EB1AE5198B7}\PropertyBag </td></tr>
+<tr><td class = "normal">HANDLE Mutant:</td><td>\Sessions\18\BaseNamedObjects\SM0:18652:304:WilStaging_02 </td></tr>
+<tr><td class = "normal">HANDLE Mutant:</td><td>\Sessions\18\BaseNamedObjects\SM0:18652:120:WilError_03 </td></tr>
+<tr><td class = "normal">HANDLE Thread:</td><td> katznetassembly.exe (18652): 22412 (GrantedAccess: 0x1fffff)(Object Address: 0xFFFF89885F616080) </td></tr>
+<tr><td class = "normal">HANDLE Thread:</td><td> katznetassembly.exe (18652): 15560 (GrantedAccess: 0x1fffff)(Object Address: 0xFFFF89885F19E080) </td></tr>
+<tr><td class = "normal">HANDLE Thread:</td><td> katznetassembly.exe (18652): 18972 (GrantedAccess: 0x1fffff)(Object Address: 0xFFFF89885FF70080) </td></tr>
+<tr><td class = "normal">HANDLE Thread:</td><td> katznetassembly.exe (18652): 18972 (GrantedAccess: 0x1fffff)(Object Address: 0xFFFF89885FF70080) </td></tr>
+<tr><td class = "normal">HANDLE Thread:</td><td> katznetassembly.exe (18652): 13148 (GrantedAccess: 0x1fffff)(Object Address: 0xFFFF89885E47E080) </td></tr>
+<tr><td class = "normal">HANDLE Thread:</td><td> katznetassembly.exe (18652): 13148 (GrantedAccess: 0x1fffff)(Object Address: 0xFFFF89885E47E080) </td></tr>
+<tr><td class = "normal">HANDLE Thread:</td><td> katznetassembly.exe (18652): 20464 (GrantedAccess: 0x1fffff)(Object Address: 0xFFFF89885DCAD040) </td></tr>
+<tr><td class = "normal">HANDLE Thread:</td><td> katznetassembly.exe (18652): 21232 (GrantedAccess: 0x1fffff)(Object Address: 0xFFFF89885D137080) </td></tr>
+<tr><td class = "normal">HANDLE Section:</td><td>\BaseNamedObjects\Cor_Private_IPCBlock_v4_18652 (0x14c) (Address: 0x18afc720000)(Size: 4096)(AllocationAttributes: [COMMIT])(FileEntryPoint: )(GrantedAccess: 0xf0007)(Object Address: 0xFFFFCC0999B09A90)</td></tr></table>
+<br><hr class="categAlertas"><p class="categAlertasColor">*** NET ASSEMBLIES ***</p>
+<p><table class="process-table">
+<font color="blue"> <tr><td>mscorlib</td><td>c:\windows\microsoft.net\assembly\gac_64\mscorlib\v4.0_4.0.0.0__b77a5c561934e089\mscorlib.dll</td></tr> </font>
+<font color="blue"> <tr><td>KatzNetAssembly</td><td>d:\trab\proyectos\attack_the_block\@med0x2e_net-assembly-inject-remote\netassembly-injection\bin\x64\release\katznetassembly.exe</td></tr> </font>
+<font color="blue"> <tr><td>System.IO.Compression</td><td>c:\windows\microsoft.net\assembly\gac_msil\system.io.compression\v4.0_4.0.0.0__b77a5c561934e089\system.io.compression.dll</td></tr> </font>
+<font color="blue"> <tr><td>System</td><td>c:\windows\microsoft.net\assembly\gac_msil\system\v4.0_4.0.0.0__b77a5c561934e089\system.dll</td></tr> </font>
+</table></p>
+<hr class="categAlertas"><p class="categAlertasColor">*** THREADS ***</p>
+<table class="process-table">
+<tr><td colspan="2" class = "nuevoazul">Thread 022412: Start address 0x0000018afc300000 (State: UserRequest) (d:\trab\proyectos\attack_the_block\@med0x2e_net-assembly-inject-remote\netassembly-injection\bin\x64\release\katznetassembly.exe)</td></tr>
+<tr><td colspan="2" class = "nuevoazul">Thread 015560: Start address 0x00007ffcca9eff80 (State: UserRequest) (c:\windows\microsoft.net\framework64\v4.0.30319\clr.dll)</td></tr>
+<tr><td colspan="2" class = "nuevoazul">Thread 018972: Start address 0x00007ffcca86bc90 (State: UserRequest) (c:\windows\microsoft.net\framework64\v4.0.30319\clr.dll)</td></tr>
+<tr><td colspan="2"><font color="#ff6965";>** SUSPICIOUS THREAD: [Thread Memory NOT MEM_IMAGE] **</font></td></tr>
+<tr><td class = "nuevoazul">Thread:</td> <td> 013148</td></tr>
+<tr><td class = "nuevoazul">Thread Start address:</td> <td> 0x0000018afe896b34 ()</td></tr>
+<tr><td class = "nuevoazul">Thread State:</td> <td> Waiting:Executive</td></tr>
+<tr><td class = "nuevoazul">Base Address:</td> <td> 0x0000018AFE896000</td></tr>
+<tr><td class = "nuevoazul">Allocation Base:</td> <td> 0x0000018AFE870000</td></tr>
+<tr><td class = "nuevoazul">Allocated Memory Protection:</td> <td> PAGE_EXECUTE_READWRITE</td></tr>
+<tr><td class = "nuevoazul">Memory Protection:</td> <td> PAGE_EXECUTE_READWRITE</td></tr>
+<tr><td class = "nuevoazul">Memory State:</td> <td> MEM_COMMIT</td></tr>
+<tr><td class = "nuevoazul">Memory Type:</td> <td> MEM_PRIVATE</td></tr>
+<tr><td colspan="2" class = "nuevoazul">Thread 020464: Start address 0x00007ffcfda22b20 (State: WrQueue) (c:\windows\system32\ntdll.dll)</td></tr>
+<tr><td colspan="2" class = "nuevoazul">Thread 021232: Start address 0x00007ffcfda22b20 (State: WrQueue) (c:\windows\system32\ntdll.dll)</td></tr>
+</table>
+<br><hr class="categAlertas"><p class="categAlertasColor">*** MEMORY ***</p>
+<table class="process-table">
+<tr><td colspan="2"><span class="memo">0x000000007ffe0000</span>, R, COMMIT, PRIVATE,<span class="memnorm"> </span>, Region Size: 0x1000 bytes, Alloc.Base: 0x000000007ffe0000, Alloc.Mem.Protec.: R</td></tr>
+<tr><td colspan="2"><span class="memo">0x000000007ffe5000</span>, R, COMMIT, PRIVATE,<span class="memnorm"> </span>, Region Size: 0x1000 bytes, Alloc.Base: 0x000000007ffe5000, Alloc.Mem.Protec.: R</td></tr>
+<tr><td colspan="2"><span class="memo">0x00000042cce3d000</span>, RW, COMMIT, PRIVATE,<span class="memnorm"> </span>, Region Size: 0x3000 bytes, Alloc.Base: 0x00000042cce00000, Alloc.Mem.Protec.: RW</td></tr>
+<tr><td colspan="2"><span class="memo">0x00000042cce46000</span>, RW, COMMIT, PRIVATE,<span class="memnorm"> </span>, Region Size: 0xc000 bytes, Alloc.Base: 0x00000042cce00000, Alloc.Mem.Protec.: RW</td></tr>
+<tr><td colspan="2"><span class="memo">0x00000042cd3f0000</span>, RW, COMMIT, PRIVATE,<span class="memnorm"> </span>, Region Size: 0x5000 bytes, Alloc.Base: 0x00000042cd000000, Alloc.Mem.Protec.: RW</td></tr>
+<tr><td colspan="2"><span class="memo">0x00000042cd3f5000</span>, RW, COMMIT, PRIVATE,<span class="memnorm"> </span>, Region Size: 0xb000 bytes, Alloc.Base: 0x00000042cd000000, Alloc.Mem.Protec.: RW</td></tr>
+<tr><td colspan="2"><span class="memo">0x00000042cd7f9000</span>, RW, COMMIT, PRIVATE,<span class="memnorm"> </span>, Region Size: 0x3000 bytes, Alloc.Base: 0x00000042cd400000, Alloc.Mem.Protec.: RW</td></tr>
+<tr><td colspan="2"><span class="memo">0x00000042cd7fc000</span>, RW, COMMIT, PRIVATE,<span class="memnorm"> </span>, Region Size: 0x4000 bytes, Alloc.Base: 0x00000042cd400000, Alloc.Mem.Protec.: RW</td></tr>
+<tr><td colspan="2"><span class="memo">0x00000042ce3f7000</span>, RW, COMMIT, PRIVATE,<span class="memnorm"> </span>, Region Size: 0x5000 bytes, Alloc.Base: 0x00000042ce000000, Alloc.Mem.Protec.: RW</td></tr>
+<tr><td colspan="2"><span class="memo">0x00000042ce3fc000</span>, RW, COMMIT, PRIVATE,<span class="memnorm"> </span>, Region Size: 0x4000 bytes, Alloc.Base: 0x00000042ce000000, Alloc.Mem.Protec.: RW</td></tr>
+<tr><td colspan="2"><span class="memo">0x00000042ce7f7000</span>, RW, COMMIT, PRIVATE,<span class="memnorm"> </span>, Region Size: 0x5000 bytes, Alloc.Base: 0x00000042ce400000, Alloc.Mem.Protec.: RW</td></tr>
+<tr><td colspan="2"><span class="memo">0x00000042ce7fc000</span>, RW, COMMIT, PRIVATE,<span class="memnorm"> </span>, Region Size: 0x4000 bytes, Alloc.Base: 0x00000042ce400000, Alloc.Mem.Protec.: RW</td></tr>
+<tr><td colspan="2"><span class="memo">0x00000042cebda000</span>, RW, COMMIT, PRIVATE,<span class="memnorm"> </span>, Region Size: 0x3000 bytes, Alloc.Base: 0x00000042ce800000, Alloc.Mem.Protec.: RW</td></tr>
+<tr><td colspan="2"><span class="memo">0x00000042cebdd000</span>, RW, COMMIT, PRIVATE,<span class="memnorm"> </span>, Region Size: 0x23000 bytes, Alloc.Base: 0x00000042ce800000, Alloc.Mem.Protec.: RW</td></tr>
+<tr><td colspan="2"><span class="memo">0x00000042ceff9000</span>, RW, COMMIT, PRIVATE,<span class="memnorm"> </span>, Region Size: 0x3000 bytes, Alloc.Base: 0x00000042cec00000, Alloc.Mem.Protec.: RW</td></tr>
+<tr><td colspan="2"><span class="memo">0x00000042ceffc000</span>, RW, COMMIT, PRIVATE,<span class="memnorm"> </span>, Region Size: 0x4000 bytes, Alloc.Base: 0x00000042cec00000, Alloc.Mem.Protec.: RW</td></tr>
+<tr><td colspan="2"><span class="memo">0x00000042cf3f9000</span>, RW, COMMIT, PRIVATE,<span class="memnorm"> </span>, Region Size: 0x3000 bytes, Alloc.Base: 0x00000042cf000000, Alloc.Mem.Protec.: RW</td></tr>
+<tr><td colspan="2"><span class="memo">0x00000042cf3fc000</span>, RW, COMMIT, PRIVATE,<span class="memnorm"> </span>, Region Size: 0x4000 bytes, Alloc.Base: 0x00000042cf000000, Alloc.Mem.Protec.: RW</td></tr>
+<tr><td colspan="2"><span class="memo">0x0000018a80000000</span>, RW, COMMIT, PRIVATE,<span style="color:red;"> No_Name-0x18a80000000</span>, Region Size: 0x18000000 bytes, Alloc.Base: 0x0000018a80000000, Alloc.Mem.Protec.: RW</td></tr>
+<tr><td colspan="2"><span class="memo">0x0000018a90000000</span>, RW, COMMIT, PRIVATE,<span style="color:red;"> No_Name-0x18a90000000</span>, Region Size: 0x8000000 bytes, Alloc.Base: 0x0000018a80000000, Alloc.Mem.Protec.: RW</td></tr>
+<tr><td colspan="2"><span class="memo">0x0000018afc300000</span>, R, COMMIT, IMAGE,<span class="memnorm"> d:\trab\proyectos\attack_the_block\@med0x2e_net-assembly-inject-remote\netassembly-injection\bin\x64\release\katznetassembly.exe</span>, Region Size: 0xe8000 bytes, Alloc.Base: 0x0000018afc300000, Alloc.Mem.Protec.: WCX</td></tr>
+<tr><td colspan="2"><span class="memo">0x0000018afc3f0000</span>, R, COMMIT, MAPPED,<span class="memnorm"> </span>, Region Size: 0x1000 bytes, Alloc.Base: 0x0000018afc3f0000, Alloc.Mem.Protec.: R</td></tr>
+<tr><td colspan="2"><span class="memo">0x0000018afc400000</span>, R, COMMIT, MAPPED,<span class="memnorm"> </span>, Region Size: 0x1000 bytes, Alloc.Base: 0x0000018afc400000, Alloc.Mem.Protec.: R</td></tr>
+<tr><td colspan="2"><span class="memo">0x0000018afc410000</span>, R, COMMIT, MAPPED,<span class="memnorm"> </span>, Region Size: 0x1d000 bytes, Alloc.Base: 0x0000018afc410000, Alloc.Mem.Protec.: R</td></tr>
+<tr><td colspan="2"><span class="memo">0x0000018afc430000</span>, R, COMMIT, MAPPED,<span class="memnorm"> </span>, Region Size: 0x4000 bytes, Alloc.Base: 0x0000018afc430000, Alloc.Mem.Protec.: R</td></tr>
+<tr><td colspan="2"><span class="memo">0x0000018afc440000</span>, R, COMMIT, MAPPED,<span class="memnorm"> </span>, Region Size: 0x1000 bytes, Alloc.Base: 0x0000018afc440000, Alloc.Mem.Protec.: R</td></tr>
+<tr><td colspan="2"><span class="memo">0x0000018afc450000</span>, RW, COMMIT, PRIVATE,<span class="memnorm"> </span>, Region Size: 0x2000 bytes, Alloc.Base: 0x0000018afc450000, Alloc.Mem.Protec.: RW</td></tr>
+<tr><td colspan="2"><span class="memo">0x0000018afc460000</span>, R, COMMIT, MAPPED,<span class="memnorm"> </span>, Region Size: 0x1000 bytes, Alloc.Base: 0x0000018afc460000, Alloc.Mem.Protec.: R</td></tr>
+<tr><td colspan="2"><span class="memo">0x0000018afc470000</span>, RW, COMMIT, MAPPED,<span class="memnorm"> </span>, Region Size: 0x10000 bytes, Alloc.Base: 0x0000018afc470000, Alloc.Mem.Protec.: RW</td></tr>
+<tr><td colspan="2"><span class="memo">0x0000018afc480000</span>, R, COMMIT, MAPPED,<span class="memnorm"> c:\windows\system32\locale.nls</span>, Region Size: 0xc9000 bytes, Alloc.Base: 0x0000018afc480000, Alloc.Mem.Protec.: R</td></tr>
+<tr><td colspan="2"><span class="memo">0x0000018afc550000</span>, R, COMMIT, MAPPED,<span class="memnorm"> </span>, Region Size: 0x4000 bytes, Alloc.Base: 0x0000018afc550000, Alloc.Mem.Protec.: R</td></tr>
+<tr><td colspan="2"><span class="memo">0x0000018afc560000</span>, RW, COMMIT, PRIVATE,<span class="memnorm"> </span>, Region Size: 0xe2000 bytes, Alloc.Base: 0x0000018afc560000, Alloc.Mem.Protec.: RW</td></tr>
+<tr><td colspan="2"><span class="memo">0x0000018afc660000</span>, RW, COMMIT, PRIVATE,<span class="memnorm"> </span>, Region Size: 0x1000 bytes, Alloc.Base: 0x0000018afc660000, Alloc.Mem.Protec.: RW</td></tr>
+<tr><td colspan="2"><span class="memo">0x0000018afc6a0000</span>, RW, COMMIT, PRIVATE,<span class="memnorm"> </span>, Region Size: 0x3000 bytes, Alloc.Base: 0x0000018afc6a0000, Alloc.Mem.Protec.: RW</td></tr>
+<tr><td colspan="2"><span class="memo">0x0000018afc6e0000</span>, RW, COMMIT, PRIVATE,<span class="memnorm"> </span>, Region Size: 0x1000 bytes, Alloc.Base: 0x0000018afc6e0000, Alloc.Mem.Protec.: RW</td></tr>
+<tr><td colspan="2"><span class="memo">0x0000018afc720000</span>, RW, COMMIT, MAPPED,<span class="memnorm"> </span>, Region Size: 0x1000 bytes, Alloc.Base: 0x0000018afc720000, Alloc.Mem.Protec.: RW</td></tr>
+<tr><td colspan="2"><span class="memo">0x0000018afc730000</span>, RW, COMMIT, MAPPED,<span class="memnorm"> </span>, Region Size: 0x10000 bytes, Alloc.Base: 0x0000018afc730000, Alloc.Mem.Protec.: RW</td></tr>
+<tr><td colspan="2"><span class="memo">0x0000018afc740000</span>, RW, COMMIT, PRIVATE,<span class="memnorm"> </span>, Region Size: 0x2000 bytes, Alloc.Base: 0x0000018afc740000, Alloc.Mem.Protec.: RW</td></tr>
+<tr><td colspan="2"><span class="memo">0x0000018afc750000</span>, RW, COMMIT, PRIVATE,<span class="memnorm"> </span>, Region Size: 0x1000 bytes, Alloc.Base: 0x0000018afc750000, Alloc.Mem.Protec.: RW</td></tr>
+<tr><td colspan="2"><span class="memo">0x0000018afc760000</span>, RW, COMMIT, PRIVATE,<span class="memnorm"> </span>, Region Size: 0x1000 bytes, Alloc.Base: 0x0000018afc760000, Alloc.Mem.Protec.: RW</td></tr>
+<tr><td colspan="2"><span class="memo">0x0000018afc770000</span>, RW, COMMIT, PRIVATE,<span class="memnorm"> </span>, Region Size: 0x10000 bytes, Alloc.Base: 0x0000018afc770000, Alloc.Mem.Protec.: RW</td></tr>
+<tr><td colspan="2"><span class="memo">0x0000018afc780000</span>, RW, COMMIT, MAPPED,<span class="memnorm"> </span>, Region Size: 0x11000 bytes, Alloc.Base: 0x0000018afc780000, Alloc.Mem.Protec.: RW</td></tr>
+<tr><td colspan="2"><span class="memo">0x0000018afc7a0000</span>, RW, COMMIT, PRIVATE,<span class="memnorm"> </span>, Region Size: 0x7000 bytes, Alloc.Base: 0x0000018afc7a0000, Alloc.Mem.Protec.: RW</td></tr>
+<tr><td colspan="2"><span class="memo">0x0000018afc7b0000</span>, RW, COMMIT, MAPPED,<span class="memnorm"> </span>, Region Size: 0x1000 bytes, Alloc.Base: 0x0000018afc7b0000, Alloc.Mem.Protec.: RW</td></tr>
+<tr><td colspan="2"><span class="memo">0x0000018afc7c0000</span>, R, COMMIT, MAPPED,<span class="memnorm"> </span>, Region Size: 0x11000 bytes, Alloc.Base: 0x0000018afc7c0000, Alloc.Mem.Protec.: R</td></tr>
+<tr><td colspan="2"><font color="#ff6965";><span class="memo">0x0000018afc7f0000</span> Suspicious memory region: 
+[Memory region referenced in clr.dll at 0x00007ffccb2f5ba0] </font></td></tr>
+<tr><td class = "normal">Allocation Base:</td> <td> 0x0000018afc7f0000</td></tr>
+<tr><td class = "normal">Region Size:</td> <td> 0x2000 bytes</td></tr>
+<tr><td class = "normal">Allocated Memory Protection:</td> <td> RWX</td></tr>
+<tr><td class = "normal">Memory Protection:</td> <td> RWX</td></tr>
+<tr><td class = "normal">Memory State:</td> <td> COMMIT</td></tr>
+<tr><td class = "normal">Memory Type:</td> <td> PRIVATE</td></tr>
+<tr><td colspan="2"><pre><textarea rows="16" cols="88" class="hex";>
+0x0000018afc7f0000 00 00 00 00 00 00 00 00 a4 87 3d 89 d7 d0 00 01  ..........=.....
+0x0000018afc7f0010 ee ff ee ff 02 00 00 00 20 01 7f fc 8a 01 00 00  ........ .......
+0x0000018afc7f0020 20 01 7f fc 8a 01 00 00 00 00 7f fc 8a 01 00 00   ...............
+0x0000018afc7f0030 00 00 7f fc 8a 01 00 00 0f 00 00 00 00 00 00 00  ................
+0x0000018afc7f0040 40 07 7f fc 8a 01 00 00 00 f0 7f fc 8a 01 00 00  @...............
+0x0000018afc7f0050 0d 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00  ................
+0x0000018afc7f0060 e0 1f 7f fc 8a 01 00 00 e0 1f 7f fc 8a 01 00 00  ................
+0x0000018afc7f0070 02 10 04 00 00 00 00 00 00 00 00 00 00 00 10 00  ................
+0x0000018afc7f0080 00 00 00 00 00 00 00 00 d0 87 3c fc d7 d0 00 00  ..........<.....
+0x0000018afc7f0090 00 00 00 00 00 ff 00 00 ff ee ff ee 00 00 00 00  ................
+0x0000018afc7f00a0 00 00 10 00 00 00 00 00 00 20 00 00 00 00 00 00  ......... ......
+0x0000018afc7f00b0 00 01 00 00 00 00 00 00 00 10 00 00 00 00 00 00  ................
+0x0000018afc7f00c0 73 01 00 00 00 00 00 00 ff ef fd ff ff 7f 00 00  s...............
+0x0000018afc7f00d0 07 00 c0 02 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x0000018afc7f00e0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x0000018afc7f00f0 d0 1f 7f fc 8a 01 00 00 d0 1f 7f fc 8a 01 00 00 ................</textarea></pre></td></tr>
+<tr><td colspan="2"><pre><textarea rows="8" cols="88" class="disass";>
+0x0000018AFC7F0000  add [rax], al
+0x0000018AFC7F0002  add [rax], al
+0x0000018AFC7F0004  add [rax], al
+0x0000018AFC7F0006  add [rax], al
+0x0000018AFC7F0008  movsb
+0x0000018AFC7F0009  xchg [0x0000018AFD4FD798], edi
+0x0000018AFC7F000F  add esi, ebp
+0x0000018AFC7F0012  out dx, al
+0x0000018AFC7F0013  inc dword ptr [rdx]
+0x0000018AFC7F0015  add [rax], al
+0x0000018AFC7F0017  add [rax], ah
+0x0000018AFC7F0019  add [rdi-0x04], edi
+0x0000018AFC7F001C  mov al, [rcx]
+0x0000018AFC7F001E  add [rax], al</textarea></pre></td></tr>
+
+<tr><td colspan="2"><font color="#ff6965";><span class="memo">0x0000018afc840000</span> Suspicious memory region: [Executable Memory Region NOT MEM_IMAGE] </font></td></tr>
+<tr><td class = "normal">Allocation Base:</td> <td> 0x0000018afc840000</td></tr>
+<tr><td class = "normal">Region Size:</td> <td> 0x2000 bytes</td></tr>
+<tr><td class = "normal">Allocated Memory Protection:</td> <td> RWX</td></tr>
+<tr><td class = "normal">Memory Protection:</td> <td> RWX</td></tr>
+<tr><td class = "normal">Memory State:</td> <td> COMMIT</td></tr>
+<tr><td class = "normal">Memory Type:</td> <td> PRIVATE</td></tr>
+<tr><td colspan="2"><pre><textarea rows="16" cols="88" class="hex";>
+0x0000018afc840000 00 00 00 00 00 00 00 00 fb 92 1a 7b e3 b0 00 01  ...........{....
+0x0000018afc840010 ee ff ee ff 02 00 00 00 20 01 84 fc 8a 01 00 00  ........ .......
+0x0000018afc840020 20 01 84 fc 8a 01 00 00 00 00 84 fc 8a 01 00 00   ...............
+0x0000018afc840030 00 00 84 fc 8a 01 00 00 0f 00 00 00 00 00 00 00  ................
+0x0000018afc840040 40 07 84 fc 8a 01 00 00 00 f0 84 fc 8a 01 00 00  @...............
+0x0000018afc840050 0d 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00  ................
+0x0000018afc840060 e0 1f 84 fc 8a 01 00 00 e0 1f 84 fc 8a 01 00 00  ................
+0x0000018afc840070 02 10 04 00 00 00 00 00 00 00 00 00 00 00 10 00  ................
+0x0000018afc840080 00 00 00 00 00 00 00 00 8f 92 1b 0e e3 b0 00 00  ................
+0x0000018afc840090 00 00 00 00 00 ff 00 00 ff ee ff ee 00 00 00 00  ................
+0x0000018afc8400a0 00 00 10 00 00 00 00 00 00 20 00 00 00 00 00 00  ......... ......
+0x0000018afc8400b0 00 01 00 00 00 00 00 00 00 10 00 00 00 00 00 00  ................
+0x0000018afc8400c0 77 01 00 00 00 00 00 00 ff ef fd ff ff 7f 00 00  w...............
+0x0000018afc8400d0 06 00 c0 02 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x0000018afc8400e0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x0000018afc8400f0 d0 1f 84 fc 8a 01 00 00 d0 1f 84 fc 8a 01 00 00 ................</textarea></pre></td></tr>
+<tr><td colspan="2"><pre><textarea rows="8" cols="88" class="disass";>
+0x0000018AFC840000  add [rax], al
+0x0000018AFC840002  add [rax], al
+0x0000018AFC840004  add [rax], al
+0x0000018AFC840006  add [rax], al
+0x0000018AFC840008  sti
+0x0000018AFC840009  xchg edx, eax
+0x0000018AFC84000A  sbb bh, [rbx-0x1D]
+0x0000018AFC84000D  mov al, 0x00
+0x0000018AFC84000F  add esi, ebp
+0x0000018AFC840012  out dx, al
+0x0000018AFC840013  inc dword ptr [rdx]
+0x0000018AFC840015  add [rax], al
+0x0000018AFC840017  add [rax], ah
+0x0000018AFC840019  add [rsp+rdi*8+0x18A], eax</textarea></pre></td></tr>
+
+<tr><td colspan="2"><span class="memo">0x0000018afc8c0000</span>, RW, COMMIT, PRIVATE,<span class="memnorm"> </span>, Region Size: 0x7000 bytes, Alloc.Base: 0x0000018afc8c0000, Alloc.Mem.Protec.: RW</td></tr>
+<tr><td colspan="2"><span class="memo">0x0000018afc8d0000</span>, R, COMMIT, MAPPED,<span class="memnorm"> </span>, Region Size: 0xb000 bytes, Alloc.Base: 0x0000018afc8d0000, Alloc.Mem.Protec.: R</td></tr>
+<tr><td colspan="2"><span class="memo">0x0000018afcad0000</span>, R, COMMIT, MAPPED,<span class="memnorm"> </span>, Region Size: 0x181000 bytes, Alloc.Base: 0x0000018afcad0000, Alloc.Mem.Protec.: R</td></tr>
+<tr><td colspan="2"><span class="memo">0x0000018afcc60000</span>, R, COMMIT, MAPPED,<span class="memnorm"> </span>, Region Size: 0x6a000 bytes, Alloc.Base: 0x0000018afcc60000, Alloc.Mem.Protec.: R</td></tr>
+<tr><td colspan="2"><span class="memo">0x0000018afe07c000</span>, RW, COMMIT, PRIVATE,<span class="memnorm"> </span>, Region Size: 0x101000 bytes, Alloc.Base: 0x0000018afe070000, Alloc.Mem.Protec.: RW</td></tr>
+<tr><td colspan="2"><span class="memo">0x0000018afe1a0000</span>, RW, COMMIT, PRIVATE,<span class="memnorm"> </span>, Region Size: 0x2000 bytes, Alloc.Base: 0x0000018afe1a0000, Alloc.Mem.Protec.: RW</td></tr>
+<tr><td colspan="2"><span class="memo">0x0000018afe1b0000</span>, RW, COMMIT, PRIVATE,<span class="memnorm"> </span>, Region Size: 0x79000 bytes, Alloc.Base: 0x0000018afe1b0000, Alloc.Mem.Protec.: RW</td></tr>
+<tr><td colspan="2"><span class="memo">0x0000018afe530000</span>, R, COMMIT, MAPPED,<span class="memnorm"> c:\windows\globalization\sorting\sortdefault.nls</span>, Region Size: 0x338000 bytes, Alloc.Base: 0x0000018afe530000, Alloc.Mem.Protec.: R</td></tr>
+<tr><td colspan="2"><font color="#ff6965";><span class="memo">0x0000018afe870000</span> Suspicious memory region: [Executable Memory Region NOT MEM_IMAGE] </font></td></tr>
+<tr><td class = "normal">Allocation Base:</td> <td> 0x0000018afe870000</td></tr>
+<tr><td class = "normal">Region Size:</td> <td> 0x75000 bytes</td></tr>
+<tr><td class = "normal">Allocated Memory Protection:</td> <td> RWX</td></tr>
+<tr><td class = "normal">Memory Protection:</td> <td> RWX</td></tr>
+<tr><td class = "normal">Memory State:</td> <td> COMMIT</td></tr>
+<tr><td class = "normal">Memory Type:</td> <td> PRIVATE</td></tr>
+<tr><td colspan="2"><pre><textarea rows="16" cols="88" class="hex";>
+0x0000018afe870000 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x0000018afe870010 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x0000018afe870020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x0000018afe870030 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x0000018afe870040 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x0000018afe870050 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x0000018afe870060 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x0000018afe870070 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x0000018afe870080 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x0000018afe870090 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x0000018afe8700a0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x0000018afe8700b0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x0000018afe8700c0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x0000018afe8700d0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x0000018afe8700e0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x0000018afe8700f0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................</textarea></pre></td></tr>
+<tr><td colspan="2"><pre><textarea rows="8" cols="88" class="disass";>
+0x0000018AFE870000  add [rax], al
+0x0000018AFE870002  add [rax], al
+0x0000018AFE870004  add [rax], al
+0x0000018AFE870006  add [rax], al
+0x0000018AFE870008  add [rax], al
+0x0000018AFE87000A  add [rax], al
+0x0000018AFE87000C  add [rax], al
+0x0000018AFE87000E  add [rax], al
+0x0000018AFE870010  add [rax], al
+0x0000018AFE870012  add [rax], al
+0x0000018AFE870014  add [rax], al
+0x0000018AFE870016  add [rax], al
+0x0000018AFE870018  add [rax], al
+0x0000018AFE87001A  add [rax], al
+0x0000018AFE87001C  add [rax], al
+0x0000018AFE87001E  add [rax], al</textarea></pre></td></tr>
+
+<tr><td colspan="2"><font color="#ff6965";><span class="memo">0x0000018afe870000</span> Suspicious memory region: [Shellcode] </font></td></tr>
+<tr><td class = "normal">Allocation Base:</td> <td> 0x0000018afe870000</td></tr>
+<tr><td class = "normal">Region Size:</td> <td> 0x75000 bytes</td></tr>
+<tr><td class = "normal">Allocated Memory Protection:</td> <td> RWX</td></tr>
+<tr><td class = "normal">Memory Protection:</td> <td> RWX</td></tr>
+<tr><td class = "normal">Memory State:</td> <td> COMMIT</td></tr>
+<tr><td class = "normal">Memory Type:</td> <td> PRIVATE</td></tr>
+<tr><td colspan="2"><pre><textarea rows="16" cols="88" class="hex";>
+0x0000018afe8d6d80 90 90 90 90 90 90 90 90 89 4c 24 08 b8 56 21 00  .........L$..V!.
+0x0000018afe8d6d90 00 41 00 00 96 05 1a 01 48 00 00 00 00 00 00 00  .A......H.......
+0x0000018afe8d6da0 06 00 00 00 00 00 00 00 ec 75 8d fe 8a 01 00 00  .........u......
+0x0000018afe8d6db0 01 00 00 00 00 00 00 00 6e 65 8d fe 8a 01 00 00  ........ne......
+0x0000018afe8d6dc0 fe ff ff ff 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x0000018afe8d6dd0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x0000018afe8d6de0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x0000018afe8d6df0 05 00 00 00 00 00 00 00 14 77 8d fe 8a 01 00 00  .........w......
+0x0000018afe8d6e00 01 00 00 00 00 00 00 00 6e 65 8d fe 8a 01 00 00  ........ne......
+0x0000018afe8d6e10 f3 ff ff ff 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x0000018afe8d6e20 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x0000018afe8d6e30 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x0000018afe8d6e40 06 00 00 00 00 00 00 00 7c 76 8d fe 8a 01 00 00  ........|v......
+0x0000018afe8d6e50 06 00 00 00 00 00 00 00 90 75 8d fe 8a 01 00 00  .........u......
+0x0000018afe8d6e60 f5 ff ff ff 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x0000018afe8d6e70 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................</textarea></pre></td></tr>
+<tr><td colspan="2"><pre><textarea rows="8" cols="88" class="disass";>
+0x0000018AFE8D6D80  nop
+0x0000018AFE8D6D81  nop
+0x0000018AFE8D6D82  nop
+0x0000018AFE8D6D83  nop
+0x0000018AFE8D6D84  nop
+0x0000018AFE8D6D85  nop
+0x0000018AFE8D6D86  nop
+0x0000018AFE8D6D87  nop
+0x0000018AFE8D6D88  mov [rsp+0x08], ecx
+0x0000018AFE8D6D8C  mov eax, 0x2156
+0x0000018AFE8D6D91  add [r8], al
+0x0000018AFE8D6D94  xchg esi, eax
+0x0000018AFE8D6D95  add eax, 0x48011A
+0x0000018AFE8D6D9A  add [rax], al
+0x0000018AFE8D6D9C  add [rax], al
+0x0000018AFE8D6D9E  add [rax], al</textarea></pre></td></tr>
+
+<tr><td colspan="2"><font color="#ff6965";><span class="memo">0x0000018afe870000</span> Suspicious memory region: [Hidden PE] </font></td></tr>
+<tr><td class = "normal">Allocation Base:</td> <td> 0x0000018afe870000</td></tr>
+<tr><td class = "normal">Region Size:</td> <td> 0x75000 bytes</td></tr>
+<tr><td class = "normal">Allocated Memory Protection:</td> <td> RWX</td></tr>
+<tr><td class = "normal">Memory Protection:</td> <td> RWX</td></tr>
+<tr><td class = "normal">Memory State:</td> <td> COMMIT</td></tr>
+<tr><td class = "normal">Memory Type:</td> <td> PRIVATE</td></tr>
+<tr><td colspan="2"><pre><textarea rows="16" cols="88" class="hex";>
+0x0000018afe870000 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x0000018afe870010 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x0000018afe870020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x0000018afe870030 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x0000018afe870040 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x0000018afe870050 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x0000018afe870060 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x0000018afe870070 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x0000018afe870080 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x0000018afe870090 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x0000018afe8700a0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x0000018afe8700b0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x0000018afe8700c0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x0000018afe8700d0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x0000018afe8700e0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x0000018afe8700f0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................</textarea></pre></td></tr>
+<tr><td colspan="2"><pre><textarea rows="8" cols="88" class="disass";>
+0x0000018AFE870000  add [rax], al
+0x0000018AFE870002  add [rax], al
+0x0000018AFE870004  add [rax], al
+0x0000018AFE870006  add [rax], al
+0x0000018AFE870008  add [rax], al
+0x0000018AFE87000A  add [rax], al
+0x0000018AFE87000C  add [rax], al
+0x0000018AFE87000E  add [rax], al
+0x0000018AFE870010  add [rax], al
+0x0000018AFE870012  add [rax], al
+0x0000018AFE870014  add [rax], al
+0x0000018AFE870016  add [rax], al
+0x0000018AFE870018  add [rax], al
+0x0000018AFE87001A  add [rax], al
+0x0000018AFE87001C  add [rax], al
+0x0000018AFE87001E  add [rax], al</textarea></pre></td></tr>
+
+<tr><td colspan="2"><table style="border:1px solid black;margin-left: 40px;">
+<tr><td>InternalName (from memory):</td><td>mimikatz</td></tr>
+<tr><td>OriginalFileName (from memory):</td><td>mimikatz.exe</td></tr>
+<tr><td>ProductName (from memory):</td><td>mimikatz</td></tr>
+<tr><td>CompanyName (from memory):</td><td>gentilkiwi (Benjamin DELPY)</td></tr>
+<tr><td>FileDescription (from memory):</td><td>mimikatz for Windows</td></tr>
+<tr><td>FileVersion (from memory):</td><td>2.0.0.0</td></tr>
+<tr><td>LegalCopyright (from memory):</td><td>Copyright (c) 2007 - 2015 gentilkiwi (Benjamin DELPY)</td></tr>
+<tr><td>ProductVersion (from memory):</td><td>2.0.0.0</td></tr>
+<tr><td>PrivateBuild (from memory):</td><td>Build with love for POC only</td></tr>
+<tr><td>SpecialBuild (from memory):</td><td>kiwi flavor !</td></tr>
+</table></td></tr>
+<tr><td colspan="2"><font color="#ff6965";><span class="memo">0x00007ff4fa450000</span> Suspicious memory region: 
+[Memory region referenced in clr.dll at 0x00007ffccb300ec0] </font></td></tr>
+<tr><td class = "normal">Allocation Base:</td> <td> 0x00007ff4fa450000</td></tr>
+<tr><td class = "normal">Region Size:</td> <td> 0x1000 bytes</td></tr>
+<tr><td class = "normal">Allocated Memory Protection:</td> <td> RWX</td></tr>
+<tr><td class = "normal">Memory Protection:</td> <td> RWX</td></tr>
+<tr><td class = "normal">Memory State:</td> <td> COMMIT</td></tr>
+<tr><td class = "normal">Memory Type:</td> <td> PRIVATE</td></tr>
+<tr><td colspan="2"><pre><textarea rows="16" cols="88" class="hex";>
+0x00007ff4fa450000 00 00 00 00 00 00 00 00 78 0d 00 00 00 00 00 00  ........x.......
+0x00007ff4fa450010 0c 00 00 00 49 c7 c2 00 00 00 00 48 b8 d0 49 86  ....I......H..I.
+0x00007ff4fa450020 ca fc 7f 00 00 ff e0 49 c7 c2 01 00 00 00 48 b8  .......I......H.
+0x00007ff4fa450030 d0 49 86 ca fc 7f 00 00 ff e0 49 c7 c2 02 00 00  .I........I.....
+0x00007ff4fa450040 00 48 b8 d0 49 86 ca fc 7f 00 00 ff e0 49 c7 c2  .H..I........I..
+0x00007ff4fa450050 03 00 00 00 48 b8 d0 49 86 ca fc 7f 00 00 ff e0  ....H..I........
+0x00007ff4fa450060 49 c7 c2 04 00 00 00 48 b8 d0 49 86 ca fc 7f 00  I......H..I.....
+0x00007ff4fa450070 00 ff e0 49 c7 c2 05 00 00 00 48 b8 d0 49 86 ca  ...I......H..I..
+0x00007ff4fa450080 fc 7f 00 00 ff e0 49 c7 c2 06 00 00 00 48 b8 d0  ......I......H..
+0x00007ff4fa450090 49 86 ca fc 7f 00 00 ff e0 49 c7 c2 07 00 00 00  I........I......
+0x00007ff4fa4500a0 48 b8 d0 49 86 ca fc 7f 00 00 ff e0 49 c7 c2 08  H..I........I...
+0x00007ff4fa4500b0 00 00 00 48 b8 d0 49 86 ca fc 7f 00 00 ff e0 49  ...H..I........I
+0x00007ff4fa4500c0 c7 c2 09 00 00 00 48 b8 d0 49 86 ca fc 7f 00 00  ......H..I......
+0x00007ff4fa4500d0 ff e0 49 c7 c2 0a 00 00 00 48 b8 d0 49 86 ca fc  ..I......H..I...
+0x00007ff4fa4500e0 7f 00 00 ff e0 49 c7 c2 0b 00 00 00 48 b8 d0 49  .....I......H..I
+0x00007ff4fa4500f0 86 ca fc 7f 00 00 ff e0 00 00 00 00 00 00 00 00 ................</textarea></pre></td></tr>
+<tr><td colspan="2"><pre><textarea rows="8" cols="88" class="disass";>
+0x00007FF4FA450000  add [rax], al
+0x00007FF4FA450002  add [rax], al
+0x00007FF4FA450004  add [rax], al
+0x00007FF4FA450006  add [rax], al
+0x00007FF4FA450008  js 0x00007FF4FA450017
+0x00007FF4FA45000A  add [rax], al
+0x00007FF4FA45000C  add [rax], al
+0x00007FF4FA45000E  add [rax], al
+0x00007FF4FA450010  or al, 0x00
+0x00007FF4FA450012  add [rax], al
+0x00007FF4FA450014  mov r10, 0x00
+0x00007FF4FA45001D  ror byte ptr [rcx-0x7A], 0x01</textarea></pre></td></tr>
+
+<tr><td colspan="2"><font color="#ff6965";><span class="memo">0x00007ff4fa460000</span> Suspicious memory region: 
+[Memory region referenced in clr.dll at 0x00007ffccb2f5c40] </font></td></tr>
+<tr><td class = "normal">Allocation Base:</td> <td> 0x00007ff4fa460000</td></tr>
+<tr><td class = "normal">Region Size:</td> <td> 0x1000 bytes</td></tr>
+<tr><td class = "normal">Allocated Memory Protection:</td> <td> RWX</td></tr>
+<tr><td class = "normal">Memory Protection:</td> <td> RWX</td></tr>
+<tr><td class = "normal">Memory State:</td> <td> COMMIT</td></tr>
+<tr><td class = "normal">Memory Type:</td> <td> PRIVATE</td></tr>
+<tr><td colspan="2"><pre><textarea rows="16" cols="88" class="hex";>
+0x00007ff4fa460000 d8 ff ff ff ff ff ff ff 08 00 00 00 00 00 00 00  ................
+0x00007ff4fa460010 01 00 00 00 00 00 00 00 00 02 0e 03 38 00 00 00  ............8...
+0x00007ff4fa460020 68 01 d7 07 0c 00 00 00 d8 5d e2 c7 fc 7f 00 00  h........]......
+0x00007ff4fa460030 00 10 e0 c7 fc 7f 00 00 08 4a f9 c7 fc 7f 00 00  .........J......
+0x00007ff4fa460040 f8 2a e0 c7 fc 7f 00 00 00 8e 0b 00 00 00 00 00  .*..............
+0x00007ff4fa460050 00 00 00 00 00 00 00 00 70 00 47 fa f4 7f 00 00  ........p.G.....
+0x00007ff4fa460060 b0 00 47 fa f4 7f 00 00 00 00 00 00 00 00 00 00  ..G.............
+0x00007ff4fa460070 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x00007ff4fa460080 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x00007ff4fa460090 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x00007ff4fa4600a0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x00007ff4fa4600b0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x00007ff4fa4600c0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x00007ff4fa4600d0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x00007ff4fa4600e0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x00007ff4fa4600f0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................</textarea></pre></td></tr>
+<tr><td colspan="2"><pre><textarea rows="8" cols="88" class="disass";>
+0x00007FF4FA460000  fdivr st0, st7
+0x00007FF4FA460007  dec dword ptr [rax]
+0x00007FF4FA460009  add [rax], al
+0x00007FF4FA46000B  add [rax], al
+0x00007FF4FA46000D  add [rax], al
+0x00007FF4FA46000F  add [rcx], al
+0x00007FF4FA460011  add [rax], al
+0x00007FF4FA460013  add [rax], al
+0x00007FF4FA460015  add [rax], al
+0x00007FF4FA460017  add [rax], al
+0x00007FF4FA460019  add cl, [rsi]
+0x00007FF4FA46001B  add edi, [rax]
+0x00007FF4FA46001D  add [rax], al</textarea></pre></td></tr>
+
+<tr><td colspan="2"><font color="#ff6965";><span class="memo">0x00007ff4fa470000</span> Suspicious memory region: [Executable Memory Region NOT MEM_IMAGE] </font></td></tr>
+<tr><td class = "normal">Allocation Base:</td> <td> 0x00007ff4fa460000</td></tr>
+<tr><td class = "normal">Region Size:</td> <td> 0x1000 bytes</td></tr>
+<tr><td class = "normal">Allocated Memory Protection:</td> <td> RWX</td></tr>
+<tr><td class = "normal">Memory Protection:</td> <td> RWX</td></tr>
+<tr><td class = "normal">Memory State:</td> <td> COMMIT</td></tr>
+<tr><td class = "normal">Memory Type:</td> <td> PRIVATE</td></tr>
+<tr><td colspan="2"><pre><textarea rows="16" cols="88" class="hex";>
+0x00007ff4fa470000 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x00007ff4fa470010 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x00007ff4fa470020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x00007ff4fa470030 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x00007ff4fa470040 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x00007ff4fa470050 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x00007ff4fa470060 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x00007ff4fa470070 14 00 45 fa f4 7f 00 00 27 00 45 fa f4 7f 00 00  ..E.....'.E.....
+0x00007ff4fa470080 3a 00 45 fa f4 7f 00 00 4d 00 45 fa f4 7f 00 00  :.E.....M.E.....
+0x00007ff4fa470090 60 00 45 fa f4 7f 00 00 73 00 45 fa f4 7f 00 00  `.E.....s.E.....
+0x00007ff4fa4700a0 86 00 45 fa f4 7f 00 00 99 00 45 fa f4 7f 00 00  ..E.......E.....
+0x00007ff4fa4700b0 ac 00 45 fa f4 7f 00 00 bf 00 45 fa f4 7f 00 00  ..E.......E.....
+0x00007ff4fa4700c0 d2 00 45 fa f4 7f 00 00 e5 00 45 fa f4 7f 00 00  ..E.......E.....
+0x00007ff4fa4700d0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x00007ff4fa4700e0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x00007ff4fa4700f0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................</textarea></pre></td></tr>
+<tr><td colspan="2"><pre><textarea rows="8" cols="88" class="disass";>
+0x00007FF4FA470000  add [rax], al
+0x00007FF4FA470002  add [rax], al
+0x00007FF4FA470004  add [rax], al
+0x00007FF4FA470006  add [rax], al
+0x00007FF4FA470008  add [rax], al
+0x00007FF4FA47000A  add [rax], al
+0x00007FF4FA47000C  add [rax], al
+0x00007FF4FA47000E  add [rax], al
+0x00007FF4FA470010  add [rax], al
+0x00007FF4FA470012  add [rax], al
+0x00007FF4FA470014  add [rax], al
+0x00007FF4FA470016  add [rax], al
+0x00007FF4FA470018  add [rax], al
+0x00007FF4FA47001A  add [rax], al
+0x00007FF4FA47001C  add [rax], al
+0x00007FF4FA47001E  add [rax], al</textarea></pre></td></tr>
+
+<tr><td colspan="2"><span class="memo">0x00007ff4fa500000</span>, R, COMMIT, MAPPED,<span class="memnorm"> </span>, Region Size: 0x5000 bytes, Alloc.Base: 0x00007ff4fa500000, Alloc.Mem.Protec.: R</td></tr>
+<tr><td colspan="2"><span class="memo">0x00007ff5fc620000</span>, RW, COMMIT, PRIVATE,<span class="memnorm"> </span>, Region Size: 0x1000 bytes, Alloc.Base: 0x00007ff5fa620000, Alloc.Mem.Protec.: RW</td></tr>
+<tr><td colspan="2"><span class="memo">0x00007ff5fc630000</span>, R, COMMIT, MAPPED,<span class="memnorm"> </span>, Region Size: 0x1000 bytes, Alloc.Base: 0x00007ff5fc630000, Alloc.Mem.Protec.: R</td></tr>
+<tr><td colspan="2"><span class="memo">0x00007ff5fc640000</span>, R, COMMIT, MAPPED,<span class="memnorm"> </span>, Region Size: 0x23000 bytes, Alloc.Base: 0x00007ff5fc640000, Alloc.Mem.Protec.: R</td></tr>
+<tr><td colspan="2"><span class="memo">0x00007ffc6b270000</span>, RW, COMMIT, PRIVATE,<span class="memnorm"> </span>, Region Size: 0x3000 bytes, Alloc.Base: 0x00007ffc6b270000, Alloc.Mem.Protec.: PAGE_NOACCESS</td></tr>
+<tr><td colspan="2"><font color="#ff6965";><span class="memo">0x00007ffc6b273000</span> Suspicious memory region: 
+[Memory region referenced in clr.dll at 0x00007ffccb301ae0] </font></td></tr>
+<tr><td class = "normal">Allocation Base:</td> <td> 0x00007ffc6b270000</td></tr>
+<tr><td class = "normal">Region Size:</td> <td> 0x1000 bytes</td></tr>
+<tr><td class = "normal">Allocated Memory Protection:</td> <td> PAGE_NOACCESS</td></tr>
+<tr><td class = "normal">Memory Protection:</td> <td> RWX</td></tr>
+<tr><td class = "normal">Memory State:</td> <td> COMMIT</td></tr>
+<tr><td class = "normal">Memory Type:</td> <td> PRIVATE</td></tr>
+<tr><td colspan="2"><pre><textarea rows="16" cols="88" class="hex";>
+0x00007ffc6b273000 00 00 00 00 00 00 00 00 00 30 27 6b fc 7f 00 00  .........0'k....
+0x00007ffc6b273010 00 10 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x00007ffc6b273020 01 00 00 00 00 00 00 20 40 00 00 00 00 00 00 00  ....... @.......
+0x00007ffc6b273030 48 85 c9 74 12 48 8b 01 49 ba 18 00 46 fa f4 7f  H..t.H..I...F...
+0x00007ffc6b273040 00 00 49 3b c2 74 0c 48 b8 20 12 36 c8 fc 7f 00  ..I;.t.H. .6....
+0x00007ffc6b273050 00 ff e0 49 ba b8 37 fd c7 fc 7f 00 00 48 b8 a0  ...I..7......H..
+0x00007ffc6b273060 4b 86 ca fc 7f 00 00 ff e0 00 00 00 00 00 00 00  K...............
+0x00007ffc6b273070 01 00 00 00 00 00 00 20 40 00 00 00 00 00 00 00  ....... @.......
+0x00007ffc6b273080 48 85 c9 74 12 48 8b 01 49 ba 18 00 46 fa f4 7f  H..t.H..I...F...
+0x00007ffc6b273090 00 00 49 3b c2 74 0c 48 b8 90 1d 3f c8 fc 7f 00  ..I;.t.H...?....
+0x00007ffc6b2730a0 00 ff e0 49 ba f8 6a 12 c8 fc 7f 00 00 48 b8 a0  ...I..j......H..
+0x00007ffc6b2730b0 4b 86 ca fc 7f 00 00 ff e0 00 00 00 00 00 00 00  K...............
+0x00007ffc6b2730c0 01 00 00 00 00 00 00 20 40 00 00 00 00 00 00 00  ....... @.......
+0x00007ffc6b2730d0 48 85 c9 74 12 48 8b 01 49 ba 18 00 46 fa f4 7f  H..t.H..I...F...
+0x00007ffc6b2730e0 00 00 49 3b c2 74 0c 48 b8 d0 81 38 c8 fc 7f 00  ..I;.t.H...8....
+0x00007ffc6b2730f0 00 ff e0 49 ba e0 5b fd c7 fc 7f 00 00 48 b8 a0 ...I..[......H..</textarea></pre></td></tr>
+<tr><td colspan="2"><pre><textarea rows="8" cols="88" class="disass";>
+0x00007FFC6B273000  add [rax], al
+0x00007FFC6B273002  add [rax], al
+0x00007FFC6B273004  add [rax], al
+0x00007FFC6B273006  add [rax], al
+0x00007FFC6B273008  add [rax], dh
+0x00007FFC6B27300B  imul edi, esp, 0x7F
+0x00007FFC6B27300E  add [rax], al
+0x00007FFC6B273010  add [rax], dl
+0x00007FFC6B273012  add [rax], al
+0x00007FFC6B273014  add [rax], al
+0x00007FFC6B273016  add [rax], al
+0x00007FFC6B273018  add [rax], al
+0x00007FFC6B27301A  add [rax], al
+0x00007FFC6B27301C  add [rax], al
+0x00007FFC6B27301E  add [rax], al</textarea></pre></td></tr>
+
+<tr><td colspan="2"><span class="memo">0x00007ffc6b274000</span>, RW, COMMIT, PRIVATE,<span class="memnorm"> </span>, Region Size: 0x1000 bytes, Alloc.Base: 0x00007ffc6b270000, Alloc.Mem.Protec.: PAGE_NOACCESS</td></tr>
+<tr><td colspan="2"><font color="#ff6965";><span class="memo">0x00007ffc6b27d000</span> Suspicious memory region: 
+[Memory region referenced in clr.dll at 0x00007ffccb301b78] </font></td></tr>
+<tr><td class = "normal">Allocation Base:</td> <td> 0x00007ffc6b270000</td></tr>
+<tr><td class = "normal">Region Size:</td> <td> 0x2000 bytes</td></tr>
+<tr><td class = "normal">Allocated Memory Protection:</td> <td> PAGE_NOACCESS</td></tr>
+<tr><td class = "normal">Memory Protection:</td> <td> RWX</td></tr>
+<tr><td class = "normal">Memory State:</td> <td> COMMIT</td></tr>
+<tr><td class = "normal">Memory Type:</td> <td> PRIVATE</td></tr>
+<tr><td colspan="2"><pre><textarea rows="16" cols="88" class="hex";>
+0x00007ffc6b27d000 00 00 00 00 00 00 00 00 00 d0 27 6b fc 7f 00 00  ..........'k....
+0x00007ffc6b27d010 00 30 00 00 00 00 00 00 00 00 00 00 00 00 00 00  .0..............
+0x00007ffc6b27d020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x00007ffc6b27d030 80 d0 00 00 00 d1 00 00 3c d0 00 00 01 2f 0d 00  ........<..../..
+0x00007ffc6b27d040 2f 95 48 00 00 00 2a 85 40 00 00 00 25 25 38 00  /.H...*.@...%%8.
+0x00007ffc6b27d050 00 00 20 15 30 00 00 00 04 42 00 00 00 00 00 2a  .. .0....B.....*
+0x00007ffc6b27d060 00 00 00 00 00 00 00 00 10 3a 38 c8 fc 7f 00 00  .........:8.....
+0x00007ffc6b27d070 01 00 00 00 00 00 00 38 80 00 00 00 00 00 00 00  .......8........
+0x00007ffc6b27d080 48 83 ec 28 48 85 c9 74 49 48 8b 01 49 ba 18 00  H..(H..tIH..I...
+0x00007ffc6b27d090 46 fa f4 7f 00 00 49 3b c2 75 37 48 89 4c 24 30  F.....I;.u7H.L$0
+0x00007ffc6b27d0a0 48 89 54 24 38 4c 89 44 24 40 4c 89 4c 24 48 48  H.T$8L.D$@L.L$HH
+0x00007ffc6b27d0b0 8b 41 28 48 8b 49 10 ff d0 48 8b 4c 24 30 48 8b  .A(H.I...H.L$0H.
+0x00007ffc6b27d0c0 54 24 38 4c 8b 44 24 40 4c 8b 4c 24 48 48 85 c0  T$8L.D$@L.L$HH..
+0x00007ffc6b27d0d0 75 11 48 b8 10 3a 38 c8 fc 7f 00 00 48 83 c4 28  u.H..:8.....H..(
+0x00007ffc6b27d0e0 48 ff e0 49 ba 38 cf fc c7 fc 7f 00 00 48 b8 80  H..I.8.......H..
+0x00007ffc6b27d0f0 4a 86 ca fc 7f 00 00 48 83 c4 28 48 ff e0 00 00 J......H..(H....</textarea></pre></td></tr>
+<tr><td colspan="2"><pre><textarea rows="8" cols="88" class="disass";>
+0x00007FFC6B27D000  add [rax], al
+0x00007FFC6B27D002  add [rax], al
+0x00007FFC6B27D004  add [rax], al
+0x00007FFC6B27D006  add [rax], al
+0x00007FFC6B27D008  add al, dl
+0x00007FFC6B27D00B  imul edi, esp, 0x7F
+0x00007FFC6B27D00E  add [rax], al
+0x00007FFC6B27D010  add [rax], dh
+0x00007FFC6B27D012  add [rax], al
+0x00007FFC6B27D014  add [rax], al
+0x00007FFC6B27D016  add [rax], al
+0x00007FFC6B27D018  add [rax], al
+0x00007FFC6B27D01A  add [rax], al
+0x00007FFC6B27D01C  add [rax], al
+0x00007FFC6B27D01E  add [rax], al</textarea></pre></td></tr>
+
+<tr><td colspan="2"><span class="memo">0x00007ffc6b280000</span>, RW, COMMIT, PRIVATE,<span class="memnorm"> </span>, Region Size: 0x9000 bytes, Alloc.Base: 0x00007ffc6b280000, Alloc.Mem.Protec.: PAGE_NOACCESS</td></tr>
+<tr><td colspan="2"><font color="#ff6965";><span class="memo">0x00007ffc6b28d000</span> Suspicious memory region: [Executable Memory Region NOT MEM_IMAGE] </font></td></tr>
+<tr><td class = "normal">Allocation Base:</td> <td> 0x00007ffc6b280000</td></tr>
+<tr><td class = "normal">Region Size:</td> <td> 0x1000 bytes</td></tr>
+<tr><td class = "normal">Allocated Memory Protection:</td> <td> PAGE_NOACCESS</td></tr>
+<tr><td class = "normal">Memory Protection:</td> <td> RWX</td></tr>
+<tr><td class = "normal">Memory State:</td> <td> COMMIT</td></tr>
+<tr><td class = "normal">Memory Type:</td> <td> PRIVATE</td></tr>
+<tr><td colspan="2"><pre><textarea rows="16" cols="88" class="hex";>
+0x00007ffc6b28d000 00 00 00 00 00 00 00 00 00 d0 28 6b fc 7f 00 00  ..........(k....
+0x00007ffc6b28d010 00 30 00 00 00 00 00 00 00 00 00 00 00 00 00 00  .0..............
+0x00007ffc6b28d020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x00007ffc6b28d030 80 d0 00 00 00 d1 00 00 3c d0 00 00 01 2f 0d 00  ........<..../..
+0x00007ffc6b28d040 2f 95 48 00 00 00 2a 85 40 00 00 00 25 25 38 00  /.H...*.@...%%8.
+0x00007ffc6b28d050 00 00 20 15 30 00 00 00 04 42 00 00 00 00 00 2a  .. .0....B.....*
+0x00007ffc6b28d060 00 00 00 00 00 00 00 00 b0 b8 30 ca fc 7f 00 00  ..........0.....
+0x00007ffc6b28d070 01 00 00 00 00 00 00 38 80 00 00 00 00 00 00 00  .......8........
+0x00007ffc6b28d080 48 83 ec 28 48 85 c9 74 49 48 8b 01 49 ba 18 00  H..(H..tIH..I...
+0x00007ffc6b28d090 46 fa f4 7f 00 00 49 3b c2 75 37 48 89 4c 24 30  F.....I;.u7H.L$0
+0x00007ffc6b28d0a0 48 89 54 24 38 4c 89 44 24 40 4c 89 4c 24 48 48  H.T$8L.D$@L.L$HH
+0x00007ffc6b28d0b0 8b 41 28 48 8b 49 10 ff d0 48 8b 4c 24 30 48 8b  .A(H.I...H.L$0H.
+0x00007ffc6b28d0c0 54 24 38 4c 8b 44 24 40 4c 8b 4c 24 48 48 85 c0  T$8L.D$@L.L$HH..
+0x00007ffc6b28d0d0 75 11 48 b8 b0 b8 30 ca fc 7f 00 00 48 83 c4 28  u.H...0.....H..(
+0x00007ffc6b28d0e0 48 ff e0 49 ba 08 86 2f ca fc 7f 00 00 48 b8 80  H..I.../.....H..
+0x00007ffc6b28d0f0 4a 86 ca fc 7f 00 00 48 83 c4 28 48 ff e0 00 00 J......H..(H....</textarea></pre></td></tr>
+<tr><td colspan="2"><pre><textarea rows="8" cols="88" class="disass";>
+0x00007FFC6B28D000  add [rax], al
+0x00007FFC6B28D002  add [rax], al
+0x00007FFC6B28D004  add [rax], al
+0x00007FFC6B28D006  add [rax], al
+0x00007FFC6B28D008  add al, dl
+0x00007FFC6B28D00A  sub [rbx-0x04], ch
+0x00007FFC6B28D00D  jnle 0x00007FFC6B28D00F
+0x00007FFC6B28D00F  add [rax], al
+0x00007FFC6B28D011  xor [rax], al
+0x00007FFC6B28D013  add [rax], al
+0x00007FFC6B28D015  add [rax], al
+0x00007FFC6B28D017  add [rax], al
+0x00007FFC6B28D019  add [rax], al
+0x00007FFC6B28D01B  add [rax], al
+0x00007FFC6B28D01D  add [rax], al</textarea></pre></td></tr>
+
+<tr><td colspan="2"><span class="memo">0x00007ffc6b290000</span>, RW, COMMIT, PRIVATE,<span class="memnorm"> </span>, Region Size: 0x1000 bytes, Alloc.Base: 0x00007ffc6b290000, Alloc.Mem.Protec.: PAGE_NOACCESS</td></tr>
+<tr><td colspan="2"><font color="#ff6965";><span class="memo">0x00007ffc6b29b000</span> Suspicious memory region: [Executable Memory Region NOT MEM_IMAGE] </font></td></tr>
+<tr><td class = "normal">Allocation Base:</td> <td> 0x00007ffc6b290000</td></tr>
+<tr><td class = "normal">Region Size:</td> <td> 0x1000 bytes</td></tr>
+<tr><td class = "normal">Allocated Memory Protection:</td> <td> PAGE_NOACCESS</td></tr>
+<tr><td class = "normal">Memory Protection:</td> <td> RWX</td></tr>
+<tr><td class = "normal">Memory State:</td> <td> COMMIT</td></tr>
+<tr><td class = "normal">Memory Type:</td> <td> PRIVATE</td></tr>
+<tr><td colspan="2"><pre><textarea rows="16" cols="88" class="hex";>
+0x00007ffc6b29b000 00 00 00 00 00 00 00 00 00 b0 29 6b fc 7f 00 00  ..........)k....
+0x00007ffc6b29b010 00 20 00 00 00 00 00 00 00 00 00 00 00 00 00 00  . ..............
+0x00007ffc6b29b020 90 48 b8 00 00 00 00 0e 00 00 00 50 48 b8 70 1f  .H.........PH.p.
+0x00007ffc6b29b030 86 ca fc 7f 00 00 ff e0 00 00 00 00 00 00 00 00  ................
+0x00007ffc6b29b040 90 48 b8 00 00 00 00 03 00 00 00 50 48 b8 70 1f  .H.........PH.p.
+0x00007ffc6b29b050 86 ca fc 7f 00 00 ff e0 00 00 00 00 00 00 00 00  ................
+0x00007ffc6b29b060 90 48 b8 00 00 00 00 04 00 00 00 50 48 b8 70 1f  .H.........PH.p.
+0x00007ffc6b29b070 86 ca fc 7f 00 00 ff e0 00 00 00 00 00 00 00 00  ................
+0x00007ffc6b29b080 90 48 b8 98 41 94 35 fe 3f 00 80 50 48 b8 70 1f  .H..A.5.?..PH.p.
+0x00007ffc6b29b090 86 ca fc 7f 00 00 ff e0 00 00 00 00 00 00 00 00  ................
+0x00007ffc6b29b0a0 90 48 b8 01 00 00 00 08 00 00 00 50 48 b8 70 1f  .H.........PH.p.
+0x00007ffc6b29b0b0 86 ca fc 7f 00 00 ff e0 00 00 00 00 00 00 00 00  ................
+0x00007ffc6b29b0c0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x00007ffc6b29b0d0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x00007ffc6b29b0e0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x00007ffc6b29b0f0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................</textarea></pre></td></tr>
+<tr><td colspan="2"><pre><textarea rows="8" cols="88" class="disass";>
+0x00007FFC6B29B000  add [rax], al
+0x00007FFC6B29B002  add [rax], al
+0x00007FFC6B29B004  add [rax], al
+0x00007FFC6B29B006  add [rax], al
+0x00007FFC6B29B008  add [rax+0x7FFC6B29], dh
+0x00007FFC6B29B00E  add [rax], al
+0x00007FFC6B29B010  add [rax], ah
+0x00007FFC6B29B012  add [rax], al
+0x00007FFC6B29B014  add [rax], al
+0x00007FFC6B29B016  add [rax], al
+0x00007FFC6B29B018  add [rax], al
+0x00007FFC6B29B01A  add [rax], al
+0x00007FFC6B29B01C  add [rax], al
+0x00007FFC6B29B01E  add [rax], al</textarea></pre></td></tr>
+
+<tr><td colspan="2"><font color="#ff6965";><span class="memo">0x00007ffc6b29d000</span> Suspicious memory region: [Executable Memory Region NOT MEM_IMAGE] </font></td></tr>
+<tr><td class = "normal">Allocation Base:</td> <td> 0x00007ffc6b290000</td></tr>
+<tr><td class = "normal">Region Size:</td> <td> 0x1000 bytes</td></tr>
+<tr><td class = "normal">Allocated Memory Protection:</td> <td> PAGE_NOACCESS</td></tr>
+<tr><td class = "normal">Memory Protection:</td> <td> RWX</td></tr>
+<tr><td class = "normal">Memory State:</td> <td> COMMIT</td></tr>
+<tr><td class = "normal">Memory Type:</td> <td> PRIVATE</td></tr>
+<tr><td colspan="2"><pre><textarea rows="16" cols="88" class="hex";>
+0x00007ffc6b29d000 00 00 00 00 00 00 00 00 00 d0 29 6b fc 7f 00 00  ..........)k....
+0x00007ffc6b29d010 00 f0 02 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x00007ffc6b29d020 48 b8 b0 8f e1 c7 fc 7f 00 00 48 39 01 0f 85 32  H.........H9...2
+0x00007ffc6b29d030 f0 02 00 48 b8 f0 23 3e c8 fc 7f 00 00 ff e0 cc  ...H..#>........
+0x00007ffc6b29d040 48 b8 d8 c6 31 ca fc 7f 00 00 48 39 01 0f 85 12  H...1.....H9....
+0x00007ffc6b29d050 f0 02 00 48 b8 20 56 3b c8 fc 7f 00 00 ff e0 cc  ...H. V;........
+0x00007ffc6b29d060 48 b8 20 a1 e2 c7 fc 7f 00 00 48 39 01 0f 85 62  H. .......H9...b
+0x00007ffc6b29d070 f0 02 00 48 b8 d0 df 37 c8 fc 7f 00 00 ff e0 cc  ...H...7........
+0x00007ffc6b29d080 48 b8 70 2f 2f ca fc 7f 00 00 48 39 01 0f 85 b2  H.p//.....H9....
+0x00007ffc6b29d090 f0 02 00 48 b8 50 9a 3b c8 fc 7f 00 00 ff e0 cc  ...H.P.;........
+0x00007ffc6b29d0a0 48 b8 d8 c0 31 ca fc 7f 00 00 48 39 01 0f 85 02  H...1.....H9....
+0x00007ffc6b29d0b0 f1 02 00 48 b8 e0 19 39 6b fc 7f 00 00 ff e0 cc  ...H...9k.......
+0x00007ffc6b29d0c0 48 b8 d8 c0 31 ca fc 7f 00 00 48 39 01 0f 85 52  H...1.....H9...R
+0x00007ffc6b29d0d0 f1 02 00 48 b8 f0 19 39 6b fc 7f 00 00 ff e0 cc  ...H...9k.......
+0x00007ffc6b29d0e0 48 b8 50 83 19 c7 fc 7f 00 00 48 39 01 0f 85 a2  H.P.......H9....
+0x00007ffc6b29d0f0 f1 02 00 48 b8 70 00 48 c7 fc 7f 00 00 ff e0 cc ...H.p.H........</textarea></pre></td></tr>
+<tr><td colspan="2"><pre><textarea rows="8" cols="88" class="disass";>
+0x00007FFC6B29D000  add [rax], al
+0x00007FFC6B29D002  add [rax], al
+0x00007FFC6B29D004  add [rax], al
+0x00007FFC6B29D006  add [rax], al
+0x00007FFC6B29D008  add al, dl
+0x00007FFC6B29D00A  sub [rbx-0x04], ebp
+0x00007FFC6B29D00D  jnle 0x00007FFC6B29D00F
+0x00007FFC6B29D00F  add [rax], al
+0x00007FFC6B29D012  add al, [rax]
+0x00007FFC6B29D014  add [rax], al
+0x00007FFC6B29D016  add [rax], al
+0x00007FFC6B29D018  add [rax], al
+0x00007FFC6B29D01A  add [rax], al
+0x00007FFC6B29D01C  add [rax], al
+0x00007FFC6B29D01E  add [rax], al</textarea></pre></td></tr>
+
+<tr><td colspan="2"><font color="#ff6965";><span class="memo">0x00007ffc6b2cc000</span> Suspicious memory region: [Executable Memory Region NOT MEM_IMAGE] </font></td></tr>
+<tr><td class = "normal">Allocation Base:</td> <td> 0x00007ffc6b290000</td></tr>
+<tr><td class = "normal">Region Size:</td> <td> 0x1000 bytes</td></tr>
+<tr><td class = "normal">Allocated Memory Protection:</td> <td> PAGE_NOACCESS</td></tr>
+<tr><td class = "normal">Memory Protection:</td> <td> RWX</td></tr>
+<tr><td class = "normal">Memory State:</td> <td> COMMIT</td></tr>
+<tr><td class = "normal">Memory Type:</td> <td> PRIVATE</td></tr>
+<tr><td colspan="2"><pre><textarea rows="16" cols="88" class="hex";>
+0x00007ffc6b2cc000 00 00 00 00 00 00 00 00 00 c0 2c 6b fc 7f 00 00  ..........,k....
+0x00007ffc6b2cc010 00 40 05 00 00 00 00 00 00 00 00 00 00 00 00 00  .@..............
+0x00007ffc6b2cc020 52 49 ba 30 2b 59 fc 8a 01 00 00 48 8b 01 48 8b  RI.0+Y.....H..H.
+0x00007ffc6b2cc030 d0 48 c1 e8 0c 48 03 c2 48 35 70 2c 00 00 48 25  .H...H..H5p,..H%
+0x00007ffc6b2cc040 f8 7f 00 00 4a 8b 04 10 49 ba 00 00 00 00 04 00  ....J...I.......
+0x00007ffc6b2cc050 00 00 48 3b 50 00 75 2b 4c 3b 50 08 75 25 48 8b  ..H;P.u+L;P.u%H.
+0x00007ffc6b2cc060 40 10 5a ff e0 48 b8 3c cd 59 fc 8a 01 00 00 83  @.Z..H.<.Y......
+0x00007ffc6b2cc070 00 ff 7d ac 49 83 cb 01 52 49 ba 00 00 00 00 04  ..}.I...RI......
+0x00007ffc6b2cc080 00 00 00 50 48 b8 30 20 86 ca fc 7f 00 00 ff e0  ...PH.0 ........
+0x00007ffc6b2cc090 52 49 ba 30 2b 59 fc 8a 01 00 00 48 8b 01 48 8b  RI.0+Y.....H..H.
+0x00007ffc6b2cc0a0 d0 48 c1 e8 0c 48 03 c2 48 35 30 61 00 00 48 25  .H...H..H50a..H%
+0x00007ffc6b2cc0b0 f8 7f 00 00 4a 8b 04 10 49 ba 01 00 00 00 08 00  ....J...I.......
+0x00007ffc6b2cc0c0 00 00 48 3b 50 00 75 2b 4c 3b 50 08 75 25 48 8b  ..H;P.u+L;P.u%H.
+0x00007ffc6b2cc0d0 40 10 5a ff e0 48 b8 40 cd 59 fc 8a 01 00 00 83  @.Z..H.@.Y......
+0x00007ffc6b2cc0e0 00 ff 7d ac 49 83 cb 01 52 49 ba 01 00 00 00 08  ..}.I...RI......
+0x00007ffc6b2cc0f0 00 00 00 50 48 b8 30 20 86 ca fc 7f 00 00 ff e0 ...PH.0 ........</textarea></pre></td></tr>
+<tr><td colspan="2"><pre><textarea rows="8" cols="88" class="disass";>
+0x00007FFC6B2CC000  add [rax], al
+0x00007FFC6B2CC002  add [rax], al
+0x00007FFC6B2CC004  add [rax], al
+0x00007FFC6B2CC006  add [rax], al
+0x00007FFC6B2CC008  add al, al
+0x00007FFC6B2CC00A  sub al, 0x6B
+0x00007FFC6B2CC00C  cld
+0x00007FFC6B2CC00D  jnle 0x00007FFC6B2CC00F
+0x00007FFC6B2CC00F  add [rax], al
+0x00007FFC6B2CC011  add eax, 0x00
+0x00007FFC6B2CC017  add [rax], al
+0x00007FFC6B2CC019  add [rax], al
+0x00007FFC6B2CC01B  add [rax], al
+0x00007FFC6B2CC01D  add [rax], al</textarea></pre></td></tr>
+
+<tr><td colspan="2"><span class="memo">0x00007ffc6b320000</span>, RW, COMMIT, PRIVATE,<span class="memnorm"> </span>, Region Size: 0x1000 bytes, Alloc.Base: 0x00007ffc6b320000, Alloc.Mem.Protec.: PAGE_NOACCESS</td></tr>
+<tr><td colspan="2"><span class="memo">0x00007ffc6b326000</span>, RW, COMMIT, PRIVATE,<span class="memnorm"> </span>, Region Size: 0x1000 bytes, Alloc.Base: 0x00007ffc6b320000, Alloc.Mem.Protec.: PAGE_NOACCESS</td></tr>
+<tr><td colspan="2"><font color="#ff6965";><span class="memo">0x00007ffc6b32c000</span> Suspicious memory region: [Executable Memory Region NOT MEM_IMAGE] </font></td></tr>
+<tr><td class = "normal">Allocation Base:</td> <td> 0x00007ffc6b320000</td></tr>
+<tr><td class = "normal">Region Size:</td> <td> 0x1000 bytes</td></tr>
+<tr><td class = "normal">Allocated Memory Protection:</td> <td> PAGE_NOACCESS</td></tr>
+<tr><td class = "normal">Memory Protection:</td> <td> RWX</td></tr>
+<tr><td class = "normal">Memory State:</td> <td> COMMIT</td></tr>
+<tr><td class = "normal">Memory Type:</td> <td> PRIVATE</td></tr>
+<tr><td colspan="2"><pre><textarea rows="16" cols="88" class="hex";>
+0x00007ffc6b32c000 00 00 00 00 00 00 00 00 00 c0 32 6b fc 7f 00 00  ..........2k....
+0x00007ffc6b32c010 00 40 00 00 00 00 00 00 00 00 00 00 00 00 00 00  .@..............
+0x00007ffc6b32c020 90 48 b8 01 00 00 00 02 00 00 00 50 48 b8 70 1f  .H.........PH.p.
+0x00007ffc6b32c030 86 ca fc 7f 00 00 ff e0 00 00 00 00 00 00 00 00  ................
+0x00007ffc6b32c040 90 48 b8 01 00 00 00 08 00 00 00 50 48 b8 70 1f  .H.........PH.p.
+0x00007ffc6b32c050 86 ca fc 7f 00 00 ff e0 00 00 00 00 00 00 00 00  ................
+0x00007ffc6b32c060 90 48 b8 00 00 00 00 08 00 00 00 50 48 b8 70 1f  .H.........PH.p.
+0x00007ffc6b32c070 86 ca fc 7f 00 00 ff e0 00 00 00 00 00 00 00 00  ................
+0x00007ffc6b32c080 90 48 b8 00 00 00 00 10 00 00 00 50 48 b8 70 1f  .H.........PH.p.
+0x00007ffc6b32c090 86 ca fc 7f 00 00 ff e0 00 00 00 00 00 00 00 00  ................
+0x00007ffc6b32c0a0 90 48 b8 00 00 00 00 18 00 00 00 50 48 b8 70 1f  .H.........PH.p.
+0x00007ffc6b32c0b0 86 ca fc 7f 00 00 ff e0 00 00 00 00 00 00 00 00  ................
+0x00007ffc6b32c0c0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x00007ffc6b32c0d0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x00007ffc6b32c0e0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x00007ffc6b32c0f0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................</textarea></pre></td></tr>
+<tr><td colspan="2"><pre><textarea rows="8" cols="88" class="disass";>
+0x00007FFC6B32C000  add [rax], al
+0x00007FFC6B32C002  add [rax], al
+0x00007FFC6B32C004  add [rax], al
+0x00007FFC6B32C006  add [rax], al
+0x00007FFC6B32C008  add al, al
+0x00007FFC6B32C00A  xor ch, [rbx-0x04]
+0x00007FFC6B32C00D  jnle 0x00007FFC6B32C00F
+0x00007FFC6B32C00F  add [rax], al
+0x00007FFC6B32C011  add [rax], al
+0x00007FFC6B32C014  add [rax], al
+0x00007FFC6B32C016  add [rax], al
+0x00007FFC6B32C018  add [rax], al
+0x00007FFC6B32C01A  add [rax], al
+0x00007FFC6B32C01C  add [rax], al
+0x00007FFC6B32C01E  add [rax], al</textarea></pre></td></tr>
+
+<tr><td colspan="2"><font color="#ff6965";><span class="memo">0x00007ffc6b330000</span> Suspicious memory region: [Executable Memory Region NOT MEM_IMAGE] </font></td></tr>
+<tr><td class = "normal">Allocation Base:</td> <td> 0x00007ffc6b320000</td></tr>
+<tr><td class = "normal">Region Size:</td> <td> 0x1000 bytes</td></tr>
+<tr><td class = "normal">Allocated Memory Protection:</td> <td> PAGE_NOACCESS</td></tr>
+<tr><td class = "normal">Memory Protection:</td> <td> RWX</td></tr>
+<tr><td class = "normal">Memory State:</td> <td> COMMIT</td></tr>
+<tr><td class = "normal">Memory Type:</td> <td> PRIVATE</td></tr>
+<tr><td colspan="2"><pre><textarea rows="16" cols="88" class="hex";>
+0x00007ffc6b330000 00 00 00 00 00 00 00 00 00 00 33 6b fc 7f 00 00  ..........3k....
+0x00007ffc6b330010 00 60 02 00 00 00 00 00 00 00 00 00 00 00 00 00  .`..............
+0x00007ffc6b330020 48 b8 60 43 e2 c7 fc 7f 00 00 48 39 01 0f 85 32  H.`C......H9...2
+0x00007ffc6b330030 60 02 00 48 b8 c0 c0 37 c8 fc 7f 00 00 ff e0 cc  `..H...7........
+0x00007ffc6b330040 48 b8 c8 3b e2 c7 fc 7f 00 00 48 39 01 0f 85 82  H..;......H9....
+0x00007ffc6b330050 60 02 00 48 b8 20 75 43 c8 fc 7f 00 00 ff e0 cc  `..H. uC........
+0x00007ffc6b330060 48 b8 98 9e e2 c7 fc 7f 00 00 48 39 01 0f 85 d2  H.........H9....
+0x00007ffc6b330070 60 02 00 48 b8 90 df 37 c8 fc 7f 00 00 ff e0 cc  `..H...7........
+0x00007ffc6b330080 48 b8 20 a1 e2 c7 fc 7f 00 00 48 39 01 0f 85 22  H. .......H9..."
+0x00007ffc6b330090 61 02 00 48 b8 d0 df 37 c8 fc 7f 00 00 ff e0 cc  a..H...7........
+0x00007ffc6b3300a0 48 b8 18 9b e2 c7 fc 7f 00 00 48 39 01 0f 85 72  H.........H9...r
+0x00007ffc6b3300b0 61 02 00 48 b8 c0 f1 37 c8 fc 7f 00 00 ff e0 cc  a..H...7........
+0x00007ffc6b3300c0 48 b8 40 ac e2 c7 fc 7f 00 00 48 39 01 0f 85 c2  H.@.......H9....
+0x00007ffc6b3300d0 61 02 00 48 b8 68 02 39 6b fc 7f 00 00 ff e0 cc  a..H.h.9k.......
+0x00007ffc6b3300e0 48 b8 d0 33 ea c7 fc 7f 00 00 48 39 01 0f 85 e2  H..3......H9....
+0x00007ffc6b3300f0 5f 02 00 48 b8 70 ee 37 c8 fc 7f 00 00 ff e0 cc _..H.p.7........</textarea></pre></td></tr>
+<tr><td colspan="2"><pre><textarea rows="8" cols="88" class="disass";>
+0x00007FFC6B330000  add [rax], al
+0x00007FFC6B330002  add [rax], al
+0x00007FFC6B330004  add [rax], al
+0x00007FFC6B330006  add [rax], al
+0x00007FFC6B330008  add [rax], al
+0x00007FFC6B33000A  xor ebp, [rbx-0x04]
+0x00007FFC6B33000D  jnle 0x00007FFC6B33000F
+0x00007FFC6B33000F  add [rax], al
+0x00007FFC6B330012  add al, [rax]
+0x00007FFC6B330014  add [rax], al
+0x00007FFC6B330016  add [rax], al
+0x00007FFC6B330018  add [rax], al
+0x00007FFC6B33001A  add [rax], al
+0x00007FFC6B33001C  add [rax], al
+0x00007FFC6B33001E  add [rax], al</textarea></pre></td></tr>
+
+<tr><td colspan="2"><font color="#ff6965";><span class="memo">0x00007ffc6b356000</span> Suspicious memory region: [Executable Memory Region NOT MEM_IMAGE] </font></td></tr>
+<tr><td class = "normal">Allocation Base:</td> <td> 0x00007ffc6b320000</td></tr>
+<tr><td class = "normal">Region Size:</td> <td> 0x1000 bytes</td></tr>
+<tr><td class = "normal">Allocated Memory Protection:</td> <td> PAGE_NOACCESS</td></tr>
+<tr><td class = "normal">Memory Protection:</td> <td> RWX</td></tr>
+<tr><td class = "normal">Memory State:</td> <td> COMMIT</td></tr>
+<tr><td class = "normal">Memory Type:</td> <td> PRIVATE</td></tr>
+<tr><td colspan="2"><pre><textarea rows="16" cols="88" class="hex";>
+0x00007ffc6b356000 00 00 00 00 00 00 00 00 00 60 35 6b fc 7f 00 00  .........`5k....
+0x00007ffc6b356010 00 a0 03 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x00007ffc6b356020 52 49 ba 30 2b 59 fc 8a 01 00 00 48 8b 01 48 8b  RI.0+Y.....H..H.
+0x00007ffc6b356030 d0 48 c1 e8 0c 48 03 c2 48 35 b8 39 00 00 48 25  .H...H..H5.9..H%
+0x00007ffc6b356040 f8 7f 00 00 4a 8b 04 10 49 ba 01 00 00 00 02 00  ....J...I.......
+0x00007ffc6b356050 00 00 48 3b 50 00 75 2b 4c 3b 50 08 75 25 48 8b  ..H;P.u+L;P.u%H.
+0x00007ffc6b356060 40 10 5a ff e0 48 b8 ac e8 59 fc 8a 01 00 00 83  @.Z..H...Y......
+0x00007ffc6b356070 00 ff 7d ac 49 83 cb 01 52 49 ba 01 00 00 00 02  ..}.I...RI......
+0x00007ffc6b356080 00 00 00 50 48 b8 30 20 86 ca fc 7f 00 00 ff e0  ...PH.0 ........
+0x00007ffc6b356090 52 49 ba 30 2b 59 fc 8a 01 00 00 48 8b 01 48 8b  RI.0+Y.....H..H.
+0x00007ffc6b3560a0 d0 48 c1 e8 0c 48 03 c2 48 35 70 2c 00 00 48 25  .H...H..H5p,..H%
+0x00007ffc6b3560b0 f8 7f 00 00 4a 8b 04 10 49 ba 00 00 00 00 04 00  ....J...I.......
+0x00007ffc6b3560c0 00 00 48 3b 50 00 75 2b 4c 3b 50 08 75 25 48 8b  ..H;P.u+L;P.u%H.
+0x00007ffc6b3560d0 40 10 5a ff e0 48 b8 b0 e8 59 fc 8a 01 00 00 83  @.Z..H...Y......
+0x00007ffc6b3560e0 00 ff 7d ac 49 83 cb 01 52 49 ba 00 00 00 00 04  ..}.I...RI......
+0x00007ffc6b3560f0 00 00 00 50 48 b8 30 20 86 ca fc 7f 00 00 ff e0 ...PH.0 ........</textarea></pre></td></tr>
+<tr><td colspan="2"><pre><textarea rows="8" cols="88" class="disass";>
+0x00007FFC6B356000  add [rax], al
+0x00007FFC6B356002  add [rax], al
+0x00007FFC6B356004  add [rax], al
+0x00007FFC6B356006  add [rax], al
+0x00007FFC6B356008  add [rax+0x35], ah
+0x00007FFC6B35600B  imul edi, esp, 0x7F
+0x00007FFC6B35600E  add [rax], al
+0x00007FFC6B356010  add [rax+0x03], ah
+0x00007FFC6B356016  add [rax], al
+0x00007FFC6B356018  add [rax], al
+0x00007FFC6B35601A  add [rax], al
+0x00007FFC6B35601C  add [rax], al
+0x00007FFC6B35601E  add [rax], al</textarea></pre></td></tr>
+
+<tr><td colspan="2"><font color="#ff6965";><span class="memo">0x00007ffc6b390000</span> Suspicious memory region: 
+[Memory region referenced in clr.dll at 0x00007ffccb301c88] </font></td></tr>
+<tr><td class = "normal">Allocation Base:</td> <td> 0x00007ffc6b390000</td></tr>
+<tr><td class = "normal">Region Size:</td> <td> 0x3000 bytes</td></tr>
+<tr><td class = "normal">Allocated Memory Protection:</td> <td> PAGE_NOACCESS</td></tr>
+<tr><td class = "normal">Memory Protection:</td> <td> RWX</td></tr>
+<tr><td class = "normal">Memory State:</td> <td> COMMIT</td></tr>
+<tr><td class = "normal">Memory Type:</td> <td> PRIVATE</td></tr>
+<tr><td colspan="2"><pre><textarea rows="16" cols="88" class="hex";>
+0x00007ffc6b390000 00 00 00 00 00 00 00 00 00 00 39 6b fc 7f 00 00  ..........9k....
+0x00007ffc6b390010 00 00 08 00 00 00 00 00 01 00 00 00 00 00 00 00  ................
+0x00007ffc6b390020 00 00 00 00 00 00 00 00 c0 ba 58 fc 8a 01 00 00  ..........X.....
+0x00007ffc6b390030 70 00 39 6b fc 7f 00 00 78 2a 39 6b fc 7f 00 00  p.9k....x*9k....
+0x00007ffc6b390040 00 00 39 6b fc 7f 00 00 70 00 27 6b fc 7f 00 00  ..9k....p.'k....
+0x00007ffc6b390050 90 ff 07 00 00 00 00 00 f2 3a 00 00 00 00 00 00  .........:......
+0x00007ffc6b390060 48 b8 70 95 8a ca fc 7f 00 00 ff e0 00 00 00 00  H.p.............
+0x00007ffc6b390070 02 00 00 00 00 00 00 00 e9 03 d0 ee ff 5f 00 00  ............._..
+0x00007ffc6b390080 38 cf fc c7 fc 7f 00 00 e9 43 25 4d 5f 5f 00 00  8........C%M__..
+0x00007ffc6b390090 f8 ba fc c7 fc 7f 00 00 49 ba f8 c8 fc c7 fc 7f  ........I.......
+0x00007ffc6b3900a0 00 00 40 e9 28 74 0b 5d e9 b3 d0 ee ff 5f 00 00  ..@.(t.]....._..
+0x00007ffc6b3900b0 00 cf fc c7 fc 7f 00 00 e9 83 d1 ee ff 5f 00 00  ............._..
+0x00007ffc6b3900c0 60 cf fc c7 fc 7f 00 00 e9 53 d2 ee ff 5f 00 00  `........S..._..
+0x00007ffc6b3900d0 78 c8 fc c7 fc 7f 00 00 e9 23 d3 ee ff 5f 00 00  x........#..._..
+0x00007ffc6b3900e0 90 cc fc c7 fc 7f 00 00 e9 f3 d3 ee ff 5f 00 00  ............._..
+0x00007ffc6b3900f0 60 c9 fc c7 fc 7f 00 00 49 ba 30 d1 fc c7 fc 7f `.......I.0.....</textarea></pre></td></tr>
+<tr><td colspan="2"><pre><textarea rows="8" cols="88" class="disass";>
+0x00007FFC6B390000  add [rax], al
+0x00007FFC6B390002  add [rax], al
+0x00007FFC6B390004  add [rax], al
+0x00007FFC6B390006  add [rax], al
+0x00007FFC6B390008  add [rax], al
+0x00007FFC6B39000A  cmp [rbx-0x04], ebp
+0x00007FFC6B39000D  jnle 0x00007FFC6B39000F
+0x00007FFC6B39000F  add [rax], al
+0x00007FFC6B390011  add [rax], cl
+0x00007FFC6B390013  add [rax], al
+0x00007FFC6B390015  add [rax], al
+0x00007FFC6B390017  add [rcx], al
+0x00007FFC6B390019  add [rax], al
+0x00007FFC6B39001B  add [rax], al
+0x00007FFC6B39001D  add [rax], al</textarea></pre></td></tr>
+
+<tr><td colspan="2"><span class="memo">0x00007ffc6b410000</span>, RW, COMMIT, PRIVATE,<span class="memnorm"> </span>, Region Size: 0x4000 bytes, Alloc.Base: 0x00007ffc6b410000, Alloc.Mem.Protec.: PAGE_NOACCESS</td></tr>
+<tr><td colspan="2"><span class="memo">0x00007ffcc7180000</span>, R, COMMIT, IMAGE,<span class="memnorm"> c:\windows\assembly\nativeimages_v4.0.30319_64\system\b187b7f31cee3e87b56c8edca55324e0\system.ni.dll</span>, Region Size: 0xc71000 bytes, Alloc.Base: 0x00007ffcc7180000, Alloc.Mem.Protec.: WCX</td></tr>
+<tr><td colspan="2"><span class="memo">0x00007ffcc7e00000</span>, R, COMMIT, IMAGE,<span class="memnorm"> c:\windows\assembly\nativeimages_v4.0.30319_64\mscorlib\b8493bec853ac702d2188091d76ccffa\mscorlib.ni.dll</span>, Region Size: 0x1600000 bytes, Alloc.Base: 0x00007ffcc7e00000, Alloc.Mem.Protec.: WCX</td></tr>
+<tr><td colspan="2"><span class="memo">0x00007ffcca2f0000</span>, R, COMMIT, IMAGE,<span class="memnorm"> c:\windows\assembly\nativeimages_v4.0.30319_64\system.io.cb3b124c8#\beb73b7c76fa33885bc6bb44f415f207\system.io.compression.ni.dll</span>, Region Size: 0x37000 bytes, Alloc.Base: 0x00007ffcca2f0000, Alloc.Mem.Protec.: WCX</td></tr>
+<tr><td colspan="2"><span class="memo">0x00007ffcca860000</span>, R, COMMIT, IMAGE,<span class="memnorm"> c:\windows\microsoft.net\framework64\v4.0.30319\clr.dll</span>, Region Size: 0xb35000 bytes, Alloc.Base: 0x00007ffcca860000, Alloc.Mem.Protec.: WCX</td></tr>
+<tr><td colspan="2"><span class="memo">0x00007ffcd3370000</span>, R, COMMIT, IMAGE,<span class="memnorm"> c:\windows\system32\ntdsapi.dll</span>, Region Size: 0x2a000 bytes, Alloc.Base: 0x00007ffcd3370000, Alloc.Mem.Protec.: WCX</td></tr>
+<tr><td colspan="2"><span class="memo">0x00007ffcd6020000</span>, R, COMMIT, IMAGE,<span class="memnorm"> c:\windows\microsoft.net\framework64\v4.0.30319\clrjit.dll</span>, Region Size: 0x14f000 bytes, Alloc.Base: 0x00007ffcd6020000, Alloc.Mem.Protec.: WCX</td></tr>
+<tr><td colspan="2"><span class="memo">0x00007ffcd6170000</span>, R, COMMIT, IMAGE,<span class="memnorm"> c:\windows\system32\ucrtbase_clr0400.dll</span>, Region Size: 0xbd000 bytes, Alloc.Base: 0x00007ffcd6170000, Alloc.Mem.Protec.: WCX</td></tr>
+<tr><td colspan="2"><span class="memo">0x00007ffcd6230000</span>, R, COMMIT, IMAGE,<span class="memnorm"> c:\windows\microsoft.net\framework64\v4.0.30319\mscoreei.dll</span>, Region Size: 0xaa000 bytes, Alloc.Base: 0x00007ffcd6230000, Alloc.Mem.Protec.: WCX</td></tr>
+<tr><td colspan="2"><span class="memo">0x00007ffcdb8b0000</span>, R, COMMIT, IMAGE,<span class="memnorm"> c:\windows\system32\vaultcli.dll</span>, Region Size: 0x51000 bytes, Alloc.Base: 0x00007ffcdb8b0000, Alloc.Mem.Protec.: WCX</td></tr>
+<tr><td colspan="2"><span class="memo">0x00007ffce2860000</span>, R, COMMIT, IMAGE,<span class="memnorm"> c:\windows\system32\mscoree.dll</span>, Region Size: 0x65000 bytes, Alloc.Base: 0x00007ffce2860000, Alloc.Mem.Protec.: WCX</td></tr>
+<tr><td colspan="2"><span class="memo">0x00007ffcedf70000</span>, R, COMMIT, IMAGE,<span class="memnorm"> c:\windows\system32\netapi32.dll</span>, Region Size: 0x19000 bytes, Alloc.Base: 0x00007ffcedf70000, Alloc.Mem.Protec.: WCX</td></tr>
+<tr><td colspan="2"><span class="memo">0x00007ffcf1900000</span>, R, COMMIT, IMAGE,<span class="memnorm"> c:\windows\system32\samlib.dll</span>, Region Size: 0x27000 bytes, Alloc.Base: 0x00007ffcf1900000, Alloc.Mem.Protec.: WCX</td></tr>
+<tr><td colspan="2"><span class="memo">0x00007ffcf3ca0000</span>, R, COMMIT, IMAGE,<span class="memnorm"> c:\windows\system32\vcruntime140_clr0400.dll</span>, Region Size: 0x16000 bytes, Alloc.Base: 0x00007ffcf3ca0000, Alloc.Mem.Protec.: WCX</td></tr>
+<tr><td colspan="2"><span class="memo">0x00007ffcf5c00000</span>, R, COMMIT, IMAGE,<span class="memnorm"> c:\windows\system32\secur32.dll</span>, Region Size: 0xc000 bytes, Alloc.Base: 0x00007ffcf5c00000, Alloc.Mem.Protec.: WCX</td></tr>
+<tr><td colspan="2"><span class="memo">0x00007ffcf68f0000</span>, R, COMMIT, IMAGE,<span class="memnorm"> c:\windows\system32\version.dll</span>, Region Size: 0xa000 bytes, Alloc.Base: 0x00007ffcf68f0000, Alloc.Mem.Protec.: WCX</td></tr>
+<tr><td colspan="2"><span class="memo">0x00007ffcf6ca0000</span>, R, COMMIT, IMAGE,<span class="memnorm"> c:\windows\system32\wintypes.dll</span>, Region Size: 0x154000 bytes, Alloc.Base: 0x00007ffcf6ca0000, Alloc.Mem.Protec.: WCX</td></tr>
+<tr><td colspan="2"><span class="memo">0x00007ffcf8590000</span>, R, COMMIT, IMAGE,<span class="memnorm"> c:\windows\system32\apphelp.dll</span>, Region Size: 0x91000 bytes, Alloc.Base: 0x00007ffcf8590000, Alloc.Mem.Protec.: WCX</td></tr>
+<tr><td colspan="2"><span class="memo">0x00007ffcf9030000</span>, R, COMMIT, IMAGE,<span class="memnorm"> c:\windows\system32\windows.storage.dll</span>, Region Size: 0x791000 bytes, Alloc.Base: 0x00007ffcf9030000, Alloc.Mem.Protec.: WCX</td></tr>
+<tr><td colspan="2"><span class="memo">0x00007ffcf9950000</span>, R, COMMIT, IMAGE,<span class="memnorm"> c:\windows\system32\kernel.appcore.dll</span>, Region Size: 0x12000 bytes, Alloc.Base: 0x00007ffcf9950000, Alloc.Mem.Protec.: WCX</td></tr>
+<tr><td colspan="2"><span class="memo">0x00007ffcfa0e0000</span>, R, COMMIT, IMAGE,<span class="memnorm"> c:\windows\system32\rsaenh.dll</span>, Region Size: 0x34000 bytes, Alloc.Base: 0x00007ffcfa0e0000, Alloc.Mem.Protec.: WCX</td></tr>
+<tr><td colspan="2"><span class="memo">0x00007ffcfa5c0000</span>, R, COMMIT, IMAGE,<span class="memnorm"> c:\windows\system32\netutils.dll</span>, Region Size: 0xc000 bytes, Alloc.Base: 0x00007ffcfa5c0000, Alloc.Mem.Protec.: WCX</td></tr>
+<tr><td colspan="2"><span class="memo">0x00007ffcfa5d0000</span>, R, COMMIT, IMAGE,<span class="memnorm"> c:\windows\system32\logoncli.dll</span>, Region Size: 0x43000 bytes, Alloc.Base: 0x00007ffcfa5d0000, Alloc.Mem.Protec.: WCX</td></tr>
+<tr><td colspan="2"><span class="memo">0x00007ffcfa830000</span>, R, COMMIT, IMAGE,<span class="memnorm"> c:\windows\system32\cryptdll.dll</span>, Region Size: 0x15000 bytes, Alloc.Base: 0x00007ffcfa830000, Alloc.Mem.Protec.: WCX</td></tr>
+<tr><td colspan="2"><span class="memo">0x00007ffcfaa20000</span>, R, COMMIT, IMAGE,<span class="memnorm"> c:\windows\system32\cryptsp.dll</span>, Region Size: 0x18000 bytes, Alloc.Base: 0x00007ffcfaa20000, Alloc.Mem.Protec.: WCX</td></tr>
+<tr><td colspan="2"><span class="memo">0x00007ffcfaa40000</span>, R, COMMIT, IMAGE,<span class="memnorm"> c:\windows\system32\cryptbase.dll</span>, Region Size: 0xc000 bytes, Alloc.Base: 0x00007ffcfaa40000, Alloc.Mem.Protec.: WCX</td></tr>
+<tr><td colspan="2"><span class="memo">0x00007ffcfaad0000</span>, R, COMMIT, IMAGE,<span class="memnorm"> c:\windows\system32\wldp.dll</span>, Region Size: 0x30000 bytes, Alloc.Base: 0x00007ffcfaad0000, Alloc.Mem.Protec.: WCX</td></tr>
+<tr><td colspan="2"><span class="memo">0x00007ffcfab70000</span>, R, COMMIT, IMAGE,<span class="memnorm"> c:\windows\system32\ntasn1.dll</span>, Region Size: 0x3b000 bytes, Alloc.Base: 0x00007ffcfab70000, Alloc.Mem.Protec.: WCX</td></tr>
+<tr><td colspan="2"><span class="memo">0x00007ffcfabb0000</span>, R, COMMIT, IMAGE,<span class="memnorm"> c:\windows\system32\ncrypt.dll</span>, Region Size: 0x27000 bytes, Alloc.Base: 0x00007ffcfabb0000, Alloc.Mem.Protec.: WCX</td></tr>
+<tr><td colspan="2"><span class="memo">0x00007ffcfafa0000</span>, R, COMMIT, IMAGE,<span class="memnorm"> c:\windows\system32\sspicli.dll</span>, Region Size: 0x32000 bytes, Alloc.Base: 0x00007ffcfafa0000, Alloc.Mem.Protec.: WCX</td></tr>
+<tr><td colspan="2"><span class="memo">0x00007ffcfb020000</span>, R, COMMIT, IMAGE,<span class="memnorm"> c:\windows\system32\profapi.dll</span>, Region Size: 0x1f000 bytes, Alloc.Base: 0x00007ffcfb020000, Alloc.Mem.Protec.: WCX</td></tr>
+<tr><td colspan="2"><span class="memo">0x00007ffcfb0e0000</span>, R, COMMIT, IMAGE,<span class="memnorm"> c:\windows\system32\win32u.dll</span>, Region Size: 0x22000 bytes, Alloc.Base: 0x00007ffcfb0e0000, Alloc.Mem.Protec.: WCX</td></tr>
+<tr><td colspan="2"><span class="memo">0x00007ffcfb110000</span>, R, COMMIT, IMAGE,<span class="memnorm"> c:\windows\system32\crypt32.dll</span>, Region Size: 0x156000 bytes, Alloc.Base: 0x00007ffcfb110000, Alloc.Mem.Protec.: WCX</td></tr>
+<tr><td colspan="2"><span class="memo">0x00007ffcfb2e0000</span>, R, COMMIT, IMAGE,<span class="memnorm"> c:\windows\system32\kernelbase.dll</span>, Region Size: 0x2d2000 bytes, Alloc.Base: 0x00007ffcfb2e0000, Alloc.Mem.Protec.: WCX</td></tr>
+<tr><td colspan="2"><span class="memo">0x00007ffcfb5c0000</span>, R, COMMIT, IMAGE,<span class="memnorm"> c:\windows\system32\bcryptprimitives.dll</span>, Region Size: 0x82000 bytes, Alloc.Base: 0x00007ffcfb5c0000, Alloc.Mem.Protec.: WCX</td></tr>
+<tr><td colspan="2"><span class="memo">0x00007ffcfb650000</span>, R, COMMIT, IMAGE,<span class="memnorm"> c:\windows\system32\msvcp_win.dll</span>, Region Size: 0x9d000 bytes, Alloc.Base: 0x00007ffcfb650000, Alloc.Mem.Protec.: WCX</td></tr>
+<tr><td colspan="2"><span class="memo">0x00007ffcfb6f0000</span>, R, COMMIT, IMAGE,<span class="memnorm"> c:\windows\system32\ucrtbase.dll</span>, Region Size: 0x100000 bytes, Alloc.Base: 0x00007ffcfb6f0000, Alloc.Mem.Protec.: WCX</td></tr>
+<tr><td colspan="2"><span class="memo">0x00007ffcfb7f0000</span>, R, COMMIT, IMAGE,<span class="memnorm"> c:\windows\system32\bcrypt.dll</span>, Region Size: 0x27000 bytes, Alloc.Base: 0x00007ffcfb7f0000, Alloc.Mem.Protec.: WCX</td></tr>
+<tr><td colspan="2"><span class="memo">0x00007ffcfb920000</span>, R, COMMIT, IMAGE,<span class="memnorm"> c:\windows\system32\gdi32full.dll</span>, Region Size: 0x10f000 bytes, Alloc.Base: 0x00007ffcfb920000, Alloc.Mem.Protec.: WCX</td></tr>
+<tr><td colspan="2"><span class="memo">0x00007ffcfba30000</span>, R, COMMIT, IMAGE,<span class="memnorm"> c:\windows\system32\shlwapi.dll</span>, Region Size: 0x55000 bytes, Alloc.Base: 0x00007ffcfba30000, Alloc.Mem.Protec.: WCX</td></tr>
+<tr><td colspan="2"><span class="memo">0x00007ffcfbd00000</span>, R, COMMIT, IMAGE,<span class="memnorm"> c:\windows\system32\gdi32.dll</span>, Region Size: 0x2b000 bytes, Alloc.Base: 0x00007ffcfbd00000, Alloc.Mem.Protec.: WCX</td></tr>
+<tr><td colspan="2"><span class="memo">0x00007ffcfbd30000</span>, R, COMMIT, IMAGE,<span class="memnorm"> c:\windows\system32\sechost.dll</span>, Region Size: 0x9c000 bytes, Alloc.Base: 0x00007ffcfbd30000, Alloc.Mem.Protec.: WCX</td></tr>
+<tr><td colspan="2"><span class="memo">0x00007ffcfbdd0000</span>, R, COMMIT, IMAGE,<span class="memnorm"> c:\windows\system32\ole32.dll</span>, Region Size: 0x12a000 bytes, Alloc.Base: 0x00007ffcfbdd0000, Alloc.Mem.Protec.: WCX</td></tr>
+<tr><td colspan="2"><span class="memo">0x00007ffcfbf00000</span>, R, COMMIT, IMAGE,<span class="memnorm"> c:\windows\system32\user32.dll</span>, Region Size: 0x19d000 bytes, Alloc.Base: 0x00007ffcfbf00000, Alloc.Mem.Protec.: WCX</td></tr>
+<tr><td colspan="2"><span class="memo">0x00007ffcfc7a0000</span>, R, COMMIT, IMAGE,<span class="memnorm"> c:\windows\system32\imm32.dll</span>, Region Size: 0x30000 bytes, Alloc.Base: 0x00007ffcfc7a0000, Alloc.Mem.Protec.: WCX</td></tr>
+<tr><td colspan="2"><span class="memo">0x00007ffcfca00000</span>, R, COMMIT, IMAGE,<span class="memnorm"> c:\windows\system32\msvcrt.dll</span>, Region Size: 0x9e000 bytes, Alloc.Base: 0x00007ffcfca00000, Alloc.Mem.Protec.: WCX</td></tr>
+<tr><td colspan="2"><span class="memo">0x00007ffcfcaa0000</span>, R, COMMIT, IMAGE,<span class="memnorm"> c:\windows\system32\shell32.dll</span>, Region Size: 0x743000 bytes, Alloc.Base: 0x00007ffcfcaa0000, Alloc.Mem.Protec.: WCX</td></tr>
+<tr><td colspan="2"><span class="memo">0x00007ffcfd270000</span>, R, COMMIT, IMAGE,<span class="memnorm"> c:\windows\system32\ws2_32.dll</span>, Region Size: 0x6b000 bytes, Alloc.Base: 0x00007ffcfd270000, Alloc.Mem.Protec.: WCX</td></tr>
+<tr><td colspan="2"><span class="memo">0x00007ffcfd2e0000</span>, R, COMMIT, IMAGE,<span class="memnorm"> c:\windows\system32\combase.dll</span>, Region Size: 0x354000 bytes, Alloc.Base: 0x00007ffcfd2e0000, Alloc.Mem.Protec.: WCX</td></tr>
+<tr><td colspan="2"><span class="memo">0x00007ffcfd640000</span>, R, COMMIT, IMAGE,<span class="memnorm"> c:\windows\system32\shcore.dll</span>, Region Size: 0xad000 bytes, Alloc.Base: 0x00007ffcfd640000, Alloc.Mem.Protec.: WCX</td></tr>
+<tr><td colspan="2"><span class="memo">0x00007ffcfd6f0000</span>, R, COMMIT, IMAGE,<span class="memnorm"> c:\windows\system32\kernel32.dll</span>, Region Size: 0xbd000 bytes, Alloc.Base: 0x00007ffcfd6f0000, Alloc.Mem.Protec.: WCX</td></tr>
+<tr><td colspan="2"><span class="memo">0x00007ffcfd7b0000</span>, R, COMMIT, IMAGE,<span class="memnorm"> c:\windows\system32\rpcrt4.dll</span>, Region Size: 0x125000 bytes, Alloc.Base: 0x00007ffcfd7b0000, Alloc.Mem.Protec.: WCX</td></tr>
+<tr><td colspan="2"><span class="memo">0x00007ffcfd8e0000</span>, R, COMMIT, IMAGE,<span class="memnorm"> c:\windows\system32\advapi32.dll</span>, Region Size: 0xae000 bytes, Alloc.Base: 0x00007ffcfd8e0000, Alloc.Mem.Protec.: WCX</td></tr>
+<tr><td colspan="2"><span class="memo">0x00007ffcfd9d0000</span>, R, COMMIT, IMAGE,<span class="memnorm"> c:\windows\system32\ntdll.dll</span>, Region Size: 0x1f8000 bytes, Alloc.Base: 0x00007ffcfd9d0000, Alloc.Mem.Protec.: WCX</td></tr>
+</table>
+<br><hr class="categAlertas"><p class="categAlertasColor">*** MODULES ***</p><p><table class="styled-table"><thead><tr><th style="width:95px">Load<br>DateTime</th><th style="width:55px">LinkedLists</th><th style="width:60px">Exports</th><th style="width:97px">MEM_TYPE</th><th style="width:74px">MemAlloc<br>Protect</th><th>DLL</th><th style="min-width:75px">CLR</th><th style="min-width:110px">BaseAddress</th><th style="min-width:70px">Signature</th><th style="width:150px">SHA1</th></tr></thead><tr><td colspan="10"><table class="plaintable"><tr><td>
+<hr style='border: 1px solid darknormal;'><div class="modulesName"><font color="#0098FF"> MODULE NAME: No_Name-0x18a80000000 [0 (0x0) bytes]</font></div><a href="#18652">[KatzNetAssembly.exe PID: 18652]</a><br>
+<table class="process-table">
+<tr><td class = "mm">Path:</td> <td> </td></tr>
+<tr><td class = "mm">LMIVH:</td> <td> -----</td></tr>
+<tr><td class = "mm">Rich Header:</td> <td>
+	0x00cfc6f1  207  50929  35  MSVS2012 1700<br>
+	0x00cec6f1  206  50929  118  MSVS2012 1700<br>
+	0x00cdc6f1  205  50929  7  Masm v1100<br>
+	0x00cbee66  203  61030  2  [IMP] VS2012 UPD4 build 61030<br>
+	0x007b9d76  123  40310  4  [IMP] Windows Server 2003 SP1 DDK (for AMD64) build 40310 (*)<br>
+	0x00010000  1  0  274  [---] Unmarked objects<br>
+	0x00b977fc  185  30716  21  Implib v1010<br>
+	0x00d2ee66  210  61030  59  Utc1700_LTCG_C<br>
+	0x00c9ee66  201  61030  1  [RES] VS2012 UPD4 build 61030<br>
+	0x00970000  151  0  1  Resource<br>
+	0x00ccee66  204  61030  1  [LNK] VS2012 UPD4 build 61030<br></td></tr>
+<tr><td class = "mm">Exports:</td> <td> 0</td></tr>
+<tr><td class = "mm">Memory Allocation Protection:</td> <td> RW</td></tr>
+<tr><td class = "mm">Memory Type:</td> <td> MEM_PRIVATE</td></tr>
+<tr><td class = "mm">Entry Point (memory):</td> <td> 0x00026b34</td></tr>
+<tr><td class = "mm">Entry Point (file):</td> <td> 0x00000000</td></tr>
+<tr><td class = "mm">Module Base Address:</td> <td> <font color="#ff6965";>0x0000018a80000000 (Image Headers offset: 0x000d3fc0)[Moat Detected]</font></td></tr>
+<tr><td class = "mm">PE Sections:</td> <td>  <font color="#ff6965";>[Section Table]</font></td></tr>
+<tr><td colspan="2"><table style="border:1px solid black;margin-left:50px;"><tr><td>From file:</td></tr><tr><td>Name</td><td>Characteristics</td><td>PhysicalAddress</td><td>PointerToRawData</td><td>SizeofRawData</td><td>VirtualAddress</td><td>VirtualSize</td></tr>
+<tr><td>From memory:</td></tr><tr><td>Name</td><td>Characteristics</td><td>PhysicalAddress</td><td>PointerToRawData</td><td>SizeofRawData</td><td>VirtualAddress</td><td>VirtualSize</td></tr>
+<tr><td>Header</td><td>0x00000000</td><td>0x00000000</td><td>0x00000000</td><td>0x00000400</td><td>0x00000000</td><td>0x00001000</td></tr>
+<tr><td>.text</td><td>0x60000020</td><td>0x00034529</td><td>0x00000400</td><td>0x00034600</td><td>0x00001000</td><td>0x00034529</td></tr>
+<tr><td>.rdata</td><td>0x40000040</td><td>0x0002e14a</td><td>0x00034a00</td><td>0x0002e200</td><td>0x00036000</td><td>0x0002e14a</td></tr>
+<tr><td>.data</td><td>0xc0000040</td><td>0x00006c58</td><td>0x00062c00</td><td>0x00004600</td><td>0x00065000</td><td>0x00006c58</td></tr>
+<tr><td>.pdata</td><td>0x40000040</td><td>0x00001f5c</td><td>0x00067200</td><td>0x00002000</td><td>0x0006c000</td><td>0x00001f5c</td></tr>
+<tr><td>.rsrc</td><td>0x40000040</td><td>0x00004260</td><td>0x00069200</td><td>0x00004400</td><td>0x0006e000</td><td>0x00004260</td></tr>
+<tr><td>.reloc</td><td>0x42000040</td><td>0x00001efe</td><td>0x0006d600</td><td>0x00002000</td><td>0x00073000</td><td>0x00001efe</td></tr>
+</table></td></tr>
+<tr><td class = "mm">SizeOfInitializedData:</td> <td> 250880</td></tr>
+<tr><td class = "mm">DLLCharacteristics:</td> <td> 0x8160</td></tr>
+<tr><td class = "mm">MajorImageVersion:</td> <td> 0</td></tr>
+<tr><td class = "mm">CheckSum original/computed:</td> <td> <font color="#ff6965";>0x0/0x0 [Module CheckSum is 0]</font></td></tr>
+<tr><td class = "mm">PE format:</td> <td> PE32+</td></tr>
+<tr><td class = "mm">Target Machine:</td> <td> IMAGE_FILE_MACHINE_AMD64</td></tr>
+<tr><td class = "mm">Creation time:</td> <td> 1601/01/01Z00:00:00.000</td></tr>
+<tr style ='border-top: 1px solid #c0c0c0'><td class = "normal">InternalName:</td> <td> </td></tr>
+<tr><td class = "mm">OriginalFileName:</td> <td> </td></tr>
+<tr><td class = "mm">ProductName:</td> <td> </td></tr>
+<tr><td class = "mm">CompanyName:</td> <td> </td></tr>
+<tr><td class = "mm">FileDescription:</td> <td> </td></tr>
+<tr><td colspan="2"><table style="border:1px solid black;margin-left: 40px;">
+<tr><td>InternalName (from memory):</td><td>mimikatz</td></tr>
+<tr><td>OriginalFileName (from memory):</td><td>mimikatz.exe</td></tr>
+<tr><td>ProductName (from memory):</td><td>mimikatz</td></tr>
+<tr><td>CompanyName (from memory):</td><td>gentilkiwi (Benjamin DELPY)</td></tr>
+<tr><td>FileDescription (from memory):</td><td>mimikatz for Windows</td></tr>
+<tr><td>FileVersion (from memory):</td><td>2.0.0.0</td></tr>
+<tr><td>LegalCopyright (from memory):</td><td>Copyright (c) 2007 - 2015 gentilkiwi (Benjamin DELPY)</td></tr>
+<tr><td>ProductVersion (from memory):</td><td>2.0.0.0</td></tr>
+<tr><td>PrivateBuild (from memory):</td><td>Build with love for POC only</td></tr>
+<tr><td>SpecialBuild (from memory):</td><td>kiwi flavor !</td></tr>
+</table></td></tr>
+<tr style ='border-top: 1px solid #c0c0c0'><td class = "normal">Signature:</td> <td> NO IMAGE FILE</td></tr>
+<tr><td class = "mm">PDB file:</td> <td> </td></tr>
+<tr><td class = "mm">IMAGE_FILE_HEADER TimeDateStamp:</td> <td> 0x55f6f1ce (2015/09/14 16:11:58)</td></tr>
+<tr><td class = "mm">IMAGE_DEBUG_DIRECTORY TimeDateStamp:</td> <td> </td></tr>
+<tr><td class = "mm">IMAGE_EXPORT_DIRECTORY TimeDateStamp:</td> <td> </td></tr>
+<tr><td class = "mm">IMAGE_RESOURCE_DIRECTORY TimeDateStamp:</td> <td> </td></tr>
+<tr><td class = "mm">SHA1:</td> <td> Hash not available</td></tr>
+<tr><td class = "mm">CLR:</td> <td> Unmanaged</td></tr></table></td></tr>
+<tr><td colspan="11"><pre><textarea rows="16" cols="88" class="hex";>
+0x0000018a800d3fc0 4d 5a 90 00 03 00 00 00 04 00 00 00 ff ff 00 00  MZ..............
+0x0000018a800d3fd0 b8 00 00 00 00 00 00 00 40 00 00 00 00 00 00 00  ........@.......
+0x0000018a800d3fe0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x0000018a800d3ff0 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00  ................
+0x0000018a800d4000 0e 1f ba 0e 00 b4 09 cd 21 b8 01 4c cd 21 54 68  ........!..L.!Th
+0x0000018a800d4010 69 73 20 70 72 6f 67 72 61 6d 20 63 61 6e 6e 6f  is program canno
+0x0000018a800d4020 74 20 62 65 20 72 75 6e 20 69 6e 20 44 4f 53 20  t be run in DOS 
+0x0000018a800d4030 6d 6f 64 65 2e 0d 0d 0a 24 00 00 00 00 00 00 00  mode....$.......
+0x0000018a800d4040 4b 70 d3 a3 0f 11 bd f0 0f 11 bd f0 0f 11 bd f0  Kp..............
+0x0000018a800d4050 fe d7 72 f0 2c 11 bd f0 fe d7 73 f0 79 11 bd f0  ..r.,.....s.y...
+0x0000018a800d4060 fe d7 70 f0 08 11 bd f0 69 ff 76 f0 0d 11 bd f0  ..p.....i.v.....
+0x0000018a800d4070 79 8c c6 f0 0b 11 bd f0 0f 11 bc f0 1d 10 bd f0  y...............
+0x0000018a800d4080 f3 66 04 f0 1a 11 bd f0 69 ff 6f f0 34 11 bd f0  .f......i.o.4...
+0x0000018a800d4090 69 ff 74 f0 0e 11 bd f0 0f 11 2a f0 0e 11 bd f0  i.t.......*.....
+0x0000018a800d40a0 69 ff 71 f0 0e 11 bd f0 52 69 63 68 0f 11 bd f0  i.q.....Rich....
+0x0000018a800d40b0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................</textarea></pre></td></tr>
+<tr><td colspan="11"><pre><textarea rows="8" cols="88" class="disass";>
+0x0000018A800D3FC0  pop r10
+0x0000018A800D3FC2  nop
+0x0000018A800D3FC3  add [rbx], al
+0x0000018A800D3FC5  add [rax], al
+0x0000018A800D3FC7  add [rax+rax*1], al
+0x0000018A800D3FCA  add [rax], al
+0x0000018A800D3FCD  inc dword ptr [rax]
+0x0000018A800D3FCF  add [rax], bh
+0x0000018A800D3FD5  add [rax], al
+0x0000018A800D3FD7  add [rax], al
+0x0000018A800D3FDA  add [rax], al
+0x0000018A800D3FDC  add [rax], al
+0x0000018A800D3FDE  add [rax], al</textarea></pre></td></tr>
+</table></td></tr><tr><td colspan="10"><table class="plaintable"><tr><td>
+<hr style='border: 1px solid darknormal;'><div class="modulesName"><font color="#0098FF"> MODULE NAME: No_Name-0x18a90000000 [0 (0x0) bytes]</font></div><a href="#18652">[KatzNetAssembly.exe PID: 18652]</a><br>
+<table class="process-table">
+<tr><td class = "mm">Path:</td> <td> </td></tr>
+<tr><td class = "mm">LMIVH:</td> <td> -----</td></tr>
+<tr><td class = "mm">Rich Header:</td> <td>
+	0x00cfc6f1  207  50929  35  MSVS2012 1700<br>
+	0x00cec6f1  206  50929  118  MSVS2012 1700<br>
+	0x00cdc6f1  205  50929  7  Masm v1100<br>
+	0x00cbee66  203  61030  2  [IMP] VS2012 UPD4 build 61030<br>
+	0x007b9d76  123  40310  4  [IMP] Windows Server 2003 SP1 DDK (for AMD64) build 40310 (*)<br>
+	0x00010000  1  0  274  [---] Unmarked objects<br>
+	0x00b977fc  185  30716  21  Implib v1010<br>
+	0x00d2ee66  210  61030  59  Utc1700_LTCG_C<br>
+	0x00c9ee66  201  61030  1  [RES] VS2012 UPD4 build 61030<br>
+	0x00970000  151  0  1  Resource<br>
+	0x00ccee66  204  61030  1  [LNK] VS2012 UPD4 build 61030<br></td></tr>
+<tr><td class = "mm">Exports:</td> <td> 0</td></tr>
+<tr><td class = "mm">Memory Allocation Protection:</td> <td> RW</td></tr>
+<tr><td class = "mm">Memory Type:</td> <td> MEM_PRIVATE</td></tr>
+<tr><td class = "mm">Entry Point (memory):</td> <td> 0x00026b34</td></tr>
+<tr><td class = "mm">Entry Point (file):</td> <td> 0x00000000</td></tr>
+<tr><td class = "mm">Module Base Address:</td> <td> <font color="#ff6965";>0x0000018a90000000 (Image Headers offset: 0x000ea7d8)[Moat Detected]</font></td></tr>
+<tr><td class = "mm">PE Sections:</td> <td>  <font color="#ff6965";>[Section Table]</font></td></tr>
+<tr><td colspan="2"><table style="border:1px solid black;margin-left:50px;"><tr><td>From file:</td></tr><tr><td>Name</td><td>Characteristics</td><td>PhysicalAddress</td><td>PointerToRawData</td><td>SizeofRawData</td><td>VirtualAddress</td><td>VirtualSize</td></tr>
+<tr><td>From memory:</td></tr><tr><td>Name</td><td>Characteristics</td><td>PhysicalAddress</td><td>PointerToRawData</td><td>SizeofRawData</td><td>VirtualAddress</td><td>VirtualSize</td></tr>
+<tr><td>Header</td><td>0x00000000</td><td>0x00000000</td><td>0x00000000</td><td>0x00000400</td><td>0x00000000</td><td>0x00001000</td></tr>
+<tr><td>.text</td><td>0x60000020</td><td>0x00034529</td><td>0x00000400</td><td>0x00034600</td><td>0x00001000</td><td>0x00034529</td></tr>
+<tr><td>.rdata</td><td>0x40000040</td><td>0x0002e14a</td><td>0x00034a00</td><td>0x0002e200</td><td>0x00036000</td><td>0x0002e14a</td></tr>
+<tr><td>.data</td><td>0xc0000040</td><td>0x00006c58</td><td>0x00062c00</td><td>0x00004600</td><td>0x00065000</td><td>0x00006c58</td></tr>
+<tr><td>.pdata</td><td>0x40000040</td><td>0x00001f5c</td><td>0x00067200</td><td>0x00002000</td><td>0x0006c000</td><td>0x00001f5c</td></tr>
+<tr><td>.rsrc</td><td>0x40000040</td><td>0x00004260</td><td>0x00069200</td><td>0x00004400</td><td>0x0006e000</td><td>0x00004260</td></tr>
+<tr><td>.reloc</td><td>0x42000040</td><td>0x00001efe</td><td>0x0006d600</td><td>0x00002000</td><td>0x00073000</td><td>0x00001efe</td></tr>
+</table></td></tr>
+<tr><td class = "mm">SizeOfInitializedData:</td> <td> 250880</td></tr>
+<tr><td class = "mm">DLLCharacteristics:</td> <td> 0x8160</td></tr>
+<tr><td class = "mm">MajorImageVersion:</td> <td> 0</td></tr>
+<tr><td class = "mm">CheckSum original/computed:</td> <td> <font color="#ff6965";>0x0/0x0 [Module CheckSum is 0]</font></td></tr>
+<tr><td class = "mm">PE format:</td> <td> PE32+</td></tr>
+<tr><td class = "mm">Target Machine:</td> <td> IMAGE_FILE_MACHINE_AMD64</td></tr>
+<tr><td class = "mm">Creation time:</td> <td> 1601/01/01Z00:00:00.000</td></tr>
+<tr style ='border-top: 1px solid #c0c0c0'><td class = "normal">InternalName:</td> <td> </td></tr>
+<tr><td class = "mm">OriginalFileName:</td> <td> </td></tr>
+<tr><td class = "mm">ProductName:</td> <td> </td></tr>
+<tr><td class = "mm">CompanyName:</td> <td> </td></tr>
+<tr><td class = "mm">FileDescription:</td> <td> </td></tr>
+<tr><td colspan="2"><table style="border:1px solid black;margin-left: 40px;">
+<tr><td>InternalName (from memory):</td><td>mimikatz</td></tr>
+<tr><td>OriginalFileName (from memory):</td><td>mimikatz.exe</td></tr>
+<tr><td>ProductName (from memory):</td><td>mimikatz</td></tr>
+<tr><td>CompanyName (from memory):</td><td>gentilkiwi (Benjamin DELPY)</td></tr>
+<tr><td>FileDescription (from memory):</td><td>mimikatz for Windows</td></tr>
+<tr><td>FileVersion (from memory):</td><td>2.0.0.0</td></tr>
+<tr><td>LegalCopyright (from memory):</td><td>Copyright (c) 2007 - 2015 gentilkiwi (Benjamin DELPY)</td></tr>
+<tr><td>ProductVersion (from memory):</td><td>2.0.0.0</td></tr>
+<tr><td>PrivateBuild (from memory):</td><td>Build with love for POC only</td></tr>
+<tr><td>SpecialBuild (from memory):</td><td>kiwi flavor !</td></tr>
+</table></td></tr>
+<tr style ='border-top: 1px solid #c0c0c0'><td class = "normal">Signature:</td> <td> NO IMAGE FILE</td></tr>
+<tr><td class = "mm">PDB file:</td> <td> </td></tr>
+<tr><td class = "mm">IMAGE_FILE_HEADER TimeDateStamp:</td> <td> 0x55f6f1ce (2015/09/14 16:11:58)</td></tr>
+<tr><td class = "mm">IMAGE_DEBUG_DIRECTORY TimeDateStamp:</td> <td> </td></tr>
+<tr><td class = "mm">IMAGE_EXPORT_DIRECTORY TimeDateStamp:</td> <td> </td></tr>
+<tr><td class = "mm">IMAGE_RESOURCE_DIRECTORY TimeDateStamp:</td> <td> 0x8b48e375 (2044/01/19 09:50:45)</td></tr>
+<tr><td class = "mm">SHA1:</td> <td> Hash not available</td></tr>
+<tr><td class = "mm">CLR:</td> <td> Unmanaged</td></tr></table></td></tr>
+<tr><td colspan="11"><pre><textarea rows="16" cols="88" class="hex";>
+0x0000018a900ea7d0 00 00 04 00 00 00 00 00 4d 5a 90 00 03 00 00 00  ........MZ......
+0x0000018a900ea7e0 04 00 00 00 ff ff 00 00 b8 00 00 00 00 00 00 00  ................
+0x0000018a900ea7f0 40 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  @...............
+0x0000018a900ea800 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x0000018a900ea810 00 00 00 00 00 01 00 00 0e 1f ba 0e 00 b4 09 cd  ................
+0x0000018a900ea820 21 b8 01 4c cd 21 54 68 69 73 20 70 72 6f 67 72  !..L.!This progr
+0x0000018a900ea830 61 6d 20 63 61 6e 6e 6f 74 20 62 65 20 72 75 6e  am cannot be run
+0x0000018a900ea840 20 69 6e 20 44 4f 53 20 6d 6f 64 65 2e 0d 0d 0a   in DOS mode....
+0x0000018a900ea850 24 00 00 00 00 00 00 00 4b 70 d3 a3 0f 11 bd f0  $.......Kp......
+0x0000018a900ea860 0f 11 bd f0 0f 11 bd f0 fe d7 72 f0 2c 11 bd f0  ..........r.,...
+0x0000018a900ea870 fe d7 73 f0 79 11 bd f0 fe d7 70 f0 08 11 bd f0  ..s.y.....p.....
+0x0000018a900ea880 69 ff 76 f0 0d 11 bd f0 79 8c c6 f0 0b 11 bd f0  i.v.....y.......
+0x0000018a900ea890 0f 11 bc f0 1d 10 bd f0 f3 66 04 f0 1a 11 bd f0  .........f......
+0x0000018a900ea8a0 69 ff 6f f0 34 11 bd f0 69 ff 74 f0 0e 11 bd f0  i.o.4...i.t.....
+0x0000018a900ea8b0 0f 11 2a f0 0e 11 bd f0 69 ff 71 f0 0e 11 bd f0  ..*.....i.q.....
+0x0000018a900ea8c0 52 69 63 68 0f 11 bd f0 00 00 00 00 00 00 00 00 Rich............</textarea></pre></td></tr>
+<tr><td colspan="11"><pre><textarea rows="8" cols="88" class="disass";>
+0x0000018A900EA7D0  add [rax], al
+0x0000018A900EA7D2  add al, 0x00
+0x0000018A900EA7D4  add [rax], al
+0x0000018A900EA7D6  add [rax], al
+0x0000018A900EA7D8  pop r10
+0x0000018A900EA7DA  nop
+0x0000018A900EA7DB  add [rbx], al
+0x0000018A900EA7DD  add [rax], al
+0x0000018A900EA7DF  add [rax+rax*1], al
+0x0000018A900EA7E2  add [rax], al
+0x0000018A900EA7E5  inc dword ptr [rax]
+0x0000018A900EA7E7  add [rax], bh
+0x0000018A900EA7ED  add [rax], al</textarea></pre></td></tr>
+</table></td></tr><tr><td colspan="10"><table class="plaintable"><tr><td>
+<hr style='border: 1px solid darknormal;'><div class="modulesName"><font color="#0098FF"> MODULE NAME: system.ni.dll [13038080 (0xc6f200) bytes]</font></div><a href="#18652">[KatzNetAssembly.exe PID: 18652]</a><br>
+<table class="process-table">
+<tr><td class = "mm">Path:</td> <td> c:\windows\assembly\nativeimages_v4.0.30319_64\system\b187b7f31cee3e87b56c8edca55324e0\system.ni.dll</td></tr>
+<tr><td class = "mm">LMIVH:</td> <td> LMIVH</td></tr>
+<tr><td class = "mm">Rich Header:</td> <td></td></tr>
+<tr><td class = "mm">Exports:</td> <td> 0</td></tr>
+<tr><td class = "mm">Memory Allocation Protection:</td> <td> WCX</td></tr>
+<tr><td class = "mm">Memory Type:</td> <td> MEM_IMAGE</td></tr>
+<tr><td class = "mm">Entry Point (memory):</td> <td> 0x00000000</td></tr>
+<tr><td class = "mm">Entry Point (file):</td> <td> 0x00000000</td></tr>
+<tr><td class = "mm">Module Base Address:</td> <td> 0x00007ffcc7180000</td></tr>
+<tr><td class = "mm">PE Sections:</td> <td> (.data)(.text)(.reloc)</td></tr>
+<tr><td class = "mm">SizeOfInitializedData:</td> <td> 0</td></tr>
+<tr><td class = "mm">DLLCharacteristics:</td> <td> 0x8160</td></tr>
+<tr><td class = "mm">MajorImageVersion:</td> <td> 0</td></tr>
+<tr><td class = "mm">CheckSum original/computed:</td> <td> <font color="#ff6965";>0x0/0xc78ba0 [Module CheckSum is 0]</font></td></tr>
+<tr><td class = "mm">PE format:</td> <td> PE32+</td></tr>
+<tr><td class = "mm">Target Machine:</td> <td> IMAGE_FILE_MACHINE_AMD64</td></tr>
+<tr><td class = "mm">Creation time:</td> <td> 2022/10/21Z17:25:53.410</td></tr>
+<tr style ='border-top: 1px solid #c0c0c0'><td class = "normal">InternalName:</td> <td> System.dll</td></tr>
+<tr><td class = "mm">OriginalFileName:</td> <td> System.dll</td></tr>
+<tr><td class = "mm">ProductName:</td> <td> Microsoft® .NET Framework</td></tr>
+<tr><td class = "mm">CompanyName:</td> <td> Microsoft Corporation</td></tr>
+<tr><td class = "mm">FileDescription:</td> <td> .NET Framework</td></tr>
+<tr><td class = "mm">Comments:</td> <td> Flavor=Retail</td></tr>
+<tr><td class = "mm">FileVersion:</td> <td> 4.8.4536.0 built by: NET48REL1LAST_C</td></tr>
+<tr><td class = "mm">LegalCopyright:</td> <td> © Microsoft Corporation.  All rights reserved.</td></tr>
+<tr><td class = "mm">ProductVersion:</td> <td> 4.8.4536.0</td></tr>
+<tr><td class = "mm">PrivateBuild:</td> <td> DDBLD297D</td></tr>
+<tr style ='border-top: 1px solid #c0c0c0'><td class = "normal">Signature:</td> <td> <font color="#ff6965";>NOT SIGNED [Module NOT Signed]</font></td></tr>
+<tr><td class = "mm">PDB file:</td> <td> System.ni.pdb</td></tr>
+<tr><td class = "mm">IMAGE_FILE_HEADER TimeDateStamp:</td> <td> 0x62a1283b (2022/06/08 22:52:43)</td></tr>
+<tr><td class = "mm">IMAGE_DEBUG_DIRECTORY TimeDateStamp:</td> <td> 0x62a1283b (2022/06/08 22:52:43)</td></tr>
+<tr><td class = "mm">IMAGE_DEBUG_DIRECTORY TimeDateStamp:</td> <td> 0x62a1283b (2022/06/08 22:52:43)</td></tr>
+<tr><td class = "mm">IMAGE_EXPORT_DIRECTORY TimeDateStamp:</td> <td> </td></tr>
+<tr><td class = "mm">IMAGE_RESOURCE_DIRECTORY TimeDateStamp:</td> <td> </td></tr>
+<tr><td class = "mm">SHA1:</td> <td> 89ba275ed18115f33e96d3df2e2726d62ce3cc6b</td></tr>
+<tr><td class = "mm">CLR:</td> <td> CLRv4.0.30319</td></tr></table></td></tr>
+<tr><td colspan="11"><pre><textarea rows="16" cols="88" class="hex";>
+0x00007ffcc7180000 4d 5a 00 00 00 00 00 00 00 00 00 00 00 00 00 00  MZ..............
+0x00007ffcc7180010 00 00 00 00 00 00 00 00 40 00 00 00 00 00 00 00  ........@.......
+0x00007ffcc7180020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x00007ffcc7180030 00 00 00 00 00 00 00 00 00 00 00 00 80 00 00 00  ................
+0x00007ffcc7180040 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x00007ffcc7180050 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x00007ffcc7180060 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x00007ffcc7180070 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x00007ffcc7180080 50 45 00 00 64 86 03 00 3b 28 a1 62 00 00 00 00  PE..d...;(.b....
+0x00007ffcc7180090 00 00 00 00 f0 00 22 20 0b 02 0b 00 00 00 00 00  ......" ........
+0x00007ffcc71800a0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x00007ffcc71800b0 00 00 18 c7 fc 7f 00 00 00 10 00 00 00 02 00 00  ................
+0x00007ffcc71800c0 05 00 02 00 00 00 00 00 05 00 02 00 00 00 00 00  ................
+0x00007ffcc71800d0 00 10 c7 00 00 02 00 00 00 00 00 00 03 00 60 81  ..............`.
+0x00007ffcc71800e0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x00007ffcc71800f0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................</textarea></pre></td></tr>
+<tr><td colspan="11"><pre><textarea rows="8" cols="88" class="disass";>
+0x00007FFCC7180000  pop r10
+0x00007FFCC7180002  add [rax], al
+0x00007FFCC7180004  add [rax], al
+0x00007FFCC7180006  add [rax], al
+0x00007FFCC7180008  add [rax], al
+0x00007FFCC718000A  add [rax], al
+0x00007FFCC718000C  add [rax], al
+0x00007FFCC718000E  add [rax], al
+0x00007FFCC7180010  add [rax], al
+0x00007FFCC7180012  add [rax], al
+0x00007FFCC7180014  add [rax], al
+0x00007FFCC7180016  add [rax], al
+0x00007FFCC7180018  add [rax], al
+0x00007FFCC718001B  add [rax], al
+0x00007FFCC718001D  add [rax], al</textarea></pre></td></tr>
+</table></td></tr><tr>
+<td>2022/10/21Z17:25:53.401</td><td>LMIVH</td><td>0</td><td>MEM_IMAGE</td><td>WCX</td><td>c:\windows\assembly\nativeimages_v4.0.30319_64\mscorlib\b8493bec853ac702d2188091d76ccffa\mscorlib.ni.dll</td><td>CLRv4.0.30319</td><td>0x7ffcc7e00000</td><td>SIGNED</td><td></td></tr><tr><td colspan="10"><table class="plaintable"><tr><td>
+<hr style='border: 1px solid darknormal;'><div class="modulesName"><font color="#0098FF"> MODULE NAME: system.io.compression.ni.dll [216576 (0x34e00) bytes]</font></div><a href="#18652">[KatzNetAssembly.exe PID: 18652]</a><br>
+<table class="process-table">
+<tr><td class = "mm">Path:</td> <td> c:\windows\assembly\nativeimages_v4.0.30319_64\system.io.cb3b124c8#\beb73b7c76fa33885bc6bb44f415f207\system.io.compression.ni.dll</td></tr>
+<tr><td class = "mm">LMIVH:</td> <td> LMIVH</td></tr>
+<tr><td class = "mm">Rich Header:</td> <td></td></tr>
+<tr><td class = "mm">Exports:</td> <td> 0</td></tr>
+<tr><td class = "mm">Memory Allocation Protection:</td> <td> WCX</td></tr>
+<tr><td class = "mm">Memory Type:</td> <td> MEM_IMAGE</td></tr>
+<tr><td class = "mm">Entry Point (memory):</td> <td> 0x00000000</td></tr>
+<tr><td class = "mm">Entry Point (file):</td> <td> 0x00000000</td></tr>
+<tr><td class = "mm">Module Base Address:</td> <td> 0x00007ffcca2f0000</td></tr>
+<tr><td class = "mm">PE Sections:</td> <td> (.data)(.text)(.reloc)</td></tr>
+<tr><td class = "mm">SizeOfInitializedData:</td> <td> 0</td></tr>
+<tr><td class = "mm">DLLCharacteristics:</td> <td> 0x8160</td></tr>
+<tr><td class = "mm">MajorImageVersion:</td> <td> 0</td></tr>
+<tr><td class = "mm">CheckSum original/computed:</td> <td> <font color="#ff6965";>0x0/0x3bdfb [Module CheckSum is 0]</font></td></tr>
+<tr><td class = "mm">PE format:</td> <td> PE32+</td></tr>
+<tr><td class = "mm">Target Machine:</td> <td> IMAGE_FILE_MACHINE_AMD64</td></tr>
+<tr><td class = "mm">Creation time:</td> <td> 2022/10/21Z17:25:53.411</td></tr>
+<tr style ='border-top: 1px solid #c0c0c0'><td class = "normal">InternalName:</td> <td> System.IO.Compression.dll</td></tr>
+<tr><td class = "mm">OriginalFileName:</td> <td> System.IO.Compression.dll</td></tr>
+<tr><td class = "mm">ProductName:</td> <td> Microsoft® .NET Framework</td></tr>
+<tr><td class = "mm">CompanyName:</td> <td> Microsoft Corporation</td></tr>
+<tr><td class = "mm">FileDescription:</td> <td> .NET Framework</td></tr>
+<tr><td class = "mm">Comments:</td> <td> Flavor=Retail</td></tr>
+<tr><td class = "mm">FileVersion:</td> <td> 4.8.4084.0 built by: NET48REL1</td></tr>
+<tr><td class = "mm">LegalCopyright:</td> <td> © Microsoft Corporation.  All rights reserved.</td></tr>
+<tr><td class = "mm">ProductVersion:</td> <td> 4.8.4084.0</td></tr>
+<tr><td class = "mm">PrivateBuild:</td> <td> DDBLD502</td></tr>
+<tr style ='border-top: 1px solid #c0c0c0'><td class = "normal">Signature:</td> <td> <font color="#ff6965";>NOT SIGNED [Module NOT Signed]</font></td></tr>
+<tr><td class = "mm">PDB file:</td> <td> System.IO.Compression.ni.pdb</td></tr>
+<tr><td class = "mm">IMAGE_FILE_HEADER TimeDateStamp:</td> <td> 0x5dda3e1c (2019/11/24 08:23:56)</td></tr>
+<tr><td class = "mm">IMAGE_DEBUG_DIRECTORY TimeDateStamp:</td> <td> 0x5dda3e1c (2019/11/24 08:23:56)</td></tr>
+<tr><td class = "mm">IMAGE_DEBUG_DIRECTORY TimeDateStamp:</td> <td> 0x5dda3e1c (2019/11/24 08:23:56)</td></tr>
+<tr><td class = "mm">IMAGE_EXPORT_DIRECTORY TimeDateStamp:</td> <td> </td></tr>
+<tr><td class = "mm">IMAGE_RESOURCE_DIRECTORY TimeDateStamp:</td> <td> </td></tr>
+<tr><td class = "mm">SHA1:</td> <td> 6f82c2357c0e9f7fc0056898930176017615b538</td></tr>
+<tr><td class = "mm">CLR:</td> <td> CLRv4.0.30319</td></tr></table></td></tr>
+<tr><td colspan="11"><pre><textarea rows="16" cols="88" class="hex";>
+0x00007ffcca2f0000 4d 5a 00 00 00 00 00 00 00 00 00 00 00 00 00 00  MZ..............
+0x00007ffcca2f0010 00 00 00 00 00 00 00 00 40 00 00 00 00 00 00 00  ........@.......
+0x00007ffcca2f0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x00007ffcca2f0030 00 00 00 00 00 00 00 00 00 00 00 00 80 00 00 00  ................
+0x00007ffcca2f0040 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x00007ffcca2f0050 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x00007ffcca2f0060 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x00007ffcca2f0070 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x00007ffcca2f0080 50 45 00 00 64 86 03 00 1c 3e da 5d 00 00 00 00  PE..d....>.]....
+0x00007ffcca2f0090 00 00 00 00 f0 00 22 20 0b 02 0b 00 00 00 00 00  ......" ........
+0x00007ffcca2f00a0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x00007ffcca2f00b0 00 00 2f ca fc 7f 00 00 00 10 00 00 00 02 00 00  ../.............
+0x00007ffcca2f00c0 05 00 02 00 00 00 00 00 05 00 02 00 00 00 00 00  ................
+0x00007ffcca2f00d0 00 70 03 00 00 02 00 00 00 00 00 00 03 00 60 81  .p............`.
+0x00007ffcca2f00e0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x00007ffcca2f00f0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................</textarea></pre></td></tr>
+<tr><td colspan="11"><pre><textarea rows="8" cols="88" class="disass";>
+0x00007FFCCA2F0000  pop r10
+0x00007FFCCA2F0002  add [rax], al
+0x00007FFCCA2F0004  add [rax], al
+0x00007FFCCA2F0006  add [rax], al
+0x00007FFCCA2F0008  add [rax], al
+0x00007FFCCA2F000A  add [rax], al
+0x00007FFCCA2F000C  add [rax], al
+0x00007FFCCA2F000E  add [rax], al
+0x00007FFCCA2F0010  add [rax], al
+0x00007FFCCA2F0012  add [rax], al
+0x00007FFCCA2F0014  add [rax], al
+0x00007FFCCA2F0016  add [rax], al
+0x00007FFCCA2F0018  add [rax], al
+0x00007FFCCA2F001B  add [rax], al
+0x00007FFCCA2F001D  add [rax], al</textarea></pre></td></tr>
+</table></td></tr><tr><td colspan="10"><table class="plaintable"><tr><td>
+<hr style='border: 1px solid darknormal;'><div class="modulesName"><font color="#0098FF"> MODULE NAME: clr.dll [11711904 (0xb2b5a0) bytes]</font></div><a href="#18652">[KatzNetAssembly.exe PID: 18652]</a><br>
+<table class="process-table">
+<tr><td class = "mm">Path:</td> <td> c:\windows\microsoft.net\framework64\v4.0.30319\clr.dll</td></tr>
+<tr><td class = "mm">LMIVH:</td> <td> LMIVH</td></tr>
+<tr><td class = "mm">Rich Header:</td> <td>
+	0x00be77fc  190  30716  3  Utc1610_ID_CVTCIL_C<br>
+	0x00bc77fc  188  30716  9  MSVS2010 1610<br>
+	0x010461c4  260  25028  9  MSVS2015 1900 (Community)<br>
+	0x01016093  257  24723  4  Implib v1400+<br>
+	0x01036093  259  24723  4  Masm v1400+<br>
+	0x01056093  261  24723  18  MSVS2015 1900 (Community)<br>
+	0x01046093  260  24723  12  MSVS2015 1900 (Community)<br>
+	0x010361c4  259  25028  23  Masm v1400+<br>
+	0x00010000  1  0  690  [---] Unmarked objects<br>
+	0x00b977fc  185  30716  11  Implib v1010<br>
+	0x010e61c4  270  25028  740  Utc1900_POGO_O_CPP<br>
+	0x010061c4  256  25028  1  Export v1400+<br>
+	0x00ff61c4  255  25028  1  Cvtres v1400+<br>
+	0x010261c4  258  25028  1  Linker v1400+<br></td></tr>
+<tr><td class = "mm">Exports:</td> <td> 122</td></tr>
+<tr><td class = "mm">Memory Allocation Protection:</td> <td> WCX</td></tr>
+<tr><td class = "mm">Memory Type:</td> <td> MEM_IMAGE</td></tr>
+<tr><td class = "mm">Entry Point (memory):</td> <td> 0x00005cf0</td></tr>
+<tr><td class = "mm">Entry Point (file):</td> <td> 0x00005cf0</td></tr>
+<tr><td class = "mm">Module Base Address:</td> <td> 0x00007ffcca860000</td></tr>
+<tr><td class = "mm">PE Sections:</td> <td> (.text)(.rdata)(.data)(.pdata)(.didat)(.tls)(.rsrc)(.reloc)</td></tr>
+<tr><td class = "mm"><font color="#ff6965";>Abnormal memory region:</font></td> <td><pre>
+Region address: 0x00007ffcca861000
+Size: 0x2000
+Section: .text
+Protection: RX 
+[Private Memory Region]
+</pre></td></tr>
+<tr><td class = "mm"><font color="#ff6965";>Abnormal memory region:</font></td> <td><pre>
+Region address: 0x00007ffcca863000
+Size: 0x2000
+Section: .text
+Protection: RWX [Memory Region WX]
+[Private Memory Region]
+[Unknown Executable Memory Region]
+</pre></td></tr>
+<tr><td class = "mm"><font color="#ff6965";>Abnormal memory region:</font></td> <td><pre>
+Region address: 0x00007ffcca865000
+Size: 0x7d2000
+Section: .text
+Protection: RX 
+[Unknown Executable Memory Region]
+</pre></td></tr>
+<tr><td class = "mm">SizeOfInitializedData:</td> <td> 3486720</td></tr>
+<tr><td class = "mm">DLLCharacteristics:</td> <td> 0x4160</td></tr>
+<tr><td class = "mm">MajorImageVersion:</td> <td> 10</td></tr>
+<tr><td class = "mm">CheckSum original/computed:</td> <td> 0xb31e5b/0xb31e5b</td></tr>
+<tr><td class = "mm">PE format:</td> <td> PE32+</td></tr>
+<tr><td class = "mm">Target Machine:</td> <td> IMAGE_FILE_MACHINE_AMD64</td></tr>
+<tr><td class = "mm">Creation time:</td> <td> 2022/10/21Z17:25:53.392</td></tr>
+<tr style ='border-top: 1px solid #c0c0c0'><td class = "normal">InternalName:</td> <td> clr.dll</td></tr>
+<tr><td class = "mm">OriginalFileName:</td> <td> clr.dll</td></tr>
+<tr><td class = "mm">ProductName:</td> <td> Microsoft® .NET Framework</td></tr>
+<tr><td class = "mm">CompanyName:</td> <td> Microsoft Corporation</td></tr>
+<tr><td class = "mm">FileDescription:</td> <td> Microsoft .NET Runtime Common Language Runtime - WorkStation</td></tr>
+<tr><td class = "mm">Comments:</td> <td> Flavor=Retail</td></tr>
+<tr><td class = "mm">FileVersion:</td> <td> 4.8.4515.0 built by: NET48REL1LAST_C</td></tr>
+<tr><td class = "mm">LegalCopyright:</td> <td> © Microsoft Corporation.  All rights reserved.</td></tr>
+<tr><td class = "mm">ProductVersion:</td> <td> 4.8.4515.0</td></tr>
+<tr><td class = "mm">PrivateBuild:</td> <td> DDBLD304C</td></tr>
+<tr style ='border-top: 1px solid #c0c0c0'><td class = "normal">Signature:</td> <td> SIGNED</td></tr>
+<tr><td class = "mm">PDB file:</td> <td> clr.pdb</td></tr>
+<tr><td class = "mm">IMAGE_FILE_HEADER TimeDateStamp:</td> <td> 0x624ce98e (2022/04/06 01:14:54)</td></tr>
+<tr><td class = "mm">IMAGE_DEBUG_DIRECTORY TimeDateStamp:</td> <td> 0x624ce98e (2022/04/06 01:14:54)</td></tr>
+<tr><td class = "mm">IMAGE_DEBUG_DIRECTORY TimeDateStamp:</td> <td> 0x624ce98e (2022/04/06 01:14:54)</td></tr>
+<tr><td class = "mm">IMAGE_DEBUG_DIRECTORY TimeDateStamp:</td> <td> 0x624ce98e (2022/04/06 01:14:54)</td></tr>
+<tr><td class = "mm">IMAGE_EXPORT_DIRECTORY TimeDateStamp:</td> <td> 0x624ce98e (2022/04/06 01:14:54)</td></tr>
+<tr><td class = "mm">IMAGE_RESOURCE_DIRECTORY TimeDateStamp:</td> <td> </td></tr>
+<tr><td class = "mm">SHA1:</td> <td> 61cbd7957b853e180d77dcb02eb48de5e4269cdc</td></tr>
+<tr><td class = "mm">CLR:</td> <td> Unmanaged</td></tr></table></td></tr>
+<tr><td colspan="11"><pre><textarea rows="16" cols="88" class="hex";>
+0x00007ffcca865cf0 48 89 5c 24 08 48 89 74 24 10 57 48 83 ec 20 49  H.\$.H.t$.WH.. I
+0x00007ffcca865d00 8b f8 8b da 48 8b f1 83 fa 01 0f 84 20 b6 18 00  ....H....... ...
+0x00007ffcca865d10 4c 8b c7 8b d3 48 8b ce 48 8b 5c 24 30 48 8b 74  L....H..H.\$0H.t
+0x00007ffcca865d20 24 38 48 83 c4 20 5f eb 07 cc 90 90 90 90 90 90  $8H.. _.........
+0x00007ffcca865d30 48 8b c4 48 89 58 20 4c 89 40 18 89 50 10 48 89  H..H.X L.@..P.H.
+0x00007ffcca865d40 48 08 56 57 41 56 48 83 ec 40 49 8b f0 8b fa 4c  H.VWAVH..@I....L
+0x00007ffcca865d50 8b f1 85 d2 0f 84 b6 a5 22 00 8d 82 ff ff ff ff  ........".......
+0x00007ffcca865d60 83 f8 01 77 26 e8 32 ff ff ff 8b d8 89 44 24 30  ...w&.2......D$0
+0x00007ffcca865d70 85 c0 74 44 4c 8b c6 8b d7 49 8b ce e8 ef fe ff  ..tDL....I......
+0x00007ffcca865d80 ff 8b d8 89 44 24 30 85 c0 74 2d 4c 8b c6 8b d7  ....D$0..t-L....
+0x00007ffcca865d90 49 8b ce e8 34 00 00 00 8b d8 89 44 24 30 83 ff  I...4......D$0..
+0x00007ffcca865da0 01 0f 84 87 e1 17 00 85 ff 0f 84 56 07 00 00 83  ...........V....
+0x00007ffcca865db0 ff 03 0f 84 4d 07 00 00 eb 01 cc 8b c3 48 8b 5c  ....M........H.\
+0x00007ffcca865dc0 24 78 48 83 c4 40 41 5e 5f 5e c3 90 48 89 5c 24  $xH..@A^_^..H.\$
+0x00007ffcca865dd0 08 57 48 83 ec 20 49 8b f8 48 8b d9 85 d2 0f 84  .WH.. I..H......
+0x00007ffcca865de0 1f bc 22 00 83 ea 01 0f 84 9d b6 18 00 83 fa 02 ..".............</textarea></pre></td></tr>
+<tr><td colspan="11"><pre><textarea rows="8" cols="88" class="disass";>
+0x00007FFCCA865CF0  mov [rsp+0x08], rbx
+0x00007FFCCA865CF5  mov [rsp+0x10], rsi
+0x00007FFCCA865CFA  push rdi
+0x00007FFCCA865CFB  sub rsp, 0x20
+0x00007FFCCA865CFF  mov rdi, r8
+0x00007FFCCA865D02  mov ebx, edx
+0x00007FFCCA865D04  mov rsi, rcx
+0x00007FFCCA865D07  cmp edx, 0x01
+0x00007FFCCA865D0A  jz 0x00007FFCCA9F1330</textarea></pre></td></tr>
+
+<tr><td colspan="10"><table class="process-table">
+<tr><td colspan="2"><font color="#ff6965";>Number of exported functions modified: 0<br>Number of not analyzed -file offset out of range-: 0</font><br></td></tr>
+</table></td></tr></table></td></tr><tr>
+<td>2022/10/21Z17:25:53.466</td><td>LMIVH</td><td>131</td><td>MEM_IMAGE</td><td>WCX</td><td>c:\windows\system32\ntdsapi.dll</td><td>Unmanaged</td><td>0x7ffcd3370000</td><td>SIGNED</td><td></td></tr><tr>
+<td>2022/10/21Z17:25:53.405</td><td>LMIVH</td><td>3</td><td>MEM_IMAGE</td><td>WCX</td><td>c:\windows\microsoft.net\framework64\v4.0.30319\clrjit.dll</td><td>Unmanaged</td><td>0x7ffcd6020000</td><td>SIGNED</td><td></td></tr><tr>
+<td>2022/10/21Z17:25:53.392</td><td>LMIVH</td><td>1351</td><td>MEM_IMAGE</td><td>WCX</td><td>c:\windows\system32\ucrtbase_clr0400.dll</td><td>Unmanaged</td><td>0x7ffcd6170000</td><td>SIGNED</td><td></td></tr><tr>
+<td>2022/10/21Z17:25:53.389</td><td>LMIVH</td><td>126</td><td>MEM_IMAGE</td><td>WCX</td><td>c:\windows\microsoft.net\framework64\v4.0.30319\mscoreei.dll</td><td>Unmanaged</td><td>0x7ffcd6230000</td><td>SIGNED</td><td></td></tr><tr>
+<td>2022/10/21Z17:25:53.488</td><td>LMIVH</td><td>24</td><td>MEM_IMAGE</td><td>WCX</td><td>c:\windows\system32\vaultcli.dll</td><td>Unmanaged</td><td>0x7ffcdb8b0000</td><td>SIGNED</td><td></td></tr><tr>
+<td>2022/10/21Z17:25:53.383</td><td>LMIVH</td><td>126</td><td>MEM_IMAGE</td><td>WCX</td><td>c:\windows\system32\mscoree.dll</td><td>Unmanaged</td><td>0x7ffce2860000</td><td>SIGNED</td><td></td></tr><tr>
+<td>2022/10/21Z17:25:53.464</td><td>LMIVH</td><td>296</td><td>MEM_IMAGE</td><td>WCX</td><td>c:\windows\system32\netapi32.dll</td><td>Unmanaged</td><td>0x7ffcedf70000</td><td>SIGNED</td><td></td></tr><tr>
+<td>2022/10/21Z17:25:53.469</td><td>LMIVH</td><td>70</td><td>MEM_IMAGE</td><td>WCX</td><td>c:\windows\system32\samlib.dll</td><td>Unmanaged</td><td>0x7ffcf1900000</td><td>SIGNED</td><td></td></tr><tr>
+<td>2022/10/21Z17:25:53.392</td><td>LMIVH</td><td>71</td><td>MEM_IMAGE</td><td>WCX</td><td>c:\windows\system32\vcruntime140_clr0400.dll</td><td>Unmanaged</td><td>0x7ffcf3ca0000</td><td>SIGNED</td><td></td></tr><tr>
+<td>2022/10/21Z17:25:53.469</td><td>LMIVH</td><td>101</td><td>MEM_IMAGE</td><td>WCX</td><td>c:\windows\system32\secur32.dll</td><td>Unmanaged</td><td>0x7ffcf5c00000</td><td>SIGNED</td><td></td></tr><tr>
+<td>2022/10/21Z17:25:53.391</td><td>LMIVH</td><td>17</td><td>MEM_IMAGE</td><td>WCX</td><td>c:\windows\system32\version.dll</td><td>Unmanaged</td><td>0x7ffcf68f0000</td><td>SIGNED</td><td></td></tr><tr>
+<td>2022/10/21Z17:25:53.488</td><td>LMIVH</td><td>11</td><td>MEM_IMAGE</td><td>WCX</td><td>c:\windows\system32\wintypes.dll</td><td>Unmanaged</td><td>0x7ffcf6ca0000</td><td>SIGNED</td><td></td></tr><tr>
+<td>2022/10/21Z17:25:53.386</td><td>LMIVH</td><td>236</td><td>MEM_IMAGE</td><td>WCX</td><td>c:\windows\system32\apphelp.dll</td><td>Unmanaged</td><td>0x7ffcf8590000</td><td>SIGNED</td><td></td></tr><tr>
+<td>2022/10/21Z17:25:53.428</td><td>LMIVH</td><td>2008</td><td>MEM_IMAGE</td><td>WCX</td><td>c:\windows\system32\windows.storage.dll</td><td>Unmanaged</td><td>0x7ffcf9030000</td><td>SIGNED</td><td></td></tr><tr>
+<td>2022/10/21Z17:25:53.390</td><td>LMIVH</td><td>237</td><td>MEM_IMAGE</td><td>WCX</td><td>c:\windows\system32\kernel.appcore.dll</td><td>Unmanaged</td><td>0x7ffcf9950000</td><td>SIGNED</td><td></td></tr><tr>
+<td>2022/10/21Z17:25:53.433</td><td>LMIVH</td><td>27</td><td>MEM_IMAGE</td><td>WCX</td><td>c:\windows\system32\rsaenh.dll</td><td>Unmanaged</td><td>0x7ffcfa0e0000</td><td>SIGNED</td><td></td></tr><tr>
+<td>2022/10/21Z17:25:53.465</td><td>LMIVH</td><td>22</td><td>MEM_IMAGE</td><td>WCX</td><td>c:\windows\system32\netutils.dll</td><td>Unmanaged</td><td>0x7ffcfa5c0000</td><td>SIGNED</td><td></td></tr><tr>
+<td>2022/10/21Z17:25:53.465</td><td>LMIVH</td><td>86</td><td>MEM_IMAGE</td><td>WCX</td><td>c:\windows\system32\logoncli.dll</td><td>Unmanaged</td><td>0x7ffcfa5d0000</td><td>SIGNED</td><td></td></tr><tr>
+<td>2022/10/21Z17:25:53.464</td><td>LMIVH</td><td>20</td><td>MEM_IMAGE</td><td>WCX</td><td>c:\windows\system32\cryptdll.dll</td><td>Unmanaged</td><td>0x7ffcfa830000</td><td>SIGNED</td><td></td></tr><tr>
+<td>2022/10/21Z17:25:53.433</td><td>LMIVH</td><td>65</td><td>MEM_IMAGE</td><td>WCX</td><td>c:\windows\system32\cryptsp.dll</td><td>Unmanaged</td><td>0x7ffcfaa20000</td><td>SIGNED</td><td></td></tr><tr>
+<td>2022/10/21Z17:25:53.433</td><td>LMIVH</td><td>11</td><td>MEM_IMAGE</td><td>WCX</td><td>c:\windows\system32\cryptbase.dll</td><td>Unmanaged</td><td>0x7ffcfaa40000</td><td>SIGNED</td><td></td></tr><tr>
+<td>2022/10/21Z17:25:53.428</td><td>LMIVH</td><td>21</td><td>MEM_IMAGE</td><td>WCX</td><td>c:\windows\system32\wldp.dll</td><td>Unmanaged</td><td>0x7ffcfaad0000</td><td>SIGNED</td><td></td></tr><tr>
+<td>2022/10/21Z17:25:53.487</td><td>LMIVH</td><td>61</td><td>MEM_IMAGE</td><td>WCX</td><td>c:\windows\system32\ntasn1.dll</td><td>Unmanaged</td><td>0x7ffcfab70000</td><td>SIGNED</td><td></td></tr><tr>
+<td>2022/10/21Z17:25:53.486</td><td>LMIVH</td><td>149</td><td>MEM_IMAGE</td><td>WCX</td><td>c:\windows\system32\ncrypt.dll</td><td>Unmanaged</td><td>0x7ffcfabb0000</td><td>SIGNED</td><td></td></tr><tr>
+<td>2022/10/21Z17:25:53.469</td><td>LMIVH</td><td>105</td><td>MEM_IMAGE</td><td>WCX</td><td>c:\windows\system32\sspicli.dll</td><td>Unmanaged</td><td>0x7ffcfafa0000</td><td>SIGNED</td><td></td></tr><tr>
+<td>2022/10/21Z17:25:53.430</td><td>LMIVH</td><td>17</td><td>MEM_IMAGE</td><td>WCX</td><td>c:\windows\system32\profapi.dll</td><td>Unmanaged</td><td>0x7ffcfb020000</td><td>SIGNED</td><td></td></tr><tr>
+<td>2022/10/21Z17:25:53.392</td><td>LMIVH</td><td>1317</td><td>MEM_IMAGE</td><td>WCX</td><td>c:\windows\system32\win32u.dll</td><td>Unmanaged</td><td>0x7ffcfb0e0000</td><td>SIGNED</td><td></td></tr><tr>
+<td>2022/10/21Z17:25:53.463</td><td>LMIVH</td><td>1000</td><td>MEM_IMAGE</td><td>WCX</td><td>c:\windows\system32\crypt32.dll</td><td>Unmanaged</td><td>0x7ffcfb110000</td><td>SIGNED</td><td></td></tr><tr>
+<td>2022/10/21Z17:25:53.384</td><td>LMIVH</td><td>1903</td><td>MEM_IMAGE</td><td>WCX</td><td>c:\windows\system32\kernelbase.dll</td><td>Unmanaged</td><td>0x7ffcfb2e0000</td><td>SIGNED</td><td></td></tr><tr>
+<td>2022/10/21Z17:25:53.404</td><td>LMIVH</td><td>10</td><td>MEM_IMAGE</td><td>WCX</td><td>c:\windows\system32\bcryptprimitives.dll</td><td>Unmanaged</td><td>0x7ffcfb5c0000</td><td>SIGNED</td><td></td></tr><tr>
+<td>2022/10/21Z17:25:53.393</td><td>LMIVH</td><td>1492</td><td>MEM_IMAGE</td><td>WCX</td><td>c:\windows\system32\msvcp_win.dll</td><td>Unmanaged</td><td>0x7ffcfb650000</td><td>SIGNED</td><td></td></tr><tr>
+<td>2022/10/21Z17:25:53.393</td><td>LMIVH</td><td>2484</td><td>MEM_IMAGE</td><td>WCX</td><td>c:\windows\system32\ucrtbase.dll</td><td>Unmanaged</td><td>0x7ffcfb6f0000</td><td>SIGNED</td><td></td></tr><tr>
+<td>2022/10/21Z17:25:53.432</td><td>LMIVH</td><td>58</td><td>MEM_IMAGE</td><td>WCX</td><td>c:\windows\system32\bcrypt.dll</td><td>Unmanaged</td><td>0x7ffcfb7f0000</td><td>SIGNED</td><td></td></tr><tr>
+<td>2022/10/21Z17:25:53.393</td><td>LMIVH</td><td>1020</td><td>MEM_IMAGE</td><td>WCX</td><td>c:\windows\system32\gdi32full.dll</td><td>Unmanaged</td><td>0x7ffcfb920000</td><td>SIGNED</td><td></td></tr><tr>
+<td>2022/10/21Z17:25:53.389</td><td>LMIVH</td><td>930</td><td>MEM_IMAGE</td><td>WCX</td><td>c:\windows\system32\shlwapi.dll</td><td>Unmanaged</td><td>0x7ffcfba30000</td><td>SIGNED</td><td></td></tr><tr>
+<td>2022/10/21Z17:25:53.392</td><td>LMIVH</td><td>1001</td><td>MEM_IMAGE</td><td>WCX</td><td>c:\windows\system32\gdi32.dll</td><td>Unmanaged</td><td>0x7ffcfbd00000</td><td>SIGNED</td><td></td></tr><tr>
+<td>2022/10/21Z17:25:53.387</td><td>LMIVH</td><td>217</td><td>MEM_IMAGE</td><td>WCX</td><td>c:\windows\system32\sechost.dll</td><td>Unmanaged</td><td>0x7ffcfbd30000</td><td>SIGNED</td><td></td></tr><tr>
+<td>2022/10/21Z17:25:53.402</td><td>LMIVH</td><td>554</td><td>MEM_IMAGE</td><td>WCX</td><td>c:\windows\system32\ole32.dll</td><td>Unmanaged</td><td>0x7ffcfbdd0000</td><td>SIGNED</td><td></td></tr><tr>
+<td>2022/10/21Z17:25:53.392</td><td>LMIVH</td><td>1215</td><td>MEM_IMAGE</td><td>WCX</td><td>c:\windows\system32\user32.dll</td><td>Unmanaged</td><td>0x7ffcfbf00000</td><td>SIGNED</td><td></td></tr><tr>
+<td>2022/10/21Z17:25:53.394</td><td>LMIVH</td><td>137</td><td>MEM_IMAGE</td><td>WCX</td><td>c:\windows\system32\imm32.dll</td><td>Unmanaged</td><td>0x7ffcfc7a0000</td><td>SIGNED</td><td></td></tr><tr>
+<td>2022/10/21Z17:25:53.387</td><td>LMIVH</td><td>1317</td><td>MEM_IMAGE</td><td>WCX</td><td>c:\windows\system32\msvcrt.dll</td><td>Unmanaged</td><td>0x7ffcfca00000</td><td>SIGNED</td><td></td></tr><tr>
+<td>2022/10/21Z17:25:53.427</td><td>LMIVH</td><td>2000</td><td>MEM_IMAGE</td><td>WCX</td><td>c:\windows\system32\shell32.dll</td><td>Unmanaged</td><td>0x7ffcfcaa0000</td><td>SIGNED</td><td></td></tr><tr>
+<td>2022/10/21Z17:25:53.468</td><td>LMIVH</td><td>500</td><td>MEM_IMAGE</td><td>WCX</td><td>c:\windows\system32\ws2_32.dll</td><td>Unmanaged</td><td>0x7ffcfd270000</td><td>SIGNED</td><td></td></tr><tr>
+<td>2022/10/21Z17:25:53.402</td><td>LMIVH</td><td>591</td><td>MEM_IMAGE</td><td>WCX</td><td>c:\windows\system32\combase.dll</td><td>Unmanaged</td><td>0x7ffcfd2e0000</td><td>SIGNED</td><td></td></tr><tr>
+<td>2022/10/21Z17:25:53.429</td><td>LMIVH</td><td>292</td><td>MEM_IMAGE</td><td>WCX</td><td>c:\windows\system32\shcore.dll</td><td>Unmanaged</td><td>0x7ffcfd640000</td><td>SIGNED</td><td></td></tr><tr>
+<td>2022/10/21Z17:25:53.384</td><td>LMIVH</td><td>1633</td><td>MEM_IMAGE</td><td>WCX</td><td>c:\windows\system32\kernel32.dll</td><td>Unmanaged</td><td>0x7ffcfd6f0000</td><td>SIGNED</td><td></td></tr><tr>
+<td>2022/10/21Z17:25:53.387</td><td>LMIVH</td><td>557</td><td>MEM_IMAGE</td><td>WCX</td><td>c:\windows\system32\rpcrt4.dll</td><td>Unmanaged</td><td>0x7ffcfd7b0000</td><td>SIGNED</td><td></td></tr><tr>
+<td>2022/10/21Z17:25:53.387</td><td>LMIVH</td><td>861</td><td>MEM_IMAGE</td><td>WCX</td><td>c:\windows\system32\advapi32.dll</td><td>Unmanaged</td><td>0x7ffcfd8e0000</td><td>SIGNED</td><td></td></tr><tr>
+<td>2022/10/21Z17:25:53.383</td><td>LMIVH</td><td>2431</td><td>MEM_IMAGE</td><td>WCX</td><td>c:\windows\system32\ntdll.dll</td><td>Unmanaged</td><td>0x7ffcfd9d0000</td><td>SIGNED</td><td></td></tr>
+<tr>
+<td>0/00/00Z00:00:00.000</td><td>---V-</td><td>0</td><td>MEM_MAPPED</td><td>R</td><td>c:\windows\system32\locale.nls</td><td></td><td>0x18afc480000</td><td></td><td></td><td></td></tr>
+<tr>
+<td>0/00/00Z00:00:00.000</td><td>---V-</td><td>0</td><td>MEM_MAPPED</td><td>R</td><td>c:\windows\globalization\sorting\sortdefault.nls</td><td></td><td>0x18afe530000</td><td></td><td></td><td></td></tr></table></p>
+<div class="detect"><table><tr><td class="dmarron">[Process NOT Signed]</td></tr><tr><td class="dgris">[Admin Privs]</td></tr><tr><td class="dnaranja">[Unusual CWD]</td></tr><tr><td class="dmarron">[Process CheckSum is 0]</td></tr><tr><td class="dnegro">[Thread Memory NOT MEM_IMAGE]</td></tr><tr><td class="dgris">[Executable Memory Region NOT MEM_IMAGE]</td></tr><tr><td class="dmarron">[Shellcode]</td></tr><tr><td class="dnaranja">[Hidden PE]</td></tr><tr><td class="damarillo">[Module CheckSum is 0]</td></tr><tr><td class="dnaranja">[Module NOT Signed]</td></tr><tr><td class="drojo">[Memory Region WX]</td></tr><tr><td class="dnaranja">[Private Memory Region]</td></tr><tr><td class="drojo">[Unknown Executable Memory Region]</td></tr><tr><td class="dnegro">[Moat Detected]</td></tr></table></div></div></div><div class="index">
+<span class="dnegro">KatzNetAssembly.exe </span><span class="backgroundNET"><a href="#18652">[18652]</a></span><br><div style="background-color:#233245;"><hr style="height:2px;"><pre><span class="dblanco">[.NET Assembly w/o ILPath]</span><br><span class="dgris">[Admin Privs]</span><a href="#18652">[18652]&nbsp;</a><br><span class="dblanco">[Alternate Credentials]</span><br><span class="dblanco">[Alternate Network Credentials]</span><br><span class="dblanco">[DLL Hiding]</span><br><span class="dblanco">[DLL Hollowing]</span><br><span class="dblanco">[Delphi 4 – Delphi 2006]</span><br><span class="dblanco">[Entry Point]</span><br><span class="dgris">[Executable Memory Region NOT MEM_IMAGE]</span><a href="#18652">[18652]&nbsp;</a><br><span class="dblanco">[Handle-Section Phantom DLL Hollowing]</span><br><span class="dblanco">[Handle-Section Suspicious: Injection]</span><br><span class="dnaranja">[Hidden PE]</span><a href="#18652">[18652]&nbsp;</a><br><span class="dblanco">[Lagos Island Method]</span><br><span class="dblanco">[LogonType]</span><br><span class="dblanco">[Malformed Header]</span><br><span class="dblanco">[Mapped Image]</span><br><span class="dblanco">[Memory Region Hash]</span><br><span class="dblanco">[Memory Region Protection Value Modified]</span><br><span class="drojo">[Memory Region WX]</span><a href="#18652">[18652]&nbsp;</a><br><span class="dblanco">[Memory/File Values Mismatch]</span><br><span class="dblanco">[Mismatching Path]</span><br><span class="dnegro">[Moat Detected]</span><a href="#18652">[18652]&nbsp;</a><br><span class="dblanco">[Modifications in Exported Functions]</span><br><span class="dblanco">[Module CheckSum Mismatch]</span><br><span class="damarillo">[Module CheckSum is 0]</span><a href="#18652">[18652]&nbsp;</a><br><span class="dnaranja">[Module NOT Signed]</span><a href="#18652">[18652]&nbsp;</a><br><span class="dblanco">[Module Name Hidden in Memory]</span><br><span class="dblanco">[Module PE Anomalies]</span><br><span class="dblanco">[Module SizeOfInitializedData is 0]</span><br><span class="dblanco">[NTLM Authentication]</span><br><span class="dblanco">[PE Anomalies]</span><br><span class="dblanco">[PEB ImageBaseAddress Forgery]</span><br><span class="dblanco">[Phantom DLL Hollowing]</span><br><span class="dblanco">[Pipe Handle to Another Process]</span><br><span class="dblanco">[Possible .NET ETW Disabled]</span><br><span class="dblanco">[Possible .NET in Memory]</span><br><span class="dnaranja">[Private Memory Region]</span><a href="#18652">[18652]&nbsp;</a><br><span class="dblanco">[Process CheckSum Mismatch]</span><br><span class="dmarron">[Process CheckSum is 0]</span><a href="#18652">[18652]&nbsp;</a><br><span class="dblanco">[Process Ghosting]</span><br><span class="dblanco">[Process Handle to Another Process]</span><br><span class="dblanco">[Process Hollowing]</span><br><span class="dblanco">[Process Memory Region Hash Mismatch]</span><br><span class="dblanco">[Process Memory Region Protection Value Modified]</span><br><span class="dblanco">[Process Memory Region WX]</span><br><span class="dmarron">[Process NOT Signed]</span><a href="#18652">[18652]&nbsp;</a><br><span class="dblanco">[Process Name != Internal Name]</span><br><span class="dblanco">[Process Private Memory Region]</span><br><span class="dblanco">[Process Unknown Executable Memory Region]</span><br><span class="dblanco">[Section Table]</span><br><span class="dblanco">[ShadowMove Lateral Movement]</span><br><span class="dblanco">[Shared Memory Subversion]</span><br><span class="dmarron">[Shellcode]</span><a href="#18652">[18652]&nbsp;</a><br><span class="dblanco">[Signed PE NOT MEM_IMAGE]</span><br><span class="dblanco">[SizeOfInitializedData is 0]</span><br><span class="dblanco">[Srvsvc Named Pipe]</span><br><span class="dblanco">[Suspended Process]</span><br><span class="dblanco">[Suspicious Commandline]</span><br><span class="dblanco">[Suspicious Environment Variable]</span><br><span class="dblanco">[Thread Handle to Another Process]</span><br><span class="dnegro">[Thread Memory NOT MEM_IMAGE]</span><a href="#18652">[18652]&nbsp;</a><br><span class="dblanco">[Thread with Token]</span><br><span class="dblanco">[Transaction Detected: TxF/TxR]</span><br><span class="drojo">[Unknown Executable Memory Region]</span><a href="#18652">[18652]&nbsp;</a><br><span class="dblanco">[Unmanaged Process/Managed Code Execution Detected]</span><br><span class="dblanco">[Unsigned PE NOT MEM_IMAGE]</span><br><span class="dnaranja">[Unusual CWD]</span><a href="#18652">[18652]&nbsp;</a><br><span class="dblanco">[Unusual Module]</span><br></pre></div></div></body></html>
