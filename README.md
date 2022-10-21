@@ -291,7 +291,5 @@ Shows from all memory regions of the process the values ​​of:
  ```
  ![Memory](https://github.com/ignacioj/WhacAMole/blob/main/img/memory.jpg)
   
- ![Memory](https://github.com/ignacioj/WhacAMole/blob/main/img/memory2.jpg)
- 
  ![Memory](https://github.com/ignacioj/WhacAMole/blob/main/img/memory3.jpg)
  
