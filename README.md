@@ -27,6 +27,10 @@ Connected socket:
 
 ![socketDetail](https://github.com/ignacioj/WhacAMole/blob/main/img/socketDetail.jpg)
 
+There is a special symbol (a key) when Mimikatz-like activity is detected.
+
+![socketDetail](https://github.com/ignacioj/WhacAMole/blob/main/img/key.png)
+
 At the bottom of the navigation panel of the html document, all the alerts are shown, with their color, with the PIDs of the processes in which they have been detected in the form of a hyperlink to the position of the document where the process is shown.
 
 ![Detections](https://github.com/ignacioj/WhacAMole/blob/main/img/detections.jpg)
