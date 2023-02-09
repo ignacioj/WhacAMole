@@ -1,0 +1,101 @@
+File Version: 5.2.9.800
+HTML with collapsible regions and navigation buttons to improve its usability.
+Changed [Private Memory Region] to [Module-Private Memory Region]
+
+≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+File Version: 5.1.25.773
+There is a special symbol (a key) when Mimikatz-like activity is detected.
+
+≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+File Version: 4.12.28.763
+By default, it dumps to file with the alerts: [Private Memory Region], [Unknown Executable Memory Region], [Process Ghosting], [Process-Hollowing] and [Memory Region Hash].
+Fixed: no margin was left on the right and the alerts were overlapping.
+
+≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+File Version: 4.12.19.749
+Added symbols for networking detections.
+Shows the hex/dissas of all abnormal regions.
+Several bugs in the HTML file fixed.
+
+≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+File Version: 4.12.17.699
+Module alerts that cause disassembly to show have been reduced to [Moat Detected], [Entry Point], [Memory/File Values Mismatch], [Memory Region WX], [Memory Region Protection Value Modified], [Private Memory Region], [Unknown Executable Memory Region], [Memory Region Hash], [Section Table], [Suspicious Section Name], [Malformed Header].
+
+≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+File Version: 4.12.11.674
+Improved detection of modifications in Delay Imports and Imports. Tested with hasherezade PoC: https://github.com/hasherezade/module_overloading.
+
+≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+File Version: 4.12.6.599
+Shows Resource names and IDs. There is an alert if the values ​​in memory and in file are different. Resources included in [Memory/File Values ​​Mismatch] detection.
+New alert: [Suspicious Section Name]: packer/protector/tools Section names/keywords. (https://www.hexacorn.com/blog/2016/12/15/pe-section-names-re-visited/)
+Added alerts for Named Pipes used in attacks (lsarpc,samr,svcctl,atsvc,epmapper,wkssvc,srvsvc,lsass): [Named Pipe of interest]. Removed the specific alert [Srvsvc Named Pipe].
+Changed the name of the alert [Pipe Handle to Another Process] to [Named Pipe].
+PEs that are not backed by files (No_Name-) are always dumped to file. If they have a moat, their position is indicated in the name with _@0xHHHH.
+PEs with non-existent PEB/VAD Path are always dumped to file.
+
+≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+File Version: 4.11.27.403
+Changed [Phantom DLL Hollowing] to [Phantom DLL]
+HTML: Added right margin to the cells of the process table to avoid overlapping the warnings with the content
+New check for non-printable characters
+
+≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+File Version: 4.11.24.379
+New warning: [Nonexistent Path]: The Path of the process or module does not exist in the VAD or in the PEB lists.
+For example, for the 2020 Solsuite 20.10 portable program some oddities are seen in the process and some modules:
+
+PROCESS NAME: SolSuite.exe [13680128 (0xd0be00) bytes] [PID: 5616] [PPID: 3436]
+Path (VAD): c:\users\xxx\solsuite 2020 20.10 portable\data\solsuite\local\modified\@programfilesx86@\solsuite\solsuite.exe [Mismatching Path]
+SHA1 (VAD): 0d6bfc09551fe27be14cd53986a5b3666f8df54b
+Path (InLoadOrder): c:\program files (x86)\solsuite\solsuite.exe [Mismatching Path] [Nonexistent Path]
+SHA1 (InLoadOrder):
+Path (InMemoryOrder): c:\program files (x86)\solsuite\solsuite.exe [Mismatching Path] [Nonexistent Path]
+SHA1 (InMemoryOrder):
+Path (HashList): c:\program files (x86)\solsuite\solsuite.exe [Mismatching Path] [Nonexistent Path]
+SHA1 (HashList):
+LMIHV: LM-HV
+
+MODULE NAME: No_Name-0x10000000 [0 (0x0) bytes]
+Path (VAD): No_Name-0x10000000 [Mismatching Path]
+SHA1 (VAD): Hash not available
+Path (InLoadOrder): c:\users\xxx\solsuite 2020 20.10 portable\__xenocode\x86\vmx.dll [Mismatching Path] [Nonexistent Path]
+SHA1 (InLoadOrder):
+Path (InMemoryOrder): c:\users\xxx\solsuite 2020 20.10 portable\__xenocode\x86\vmx.dll [Mismatching Path] [Nonexistent Path]
+SHA1 (InMemoryOrder):
+Path (InInitializationOrder): c:\users\xxx\solsuite 2020 20.10 portable\__xenocode\x86\vmx.dll [Mismatching Path] [Nonexistent Path]
+SHA1 (InInitializationOrder):
+Path (HashList): c:\users\xxx\solsuite 2020 20.10 portable\__xenocode\x86\vmx.dll [Mismatching Path] [Nonexistent Path]
+SHA1 (HashList):
+LMIHV: LMIH- [Module Name Hidden in Memory]
+
+≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+File Version: 4.11.15.297
+Added warning [Process Not Initialized]: module list in the target process is not yet initialized (i.e.: process created with parameter CREATE_SUSPENDED and not resumed). Several minor changes.
+
+≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+File Version: 4.11.7.260
+Several rules improved. DOS device path normalized. Added warning for COMPlus_ETWEnabled.
+
+≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+File Version: 4.11.4.221
+Simplified commandline.
+The environment variables of the processes are displayed.
+
+≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+File Version: 4.10.21.144
+New warning: [Malformed Header]
+
+≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+File Version: 4.10.18.112
+Fixed bug detecting malformed executables.
+
+≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+File Version: 4.10.17.101
+Improved moat detection.
+
+≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+File Version: 4.10.1.42
+New alert: [Modifications in Exported Functions]
+The --kd and --kl options can be used together. The --kd option takes precedence over --kl.
+New alert: [Srvsvc Named Pipe]: Executing an Operation on a Named Pipe (Ref: https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-smb2/777d08d4-56cd-4072-9cef-33056d87b51d)
