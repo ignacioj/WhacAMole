@@ -37,6 +37,10 @@ At the bottom of the navigation panel of the html document, all the alerts are s
 
 If there are no processes detected with an alert, their name is displayed on a white background.
 
+The main panel displays all processes with its information in collapsibles sections that by default are hidden. All the alerts are visible always.
+
+![socketDetail](https://github.com/ignacioj/WhacAMole/blob/main/img/display.png)
+
 Analyze, compare and present information from:
 
 **1.	Processes:**
