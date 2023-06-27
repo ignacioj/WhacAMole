@@ -1,3 +1,12 @@
+File Version: 5.6.27.975
++ Bug fixed: In some virtual machines the application fails. At least I have another way to detect virtual machines ;-).
++ New option -t n: given a process with -p, show processes created n' before or after (default 2')
++ Added the detection of Beacons in Wait:DelayExecution and Wait:UserRequest states. Warning: .NETs produce false positives. Managed processes are filtered but if an Unmanaged process loads Managed code into memory it can trigger false positives.
+References:
+https://www.blackhillsinfosec.com/avoiding-memory-scanners/
+https://github.com/thefLink/Hunt-Sleeping-Beacons
+
+≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 File Version: 5.4.17.849
 Detects the existence of additional Handle Tokens in processes: alert [Handle Token: Additional]
 
