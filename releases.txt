@@ -1,3 +1,8 @@
+File Version: 5.7.19.1216
+New option:
+--cs: Shows the Call Stack of all threads and not just from suspicious threads.
+
+≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 File Version: 5.6.28.994
 + Bug fixed: In some virtual machines the application fails. At least I have another way to detect virtual machines ;-).
 + New option -t n: given a process with -p, show processes created n' before or after (default 2')
