@@ -264,13 +264,17 @@ In threads where a token is detected, the following is displayed:
 - Thread ID.
 - Thread start address.
 - Full address of the module.
+- State.
+- Call Stack.
 
 •	Warnings:
  ```
-[Thread Handle to another process]
-[Thread Memory not MEM_IMAGE]
+[Thread-Memory NOT MEM_IMAGE]
+[Thread-Possible Ekko technique]
+[Thread-Possible Foliage technique]
+[Thread-Unknown module in Stack]
  ```
- ![Threads](https://github.com/ignacioj/WhacAMole/blob/main/img/threads.jpg)
+ ![Threads](https://github.com/ignacioj/WhacAMole/blob/main/img/infothreads.png)
  
  **6.	.NET assemblies**
 - Application domains.
