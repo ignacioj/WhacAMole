@@ -15,7 +15,7 @@ To facilitate the work of the analysts, the information is presented on screen, 
 
 ![Tree1](https://github.com/ignacioj/WhacAMole/blob/main/img/tree.jpg)
 
-Networking capacity is displayed in two ways: if a TCP connection has been detected it is displayed with the Earth globe symbol, and if a connected socket has been detected, it is displayed with an empty globe symbol.
+Networking capacity is displayed in two ways: if a TCP connection has been detected it is displayed with the Earth globe symbol, and if a connected socket has been detected, it is displayed with an empty globe symbol. Added symbol (white circle) for processes with http navigation libraries in memory: wininet.dll and winhttp.dll.
 
 ![TreeTCPSocket](https://github.com/ignacioj/WhacAMole/blob/main/img/treeTCPSocket.jpg)
 
