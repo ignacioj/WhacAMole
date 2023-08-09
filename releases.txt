@@ -1,3 +1,8 @@
+≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+File Version v5.8.9.1461
+Added symbol (white circle) for processes with http navigation libraries in memory: wininet.dll and winhttp.dll (Note that Chromium-based browsers do not use these libraries to navigate).
+Added the WindowStation\Desktop information of the process and the handles Desktop and WindowStation information.
+New Alerts: malformed information WindowStation\Desktop, threads that are running on a Desktop other than their process, on Window Station Winsta0 but not in Default desktop or in unusual desktop names and when the process has more than one Handle Desktop.
 File Version: 5.7.19.1216
 New option:
 --cs: Shows the Call Stack of all threads and not just from suspicious threads.
