@@ -41,6 +41,8 @@ The main panel displays all processes with its information in collapsibles secti
 
 ![socketDetail](https://github.com/ignacioj/WhacAMole/blob/main/img/display.png)
 
+Saved memory regions are xored with key 0x0E to prevent antivirus from deleting them.
+
 Analyze, compare and present information from:
 
 **1.	Processes:**
