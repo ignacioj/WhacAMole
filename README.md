@@ -13,7 +13,7 @@ Alerts are classified, according to their danger and the number of processes in 
 
 To facilitate the work of the analysts, the information is presented on screen, in an HTML file with a navigation panel of the processes analyzed and in csv text files. In the side panel of the html document, the process tree is shown, with the color corresponding to the highest alert detected in them, with the hyperlink to its location in the document, and with the blue color in its PID if it is a 32 bits process or green if it is a .NET process. Processes that have Control Flow Guard (CFG) enabled are shown in italics. 
 
-![Tree1](https://github.com/ignacioj/WhacAMole/blob/main/img/treeItali.png.jpg)
+![Tree1](https://github.com/ignacioj/WhacAMole/blob/main/img/treeItali.png)
 
 Networking capacity is displayed in two ways: if a TCP connection has been detected it is displayed with the Earth globe symbol, and if a connected socket has been detected, it is displayed with an empty globe symbol. Added symbol (white circle) for processes with http navigation libraries in memory: wininet.dll and winhttp.dll.
 
