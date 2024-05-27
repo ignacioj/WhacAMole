@@ -1,4 +1,10 @@
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+File Version: 6.5.27.2315
++ Displays Job Handle information.
++ [Hook in weighted function]: Created special alert for hooks in: EtwEventWrite, AmsiScanBuffer, AmsiOpenSession, SleepEx, NtTraceEvent.(https://www.mdsec.co.uk/2022/07/part-1-how-i-met-your-beacon-overview/)(https://whiteknightlabs.com/2021/12/11/bypassing-etw-for-fun-and-profit/).
++ Changed the alert [Modifications in exported functions] to [Hook in exported function].
++ Html file: The row with the process name is floating in its information area.
+≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 File Version: 6.5.21.2270
 + PoolParty attack alert created (https://www.safebreach.com/blog/process-injection-using-windows-thread-pools/): [Handle-TpWorkerFactory PoolParty].
   But limited to attacks:
