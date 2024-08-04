@@ -1,4 +1,11 @@
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+File Version: 6.8.4.2430
++ Added option "--nx": Used with -a/-p. Detected memory areas are never saved to files.
++ Fixed bug: wsprintfA for DWORD64 use 0x%Ix instead of 0x%llx (seen in Gargoyle detection).
+++ Thread Name-Calling - using Thread Name for offense. New alert: [Thread-Suspicious Name].
+https://research.checkpoint.com/2024/thread-name-calling-using-thread-name-for-offense/
+https://github.com/hasherezade/thread_namecalling
+≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 File Version: 6.5.27.2315
 + Displays Job Handle information.
 + [Hook in weighted function]: Created special alert for hooks in: EtwEventWrite, AmsiScanBuffer, AmsiOpenSession, SleepEx, NtTraceEvent.(https://www.mdsec.co.uk/2022/07/part-1-how-i-met-your-beacon-overview/)(https://whiteknightlabs.com/2021/12/11/bypassing-etw-for-fun-and-profit/).
