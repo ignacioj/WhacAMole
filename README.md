@@ -1,4 +1,7 @@
 # WhacAMole
+
+![WAM_logo](https://github.com/ignacioj/WhacAMole/blob/main/img/whacamole.jpg)
+
 WhacAMole is a program that analyzes processes in memory in an integral way, detecting and alerting of anomalies related to malware and presenting and saving in files all the relevant information for verification, correlation or analysis, as well as dumping memory regions, processes and suspicious modules.
 To achieve this, it analyzes not only the anomalies of the memory regions of the processes and the modules they load, but it also analyzes in depth all the memory space in use by the process.
 At this moment, WhacAMole is capable of identifying 67 alerts related to malicious behavior or that can only be due to malware.
