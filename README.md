@@ -20,7 +20,7 @@ To facilitate the work of the analysts, the information is presented on screen, 
 
 Information about remote RDP sessions is displayed at the beginning of the process information:
 
-![RDP](https://github.com/ignacioj/WhacAMole/blob/main/img/rdp01.png)
+![RDP](https://github.com/ignacioj/WhacAMole/blob/main/img/rdp.png)
 
 Networking capacity is displayed in two ways: if a TCP connection has been detected it is displayed with the Earth globe symbol, and if a connected socket has been detected, it is displayed with an empty globe symbol. Added symbol (white circle) for processes with http navigation libraries in memory: wininet.dll and winhttp.dll.
 
